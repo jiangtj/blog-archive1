@@ -1,5 +1,5 @@
 ---
-title: hoxe教程
+title: hexo教程
 date: 1970-1-1
 tags: test
 ---
