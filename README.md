@@ -11,4 +11,6 @@
 
 
 ### Thanks
-[gitlab](https://gitlab.com/groups/pages) [stkevintan](https://github.com/stkevintan/hexo-theme-material-flow)
+[gitlab](https://gitlab.com/groups/pages) 
+[hexo](https://hexo.io/)
+[stkevintan](https://github.com/stkevintan/hexo-theme-material-flow) 
