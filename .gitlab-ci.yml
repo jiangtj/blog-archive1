@@ -7,6 +7,9 @@ pages:
 
   script:
   - npm install hexo-cli -g
+  - npm install hexo-renderer-less 
+  - npm install hexo-generator-feed 
+  - npm install hexo-generator-json-content 
   - npm install
   - hexo deploy
   artifacts:
