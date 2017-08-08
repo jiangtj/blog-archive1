@@ -1,0 +1,25 @@
+<article class="article">
+  <header class="article-header">
+    <%- partial('_article/meta') %>
+    <%- partial('_article/title') %>
+  </header>
+  <div class="article-body markdown">
+    <% var excerpt = post.excerpt || post.content %>
+    <% if (index) { %>
+      <%- excerpt %>
+      <div class="readmore">
+        <a href="<%- url_for(post.path) %>" class="readmore-link">
+          <%- __('readmore') %>
+        </a>
+      </div>
+    <% } else { %>
+      <%- post.content %>
+    <% } %>
+  </div>
+  <% if (!index) { %>
+    <footer class="article-footer">
+      <%- partial('_article/tags') %>
+      <%- partial('_article/pagination') %>
+    </footer>
+  <% } %>
+</article>

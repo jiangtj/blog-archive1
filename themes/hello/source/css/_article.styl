@@ -1,0 +1,133 @@
+.article {
+  padding: 20px 0;
+
+  & + & {
+    border-top: 1px solid #f1f1f1;
+  }
+
+  .article-meta {
+    font-size: .9em;
+
+    .article-date {
+      display: inline-block;
+      color: #888;
+    }
+
+    .article-categories {
+      display: inline-block;
+      color: #888;
+
+      .article-category {
+        color: #888;
+
+        &:hover {
+          color: #f75357;
+        }
+      }
+    }
+  }
+
+  .article-title {
+    display: inline-block;
+    margin: 0;
+    font-size: 28px;
+
+    .article-link:hover {
+      color: #666;
+    }
+  }
+
+  .article-body {
+    .readmore {
+      display: inline-block;
+      margin: 10px 0;
+      cursor: pointer;
+
+      .readmore-link {
+        display: inline-block;
+        padding: 5px 10px;
+        font-size: 14px;
+        color: darken(#f75357, 10%);
+        border: 1px solid #f75357;
+        border-radius: 20px;
+
+        &:hover {
+          color: #fafafa;
+          font-weight: bold;
+          background-color: #f75357;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  .article-footer {
+    margin-top: 30px;
+    border-top: 1px solid #f1f1f1;
+
+    .article-tags {
+      padding: 10px 0;
+    }
+
+    .article-tag {
+      margin-right: 5px;
+      color: #888;
+
+      &:hover {
+        color: #f75357;
+      }
+    }
+
+    .article-pagination {
+      margin-top: 20px;
+
+      @extend .clearfix;
+
+      .next-article {
+        float: left;
+        text-align: left;
+      }
+
+      .prev-article {
+        float: right;
+        text-align: right;
+      }
+
+      .hint {
+        display: block;
+        color: #999;
+        font-weight: 600;
+        text-transform: uppercase;
+      }
+
+      .title {
+        color: #f75357;
+        font-size: 18px;
+
+        &:hover {
+          color: darken(#f75357, 15%);
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .article {
+    .article-footer {
+      .article-pagination {
+        .hint {
+          font-size: 18px;
+          font-weight: 400;
+          text-transform: capitalize;
+          color: #f75357;
+        }
+
+        .title {
+          display: none;
+        }
+      }
+    }
+  }
+}

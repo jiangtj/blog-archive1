@@ -1,0 +1,17 @@
+menu:
+  home: 首页
+  archives: 归档
+  about: 关于
+
+readmore: 阅读更多
+
+article:
+  next: 旧文章
+  prev: 新文章
+
+widget:
+  recent_post: 最新文章
+  tagcloud: 标签云
+  categories: 分类目录
+  archives: 文章归档
+  links: 友情链接
