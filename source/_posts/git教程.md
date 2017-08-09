@@ -14,6 +14,8 @@ tags: [git]
 这篇讲idea中git的可视化操作。大部分时间，我们使用git都是可视化的，概念清楚的情况下，放心用   
 > <http://blog.csdn.net/autfish/article/details/52513465>
 
+<!-- more -->
+
 ### Pro Git 中文版
 这就比较高级了，是git官方推荐的教程
 > <https://git-scm.com/book/zh/v2>

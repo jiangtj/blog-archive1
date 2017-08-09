@@ -10,6 +10,7 @@ tags: [java,设计模式]
 
 ### 例子
 Product.java
+<!-- more -->
 ```
 package com.jtj.builder;
 

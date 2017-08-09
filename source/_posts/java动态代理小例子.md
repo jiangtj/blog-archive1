@@ -23,6 +23,9 @@ public class TeacherA implements Teacher {
 
 }
 ```   
+
+<!-- more -->
+
 3,创建teacher代理类,java 的动态代理就是通过Proxy.newProxyInstance这个静态方法生成   
 ```   
 public class TeacherProxy implements InvocationHandler {
