@@ -34,3 +34,9 @@ twitter:
 google_plus:
 fb_admins:
 fb_app_id:
+
+#diy
+disqus:
+  enable: true
+  shortname: dhexo    #your name
+  count: true
