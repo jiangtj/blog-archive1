@@ -1,4 +1,5 @@
 /* eslint-disable */
+"use strict";
 var customSearch;
 (function ($) {
 
