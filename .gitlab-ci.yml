@@ -10,6 +10,7 @@ pages:
   - npm install hexo-renderer-less --save
   - npm install hexo-generator-feed --save
   - npm install hexo-generator-json-content --save
+  - npm install hexo-generator-search --save
   - npm install
   - hexo deploy
   artifacts:
