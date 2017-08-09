@@ -7,16 +7,17 @@ pages:
 
   script:
   - npm install hexo-cli -g
-  - npm install hexo-renderer-less --save
-  - npm install hexo-generator-feed --save
-  - npm install hexo-generator-json-content --save
-  - npm install hexo-algolia --save
-  - npm install hexo-algoliasearch --save
-  - npm install hexo-azuresearch --save
-  - npm install hexo-generator-json-feed --save
+#  - npm install hexo-renderer-less --save
+#  - npm install hexo-generator-feed --save
+#  - npm install hexo-generator-json-content --save
+#  - npm install hexo-algolia --save
+#  - npm install hexo-algoliasearch --save
+#  - npm install hexo-azuresearch --save
+#  - npm install hexo-generator-json-feed --save
 #  - npm install hexo-baidu-url-submit --save
-  - npm install hexo-generator-search --save
-  - npm install hexo-generator-searchdb --save
+#  - npm install hexo-generator-search --save
+#  - npm install hexo-generator-searchdb --save
+  - npm i -S hexo-generator-search hexo-generator-feed hexo-renderer-less hexo-autoprefixer hexo-generator-json-content
   - npm install
   - hexo deploy
   artifacts:
