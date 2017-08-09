@@ -18,8 +18,12 @@ search:
 
 # friends link
 links:
-  - name: GitHub
+  - name: Mine GitHub
     url: https://github.com/JiangTJ
+  - name: Mine GitLab
+    url: https://gitlab.com/JiangTJ
+  - name: mzeht
+    url: http://mzeht.com/
 
 # navigation menu
 menu:
