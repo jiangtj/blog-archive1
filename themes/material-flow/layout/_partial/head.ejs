@@ -22,10 +22,8 @@
   <meta name="keywords" content="<%=(config.keywords||[]).join(',') %>" />
   <meta name="HandheldFriendly" content="True" />
   <meta name="apple-mobile-web-app-capable" content="yes">
-  <!-- <%- favicon_tag(config.favicon) %> -->
-  <link rel="shortcut icon" href="<%- relative_url(config.url, config.favicon) %>">
-  <!-- <%- feed_tag(config.feed.path, {title: config.title}) %> -->
-  <link rel="alternate" href="<%- relative_url(config.url, config.feed.path) %>" title="<%- config.title">
+  <%- favicon_tag(config.favicon) %>
+  <%- feed_tag(config.feed.path, {title: config.title}) %>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <%- open_graph({
     twitter_id: theme.twitter,
@@ -36,8 +34,7 @@
   <link href="https://fonts.googleapis.com/css?family=Inconsolata|Titillium+Web" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
   <link href='//cdn.bootcss.com/node-waves/0.7.5/waves.min.css' rel='stylesheet'>
-  <!-- <%- css('style.css') %>  -->
-  <link href='<%- relative_url(config.url, style.css) %>' rel='stylesheet'>
+  <%- css('style.css') %>
   <script>
     function setLoadingBarProgress(num) {
       document.getElementById('loading-bar').style.width=num+"%";
