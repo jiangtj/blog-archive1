@@ -743,6 +743,7 @@ var HexoSearch;
           start: startIndex,
           num: self.config.per_page
         }, function(data, status) {
+          data = JSON.parse(data);
           if (status !== 'success' || 
               !data || 
               (!data.posts && !data.pages) || 
