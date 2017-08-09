@@ -14,7 +14,7 @@ pages:
   - npm install hexo-algoliasearch --save
   - npm install hexo-azuresearch --save
   - npm install hexo-generator-json-feed --save
-  - npm install hexo-baidu-url-submit --save
+#  - npm install hexo-baidu-url-submit --save
   - npm install hexo-generator-search --save
   - npm install hexo-generator-searchdb --save
   - npm install
