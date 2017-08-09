@@ -2,7 +2,7 @@
 
 ---
 
-这是我的blog，地址<https://jiangtj.gitlab.io/blog/>  
+这是我的blog，地址<https://jiangtj.gitlab.io>  
 部署：gitlab-ci  
 工具：hexo  
 主题：material-flow  
