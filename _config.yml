@@ -84,7 +84,7 @@ autoprefixer:
     - '*.min.css'
     
 avatar: /images/avatar.jpg
-favicon: /images/sun.ico
+favicon: /images/Smile.ico
 
 
 # Generator json content
