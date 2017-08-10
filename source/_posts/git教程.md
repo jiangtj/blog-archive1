@@ -2,7 +2,7 @@
 title: git教程
 date: 2017-8-9
 categories: [工具]
-tags: [git]
+tags: [git,学习]
 ---
 先推荐三篇教程，帮助大家快速熟悉，最好按顺序学习~  
 

@@ -1,8 +1,8 @@
 ---
 title: 写给我的朋友，java学习之路
-date: 2017-8-9
+date: 2017-8-10
 categories: [java]
-tags: [java,maven,spring,spring boot,spring cloud]
+tags: [java,maven,spring,spring boot,spring cloud,学习]
 ---
 
 ### 最重要的
