@@ -24,11 +24,14 @@ tags: [java,maven,spring,spring boot,spring cloud]
 
 我是科班出生的，第一次接触java是java基础课。那时候都是用java命令行操作，对java文件编译及运行。这时学习的是java的概念和基本的操作。练手的话可以写个小例子。  
 
-> 例子1：建两个类，为苹果和香蕉，它们有编号和数量（有初始值）属性，要求控制台分别输入编号和数量之后，打印剩余数量。  
+> 任务1：建两个类，为苹果和香蕉，它们有编号和数量（有初始值）属性，要求分别对其实例化，控制台分别输入编号和消耗数量之后，打印剩余数量，再次要求输入编号和数量（循环）。  
 
-第二次接触java便是web课，也是java最擅长的领域。学了java web基础servlet（等你学过去估计就忘了，当熟练主流框架后，回过来看这是满重要的），还有个已经被淘汰的框架struts2。老师也教了一个企业级的框架ssh（现在也快淘汰了），但是没听懂。  
+第二次接触java便是web课，也是java最擅长的领域。学了java web基础servlet（等你学过去估计就忘了，当熟练主流框架后，回过来看这是满重要的），还有个已经被淘汰的框架struts2。老师也教了一个企业级的框架ssh（现在也快淘汰了），但是没听懂。这里也布置个任务  
+
+> 任务2：用最基础的方式（jsp + servlet）实现个java web服务。  
+
 接下来还有没有java课，没印象了，毕竟就算有，技术也熟练了应付过去没问题。  
-基础部分就这样，我花了4年，但你肯定没那么多时间，多看看基础书把，弄清概念，例子1解决外加不用框架写个简单的web服务。基本基础过关了。  
+基础部分就这样，我花了4年，但你肯定没那么多时间，多看看基础书把，弄清概念。任务1与2解决，基本基础过关了。  
 
 > java基础书很多，百度以后一大把，挑新的看  
 
@@ -49,7 +52,12 @@ tags: [java,maven,spring,spring boot,spring cloud]
 - [慕课网：Java高并发秒杀API之业务分析与WEB层](http://www.imooc.com/learn/630)
 - 提高：[慕课网：Java高并发秒杀API之高并发优化](http://www.imooc.com/learn/632)
 
-> 写程序，就是要不断练习的，看这个视频中，跟着打一遍
+> 任务3：实践很重要，跟着这个视频打一遍，并自己搭建框架实现简单的用户管理系统，要求用最新的稳定依赖。下面是maven仓库搜索地址。
+
+- [国内maven仓库搜索](http://mvnrepository.com/)
+- [官方maven仓库搜索](http://search.maven.org/)
+- 还有视频中提到的[Mybatis官方文档](http://www.mybatis.org/mybatis-3/zh/index.html)
+- 作为提高，再推荐一份博客，他里面对java8 Lambda讲述的很到位[lucida的博客](http://zh.lucida.me/)
 
 ### Third：Spring Boot
 
@@ -57,13 +65,16 @@ tags: [java,maven,spring,spring boot,spring cloud]
 > Spring Boot是由Pivotal团队提供的全新框架，其设计目的是用来简化新Spring应用的初始搭建以及开发过程。该框架使用了特定的方式来进行配置，从而使开发人员不再需要定义样板化的配置。通过这种方式，Spring Boot致力于在蓬勃发展的快速应用开发领域(rapid application development)成为领导者。
 
 所以，它不是新东西，只是简化配置用的，本质上仍是spring那套。给你两份教程，学去吧。
-> 学的过程中将之前的工程改成spring boot，记住之前的是ssm框架有Mybatis。
+> 任务4：学的过程中将之前的工程改成spring boot，记住之前的是ssm框架有Mybatis。
 
 #### 资料
 
 - 一份讲的很全的博客<http://blog.didispace.com/categories/Spring-Boot/page/4/>
 - 一个慕客网上的视频：[2小时学会Spring Boot](http://www.imooc.com/learn/767) 
 - 这个人的另一份视频：[Spring Boot进阶之Web进阶](http://www.imooc.com/learn/810)
+
+到这里，回忆一下之前的最基础的servlet和jsp写的web服务，是不是有很大的不同，那么问题就来了，spring是怎么实现的
+> 额外任务：参照spring mvc，写一个简单的Web应用框架，实现web请求到Controller的过程，简单点，假设参数都是string类型的。当然这个过程很困难，需要学习很多东西，如java的注解、spring mvc的原理（aop）或者说动态代理、java的反射等等。但这对于理解spring非常的有用。
 
 ### Fourth：数据库
 
@@ -82,14 +93,18 @@ tags: [java,maven,spring,spring boot,spring cloud]
 
 也可以走产品，你已经有代码基础了，在看些产品书，我觉得会比直接往产品方向发展更好。因为你更懂你的战友，你在设计时，也会考虑他们的情况。  
 
-我未来可能往架构放心发展也可能产品，目前就像多学点技术  
+还可以dba，这玩意就要求对数据库操作很精通了。
+
+我未来可能往架构方向发展也可能产品，目前就想多学点技术  
 
 这里推荐个博客学习spring cloud
 > 其实就是之前那个spring boot的博主<http://blog.didispace.com/categories/Spring-Cloud/>  
 
+> 额外任务：按着教程写个一整套spring cloud玩玩，好像是这个博主出过一本书《spring cloud微服务实战》，挺不错的
+
 ### 总结
 
-越往后，学习的路就越宽阔，学无止境。有限的生命是不可能学完的，所以，领完路各奔东西。
+越往后，学习的路就越宽阔，学无止境。引用一句名言**吾生也有涯，而知也无涯 。以有涯随无涯，殆已！**。所以，当你完成所有任务，我便领完了路，然后各奔东西把。
 
 ### 备注
 
