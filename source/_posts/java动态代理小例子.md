@@ -6,13 +6,13 @@ tags: [java,设计模式]
 ---
 ### 例子
 1，先创建teacher接口   
-```java    
+```java
 public interface Teacher {
 	void manageWork(String s);
 }
 ```   
 2,创建teacher实现类   
-```java   
+```java
 public class TeacherA implements Teacher {
 
 	@Override
@@ -27,7 +27,7 @@ public class TeacherA implements Teacher {
 <!-- more -->
 
 3,创建teacher代理类,java 的动态代理就是通过Proxy.newProxyInstance这个静态方法生成   
-```java   
+```java
 public class TeacherProxy implements InvocationHandler {
 	
 	private Object teacher;
@@ -64,7 +64,7 @@ public class TeacherProxy implements InvocationHandler {
 }
 ```   
 接下来我们在main中写一下代码运行,其中student只是普通的类，不在这里写出来了   
-```java   
+```java
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Teacher teacherProxyA=TeacherProxy.getTeacher(TeacherA.class);
@@ -76,7 +76,7 @@ public class TeacherProxy implements InvocationHandler {
 	}
 ```   
 运行后能看到下面的结果
-```java   
+```java
 TeacherA的课代表通知老师
 TeacherA开始布置作业：语文作业
 TeacherA的任务完成
