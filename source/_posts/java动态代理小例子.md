@@ -10,7 +10,7 @@ tags: [java,设计模式]
 public interface Teacher {
 	void manageWork(String s);
 }
-```   
+```
 2,创建teacher实现类   
 ```java
 public class TeacherA implements Teacher {
@@ -22,7 +22,7 @@ public class TeacherA implements Teacher {
 	}
 
 }
-```   
+```
 
 <!-- more -->
 
@@ -62,7 +62,7 @@ public class TeacherProxy implements InvocationHandler {
 	}
 
 }
-```   
+```
 接下来我们在main中写一下代码运行,其中student只是普通的类，不在这里写出来了   
 ```java
 	public static void main(String[] args) {
@@ -74,7 +74,7 @@ public class TeacherProxy implements InvocationHandler {
 		new StudentA().doWork();
 		new StudentB().doWork();
 	}
-```   
+```
 运行后能看到下面的结果
 ```java
 TeacherA的课代表通知老师
@@ -85,7 +85,7 @@ TeacherB开始布置作业：数学作业
 TeacherB的任务完成
 StudentA开始做作业
 StudentB开始做作业
-```   
+```
 ### 说明
 如上面结果所示，teacherProxyA是由Proxy产生的动态代理类，它拥有接口所对应的方法，调用这个方法其实就是调用invoke方法。
 在invoke中，调用的是他所代理对象的方法。   
