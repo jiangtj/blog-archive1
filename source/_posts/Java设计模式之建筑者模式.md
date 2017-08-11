@@ -11,7 +11,7 @@ tags: [java,设计模式]
 ### 例子
 Product.java
 <!-- more -->
-```
+```java
 package com.jtj.builder;
 
 public class Product {
@@ -77,7 +77,7 @@ public class Product {
 }
 ```
 Main.java
-```
+```java
 package com.jtj.builder;
 
 public class Main {
@@ -95,7 +95,7 @@ public class Main {
 }
 ```
 ### 结果
-```
+```java
 qq,2,sa
 ```
 ### 说明
