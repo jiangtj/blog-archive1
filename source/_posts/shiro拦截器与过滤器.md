@@ -14,6 +14,8 @@ tags: [java,shiro]
 在shiro中存在下图关系  
 ![shiro](https://raw.githubusercontent.com/JiangTJ/assets/master/img/shiro%E8%BF%87%E6%BB%A4%E5%99%A8%E4%B8%8E%E6%8B%A6%E6%88%AA%E5%99%A8.PNG)
 
+<!-- more -->
+
 ### 过滤器
 在开涛博客中 [第八章 拦截器机制——《跟我学Shiro》](http://jinnianshilongnian.iteye.com/blog/2025656) 这里的拦截器主要为过滤器，依赖于servlet，并存在shiro-web包中。开涛讲的很完整，没必要继续讲解，这块不懂得，先点进去了解。
 
