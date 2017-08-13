@@ -18,6 +18,7 @@ pages:
 #  - npm install hexo-generator-search --save
 #  - npm install hexo-generator-searchdb --save
   - npm i -S hexo-generator-search hexo-generator-feed hexo-renderer-less hexo-autoprefixer hexo-generator-json-content
+  - npm install hexo-generator-restful --save
   - npm install
   - hexo deploy
   artifacts:
