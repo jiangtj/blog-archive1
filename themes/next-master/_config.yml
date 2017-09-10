@@ -104,7 +104,10 @@ scheme: Pisces
 social:
   GitHub: https://github.com/ || github
   简书: http://www.jianshu.com/u/42d8a7c1b531
-  
+
+
+social_icons:
+  enable: true
 
 # Blog rolls
 #links_title: Links
