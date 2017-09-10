@@ -44,9 +44,9 @@ highlight:
   tab_replace:
 
 # Category & Tag
-default_category: uncategorized
-category_map:
-tag_map:
+# default_category: uncategorized
+# category_map:
+# tag_map:
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
@@ -125,8 +125,8 @@ jsonContent:
 search:
   path: search.xml
   field: post
-
-disqus_shortname: dhexo
+  format: html
+  limit: 10000
 
 restful:
   # site 可配置为数组选择性生成某些属性
