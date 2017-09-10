@@ -4,7 +4,7 @@
 
 # Set to true, if you want to fully override the default configuration.
 # Useful if you don't want to inherit the theme _config.yml configurations.
-override: false
+override: true
 
 # ---------------------------------------------------------------
 # Site Information Settings
@@ -73,7 +73,7 @@ menu:
 #   When an question mask icon presenting up means that the item has no mapping icon.
 menu_icons:
   enable: true
-  KeyMapsToMenuItemKey: NameOfTheIconFromFontAwesome
+  #KeyMapsToMenuItemKey: NameOfTheIconFromFontAwesome
   home: home
   about: user
   categories: th
