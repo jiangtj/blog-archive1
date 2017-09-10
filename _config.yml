@@ -44,9 +44,9 @@ highlight:
   tab_replace:
 
 # Category & Tag
-# default_category: uncategorized
-# category_map:
-# tag_map:
+default_category: uncategorized
+category_map:
+tag_map:
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
@@ -67,60 +67,10 @@ theme: next-5.1.2
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-deploy:
-  type:
+# deploy:
+#   type:
 
-
-# this is material-flow need
-feed:
-  type: atom
-  path: atom.xml
-  limit: 20
-  hub:
-  content:
-  
-autoprefixer:
-  exclude:
-    - '*.min.css'
-    
-avatar: /images/avatar.jpg
 favicon: /images/Smile.ico
-
-
-# Generator json content
-jsonContent:
-  meta: false
-  keywords: false
-  pages:
-    title: true
-    slug: false
-    date: false
-    updated: false
-    comments: false
-    path: false
-    link: false
-    permalink: true
-    excerpt: false
-    keywords: false
-    text: true
-    raw: false
-    content: false
-  posts:
-    title: true
-    slug: false
-    date: false
-    updated: false
-    comments: false
-    path: false
-    link: false
-    permalink: true
-    excerpt: false
-    keywords: false
-    text: true
-    raw: false
-    content: false
-    categories: false
-    tags: false
 
 search:
   path: search.xml
