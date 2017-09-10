@@ -66,8 +66,8 @@ menu:
   # sitemap: /sitemap.xml
   #commonweal: /404/
 
-menu_icons:
-  enable: true
+menu_icons: {enable: true}
+  
 
 
 # ---------------------------------------------------------------
