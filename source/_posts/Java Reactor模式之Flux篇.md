@@ -4,7 +4,44 @@ date: 2017-9-11
 categories: [java]
 tags: [WebFlux,Reactor]
 ---
-Spring现处在第四个里程碑版，正式版将要发布了，它带来的一大特性就是响应式框架spring webflux。默认采用的便是Reactor。  
-因此。本文通过Reactor中的Flux，来学习使用Reactor，以及了解其传递的思想。  
+Spring5现处在第四个预发布版，正式版将要发布了，它带来的一大特性就是响应式框架spring webflux。默认采用的便是Reactor。因此。本文通过Reactor中的Flux，来学习使用Reactor，以及了解其传递的思想。本文基于Reactor3.1 rc1    
 Reactor官方地址<http://projectreactor.io/>  
+
+<!-- more -->
+
+Flux<T> 继承自 Publisher<T> ，用于代表拥有 0 到 n 元素的数据流，相对于 Mono<T> (其包含0-1个元素) 更加复杂。所以弄懂了Flux，其实也已经对Mono熟悉了。  
+
+### static
+Flux一般通过静态方法构造，所以先看看它的静态方法。
+
+##### combineLatest
+
+public static <T,V> Flux<V> combineLatest(Function<Object[],V> combinator, Publisher<? extends T>... sources)  
+构建一个Flux，其数据源自不久前由多个的发布者发布数据.
+
+![](https://raw.githubusercontent.com/reactor/reactor-core/v3.1.0.RC1/src/docs/marble/combinelatest.png)  
+
+Type Parameters:  
+T - 表示数据源类型  
+V - 被混合者混合后的类型  
+Parameters:   
+sources - 待合并的数据源  
+combinator - 混合者，接受最新的数据源，并返回一个流处理下一步骤。
+Returns:  一个以Flux为基础的混合流  
+*不同的参数方法很多，这里都只展示一个。*  
+
+##### concat
+public static <T> Flux<T> concat(Publisher<? extends T>... sources)  
+用于连接一个流。与combineLatest不同的是，concat都是在前一个流完成后在连接新的流。而combineLatest，则数据最先到的，先处理。  
+
+![](https://raw.githubusercontent.com/reactor/reactor-core/v3.1.0.RC1/src/docs/marble/concat.png)  
+
+Type Parameters:   
+T - 数据源与输出数据的类型  
+Parameters:  
+sources - 一系列的生产者  
+Returns:  一个新的Flux连接了所有的输入的数据流  
+
+
+
 *未完待续*
