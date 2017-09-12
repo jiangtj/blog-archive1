@@ -100,3 +100,9 @@ restful:
   tags: true        # 标签数据
   post: true        # 文章数据
   pages: true      # 额外的 Hexo 页面数据, 如 About
+
+# sitemap
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
