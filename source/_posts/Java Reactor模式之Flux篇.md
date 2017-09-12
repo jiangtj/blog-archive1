@@ -16,7 +16,7 @@ Flux<T> 继承自 Publisher<T> ，用于代表拥有 0 到 n 元素的数据流�
 ### static
 Flux一般通过静态方法构造，所以先看看它的静态方法。
 
-##### combineLatest
+#### combineLatest
 
 public static <T,V> Flux<V> combineLatest(Function<Object[],V> combinator, Publisher<? extends T>... sources)  
 构建一个Flux，其数据源自不久前由多个的发布者发布数据.
@@ -32,7 +32,7 @@ combinator - 混合者，接受最新的数据源，并返回一个流处理下�
 Returns:  一个以Flux为基础的混合流  
 *不同的参数方法很多，这里都只展示一个。*  
 
-##### concat
+#### concat
 public static <T> Flux<T> concat(Publisher<? extends T>... sources)  
 用于连接一个流。与combineLatest不同的是，concat都是在前一个流完成后在连接新的流。而combineLatest，则数据最先到的，先处理。  
 
@@ -44,10 +44,10 @@ Parameters:
 sources - 一系列的生产者  
 Returns:  一个新的Flux连接了所有的输入的数据流  
 
-##### concatDelayError
+#### concatDelayError
 拥有与concat类似的方法，不同的是，遇到错误不提前拦截，而是等到最后的输入的数据流处理完成
 
-##### create
+#### create
 通过FluxSink API，以同步或者异步方式创建Flux。  
 例如：  
 ```java
@@ -68,7 +68,7 @@ Returns:  一个新的Flux连接了所有的输入的数据流
      });
  });
 ```
-这是非常有用的，如果一个值，需要适配其他的值，通过异步的api。而且，你将不必担心取消和背压。  
+这是非常有用的，如果一个数据流，需要添加或者移除其他的多个值，通过异步的api。而且，你将不必担心被取消和背压。  
 *create(Consumer<? super FluxSink<T>> emitter, FluxSink.OverflowStrategy backpressure) 设置背压方式*  
 
 
