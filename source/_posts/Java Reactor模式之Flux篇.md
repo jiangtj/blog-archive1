@@ -93,7 +93,7 @@ public static <T> Flux<T> error(Throwable error)
 返回一个带着立即终止标识和错误信息的流 
 #### first
 public static <I> Flux<I> first(Publisher<? extends I>... sources)  
-挑选出第一个发布者，由其提供事件。能有效避免多个源的冲突，一般都会接switchOnNext，处理剩下的源。  
+挑选出第一个发布者，由其提供事件。能有效避免多个源的冲突。  
 ![](https://raw.githubusercontent.com/reactor/reactor-core/v3.1.0.RC1/src/docs/marble/firstemitting.png)  
 #### from
 public static <T> Flux<T> from(Publisher<? extends T> source)  
@@ -226,7 +226,7 @@ public static <T1,T2,T3,T4,V> Flux<V> combineLatest(Publisher<? extends T1> sour
 public static <T1,T2> Flux<Tuple2<T1,T2>> zip(Publisher<? extends T1> source1, lisher<? extends T2> source2)  
 public static <T1,T2,T3> Flux<Tuple3<T1,T2,T3>> zip(Publisher<? extends T1> source1, lisher<? extends T2> source2, lisher<? extends T3> source3)  
 ...  
-ヽ(o_ _)o摔倒
+ヽ(o_ _)o摔倒，我也是服了project reactor 官方。
 
 ### 常用的实例方法
 静态的方法介绍完了，但是实例方法比静态方法多太多，所以这里只举常用的几种介绍
