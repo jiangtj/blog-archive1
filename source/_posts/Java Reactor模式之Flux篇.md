@@ -47,7 +47,7 @@ Returns:  一个新的Flux连接了所有的发布者，并传递给下游
 #### concatDelayError
 拥有与concat类似的方法，不同的是，遇到错误不提前拦截，而是等到最后发布的事件处理完成后
 
-#### create
+#### create,push
 public static <T> Flux<T> create(Consumer<? super FluxSink<T>> emitter)  
 通过FluxSink API，以同步或者异步方式创建Flux。  
 例如：  
@@ -71,6 +71,7 @@ public static <T> Flux<T> create(Consumer<? super FluxSink<T>> emitter)
 ```
 这是非常有用的，如果一个流，需要动态添加或者移除其他的多个事件，通过异步的api。而且，你将不必担心被取消和背压。  
 *create(Consumer<? super FluxSink<T>> emitter, FluxSink.OverflowStrategy backpressure) 设置背压方式*  
+push方法用处与使用方式与create几乎一致，它们唯一的区别在于CreateMode类型 create为PUSH_PULL，而push为PUSH_ONLY，从文档中也可以一个为多线程一个为单线程  
 
 ##### backpressure(背压)概念的理解
 这里，我摘自一位大神的话，背压是指在异步场景中，被观察者发送事件速度远快于观察者的处理速度的情况下，一种告诉上游的被观察者降低发送速度的策略。简而言之，背压是流速控制的一种策略。  
@@ -151,50 +152,7 @@ Type Parameters:
 T - the Subscriber type target  
 Returns:  
 a never completing Flux  
-看一看，不是很明白，该流的用处。
-
-#### onAssembly
-protected static <T> Flux<T> onAssembly(Flux<T> source)  
-To be used by custom operators: invokes assembly Hooks pointcut given a Flux, potentially returning a new Flux. This is for example useful to activate cross-cutting concerns at assembly time, eg. a generalized checkpoint().  
-Type Parameters:  
-T - the value type  
-Parameters:  
-source - the source to apply assembly hooks onto
-Returns:  
-the source, potentially wrapped with assembly time cross-cutting behavior  
-看到了切入点，是不是类似于切面的作用，之后实例尝试一下，这里暂时不多做解释。  
-#### push
-public static <T> Flux<T> push(Consumer<? super FluxSink<T>> emitter)  
-Programmatically create a Flux with the capability of emitting multiple elements from a single-threaded producer through the FluxSink API.  
-This Flux factory is useful if one wants to adapt some other single-threaded multi-valued async API and not worry about cancellation and backpressure (which is handled by buffering all signals if the downstream can't keep up).  
-
-For example:
-
-```java
- Flux.<String>push(emitter -> {
-
-         ActionListener al = e -> {
-                 emitter.next(textField.getText());
-         };
-         // without cleanup support:
-
-         button.addActionListener(al);
-
-         // with cleanup support:
-
-         button.addActionListener(al);
-         emitter.onDispose(() -> {
-                 button.removeListener(al);
-         });
- }, FluxSink.OverflowStrategy.LATEST);
- ```
-
-Type Parameters:  
-T - The type of values in the sequence  
-Parameters:  
-emitter - Consume the FluxSink provided per-subscriber by Reactor to generate signals.  
-Returns:  a Flux  
-跟create一样，之后看一下源码看，什么鬼ヽ(o_ _)o摔倒  
+看一看，不是很明白，该流的用处。 
 
 #### range
 public static Flux<Integer> range(int start, int count)  
