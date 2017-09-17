@@ -2,7 +2,7 @@
 title: Java动态代理小例子.
 date: 2016-7-18
 categories: [java]
-tags: [java,设计模式]
+tags: [设计模式]
 ---
 ### 例子
 1，先创建teacher接口   

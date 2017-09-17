@@ -2,7 +2,7 @@
 title: Java设计模式之建筑者模式.
 date: 2016-7-19
 categories: [java]
-tags: [java,设计模式]
+tags: [设计模式]
 ---
 初看java设计模式-建造者模式时，肯定有和我一样有疑惑的。网上的例子几乎都一样，但是却没new xxx.Builder().buildxx().buildxx()...这样的。那么我今天来讲讲这种建造者模式的实现。
 

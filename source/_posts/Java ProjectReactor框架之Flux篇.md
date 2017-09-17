@@ -1,15 +1,83 @@
 ---
-title: Java Reactor模式之Flux篇
-date: 2017-9-12
+title: Java ProjectReactor框架之Flux篇
+date: 2017-9-17
 categories: [java]
-tags: [WebFlux,Reactor]
+tags: [WebFlux,Reactor,Reactive]
 ---
 
-Spring5现处在第四个预发布版，正式版将要发布了，它带来的一大特性就是响应式框架spring webflux。默认采用的便是Reactor。因此。本文通过Reactor中的Flux，来学习使用Reactor，以及了解其传递的思想。本文基于Reactor3.1 rc1    
+Spring5现处在第四个预发布版，正式版将要发布了，它带来的一大特性就是响应式框架Spring WebFlux。默认使用ProjectReactor框架。因此。本文通过ProjectReactor中的Flux，来学习使用该框架，以及了解其传递的思想。   
+
+本文基于Reactor3.1 rc1    
 
 Reactor官方地址<http://projectreactor.io/>，官方文档写的十分详细，如果您有不错的英文能力，建议直接阅读官方文档。  
 
 <!-- more -->
+
+### Spring WebFlux 实践
+首先，为大家带来一个使用了ProjectReactor的例子，该例子使用Spring Boot 2.0.0.BUILD-SNAPSHOT。因Spring Boot推荐默认配置（约定）优先，可以极大减少大量的重复的模版化代码，简化搭建过程。   
+
+*Spring Boot 2.0.0稳定版还未出，不过也快了，目前处在第四个里程碑版本。*   
+
+#### step1:搭建环境
+
+spring boot部分工具如idea提供了可视化操作，选择reactive-web模块即可（你也可以多选一些你需要的模块），如果没有可视化的工具，也可访问官网的开始页面<https://start.spring.io/>，或者在pom中引入一下模块（web开发主流仍是maven，所以未采用gradle）   
+```xml
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-webflux</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>io.projectreactor</groupId>
+			<artifactId>reactor-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+```
+
+#### step2:编写处理类
+
+编写一个简单的处理类，TestHandler    
+```java
+@Service
+@NonNullApi
+public class TestHandler {
+
+    public Mono<ServerResponse> data(ServerRequest request){
+        Mono<String> mono =  Mono.justOrEmpty(request.queryParam("data"))
+                .defaultIfEmpty("this is null")
+                .map(it -> it.concat("! from server webflux!"));
+        return ServerResponse.ok().body(mono,String.class);
+    }
+
+}
+```
+
+#### step3:编写路由
+
+spring webflux也提供了函数试的路由配置，如下    
+```java
+@Configuration
+public class RoutingConfiguration {
+
+    //...
+
+    @Bean
+    public RouterFunction<ServerResponse> testRouterFunction(TestHandler handle) {
+        return RouterFunctions.route(GET("/test").and(accept(APPLICATION_JSON)), handle::data);
+    }
+
+}
+```
+
+#### step4:测试，验证
+
+当浏览器输入http://localhost:8080/test，得到结果：this is null! from server webflux!
+当浏览器输入http://localhost:8688/test?data=hi，得到结果：hi! from server webflux!
+
+*我的webflux项目地址：[GitHub](https://github.com/JiangTJ/circuasset)*
+
+### 深入学习
+
+> 看过实践后，你会发现有大量的使用Flux和Mono，它们是什么呢？
 
 Flux<T> 继承自 Publisher<T> ，用于代表拥有 0 到 n 元素的流，相对于 Mono<T> (其包含0-1个元素) 更加复杂。所以弄懂了Flux，其实也已经对Mono熟悉了。  
 
@@ -188,7 +256,81 @@ public static <T1,T2,T3> Flux<Tuple3<T1,T2,T3>> zip(Publisher<? extends T1> sour
 
 ### 常用的实例方法
 静态的方法介绍完了，但是实例方法比静态方法多太多，所以这里只举常用的几种介绍
-### 实践
+
+#### all,any,hasElement,hasElements
+这几个方法调用，均返回包涵一个Boolean信号的Mono。
+- all(Predicate<? super T> predicate)表示所有值均满足条件
+- any(Predicate<? super T> predicate)表示存在一个值满足条件
+- hasElement(T t)表示是否存在该值
+- hasElements()表示是否拥有一个或多个元素
+
+#### as,compose
+public final <P> P as(Function<? super Flux<T>,P> transformer)   
+转化flux为一个目标类型。   
+官方例子：flux.as(Mono::from).subscribe()  
+将flux通过Mono.from函数转化为mono   
+public final <V> Flux<V> compose(Function<? super Flux<T>,? extends Publisher<V>> transformer)    
+compose与as的区别是转化类型做了限制，必须继承Publisher，同时compose是惰性的。在很多时候，写法上没有差别如flux.compose(Mono::from).subscribe()   
+
+#### blockFirst,blockLast
+阻塞至第一个或者最后一个值处理完成
+
+#### butter系列
+该系列实例方法很多，作用是将一系列元素，分成一组或者多组，该方法可用在按组批量操作上，例如，以时间间隔分组，批量添加数据。
+
+#### cache
+如其名缓存，相当于复制一份用于接下来的操作，而当前的流将会被缓存起来，用于之后的操作。
+
+#### cancelOn
+public final Flux<T> cancelOn(Scheduler scheduler)  
+取消
+
+#### cast
+public final <E> Flux<E> cast(Class<E> clazz)
+强转
+
+#### checkpoint
+用于检测当前节点，流中是否存在错误
+
+#### collect系列
+该系列实例方法，用于收集所有的元素到特定类型，如list、map等  
+处理完成时返回Mono
+
+#### concatMap系列,flatMap系列
+举例说明吧，[[1,2],[4,5],[6,7,8]] -> [1,2,4,5,6,7,8]起这种转化作用  
+![](https://raw.githubusercontent.com/reactor/reactor-core/v3.1.0.RC1/src/docs/marble/concatmap.png)  
+flatMap系列一样  
+
+#### concatWith
+与concatMap不同，这是相加  
+![](https://raw.githubusercontent.com/reactor/reactor-core/v3.1.0.RC1/src/docs/marble/concat.png)  
+#### defaultIfEmpty
+public final Flux<T> defaultIfEmpty(T defaultV) 默认值  
+
+#### distinct
+public final Flux<T> distinct()   
+去重，相对与jdk8，多了下面两种方法   
+public final <V> Flux<T> distinct(Function<? super T,? extends V> keySelector)  
+public final <V,C extends Collection<? super V>> Flux<T> distinct(Function<? super T,? extends V> Supplier<C> distinctCollectionSupplier)
+去除与V匹配的和第二个不怎么理解，，，这让我想到了filter  
+
+#### do系列
+还系列有doOnNext,doOnError,doOnCancel等等，均表示完成后触发
+
+#### elementAt
+返回某一位置的值，类型为Mono<T>，可以设置默认值
+
+#### filter
+public final Flux<T> filter(Predicate<? super T> p)  
+过滤出满足条件的  
+
+#### groupBy
+public final <K> Flux<GroupedFlux<K,T>> groupBy(Function<? super T,? extends K> keyMapper)  
+![](https://raw.githubusercontent.com/reactor/reactor-core/v3.1.0.RC1/src/docs/marble/groupby.png)  
+分组，根据提供的keyMapper
+
+#### mark
+标记一下，写到h接下来还有一些要写，暂时不写了，太累。。。先写会实践（实践提前放在开头，入门）  
 
 
 *未完待续*
