@@ -11,6 +11,6 @@
 
 
 ### Thanks
-[gitlab](https://gitlab.com/groups/pages) 
-[hexo](https://hexo.io/)
-[nexT](http://theme-next.iissnan.com/) 
+[GitLab](https://gitlab.com/groups/pages) 
+[Hexo](https://hexo.io/)
+[NexT](http://theme-next.iissnan.com/) 
