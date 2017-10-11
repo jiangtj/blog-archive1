@@ -36,9 +36,9 @@ tags: [hexo,gitlab-ci]
 
 ![](https://raw.githubusercontent.com/JiangTJ/assets/master/img/others/ci-2.jpg)  
 
-我们仅需关心script部分即可，而这部分其实是标准的hexo命令。   
+我们仅需关心script部分即可，而这部分其实是标准的hexo命令。    
 
-如果你想使用next主题（最受欢迎的hexo主题），<http://theme-next.iissnan.com>官网的网站上已有详细的教程
+如果你想使用next主题（最受欢迎的hexo主题），<http://theme-next.iissnan.com>官网的网站上已有详细的教程    
 
 
 ## English
