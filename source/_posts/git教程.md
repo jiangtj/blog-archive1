@@ -1,5 +1,5 @@
 ---
-title: git教程
+title: Git教程
 date: 2017-8-9
 categories: [工具]
 tags: [git,学习]

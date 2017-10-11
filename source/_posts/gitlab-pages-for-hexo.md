@@ -1,5 +1,5 @@
 ---
-title: gitlab pages 搭建hexo教程
+title: GitLab Pages 搭建Hexo教程
 date: 2017-10-11
 categories: [web]
 tags: [hexo,gitlab-ci]
@@ -13,7 +13,7 @@ tags: [hexo,gitlab-ci]
 
 <!-- more -->
 
-# 中文教程
+## 中文教程
 
 ### 环境搭建
 
@@ -40,7 +40,8 @@ tags: [hexo,gitlab-ci]
 
 如果你想使用next主题（最受欢迎的hexo主题），<http://theme-next.iissnan.com>官网的网站上已有详细的教程
 
-# English
+
+## English
 
 ### Get Started
 

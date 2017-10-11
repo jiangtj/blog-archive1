@@ -1,5 +1,5 @@
 ---
-title: hexo教程
+title: Hexo教程
 date: 1970-1-1
 tags: [init]
 ---
