@@ -1,6 +1,7 @@
 ---
 title: 关于我
 date: 2017-8-8
+comments: false
 ---
 
 #### 特长&兴趣：
