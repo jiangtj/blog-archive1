@@ -15,10 +15,10 @@ override: false
 # Default NexT favicons placed in `hexo-site/themes/next/source/images/` directory.
 # And if you want to place your icons in `hexo-site/source/`, you must remove `/images` prefix from pathes.
 favicon:
-  small: /images/Smile.png
-  medium: /images/Smile.png
-  apple_touch_icon: /images/Smile.png
-  safari_pinned_tab: /images/Smile.svg
+  small: /images/Smile.icon
+  medium: /images/Smile.icon
+  apple_touch_icon: /images/Smile.icon
+  safari_pinned_tab: /images/Smile.icon
   #android_manifest: /images/manifest.json
   #ms_browserconfig: /images/browserconfig.xml
 
