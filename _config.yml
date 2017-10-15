@@ -106,3 +106,7 @@ sitemap:
   path: sitemap.xml
 baidusitemap:
   path: baidusitemap.xml
+
+# 静态资源
+github:
+  assets: https://jiangtj.github.io/assets

@@ -12,7 +12,7 @@ tags: [shiro]
 - 拦截器，在AOP（Aspect-Oriented Programming）中用于在某个方法或字段被访问之前，进行拦截然后在之前或之后加入某些操作。拦截是AOP的一种实现策略。
 
 在shiro中存在下图关系  
-![shiro](https://raw.githubusercontent.com/JiangTJ/assets/master/img/shiro%E8%BF%87%E6%BB%A4%E5%99%A8%E4%B8%8E%E6%8B%A6%E6%88%AA%E5%99%A8.PNG)
+![shiro](https://jiangtj.github.io/assets/img/others/shiro%E8%BF%87%E6%BB%A4%E5%99%A8%E4%B8%8E%E6%8B%A6%E6%88%AA%E5%99%A8.PNG)
 
 <!-- more -->
 

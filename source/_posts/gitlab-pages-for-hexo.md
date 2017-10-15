@@ -26,7 +26,7 @@ tags: [hexo,gitlab-ci]
 
 当你完成这些步骤，你可以点击右侧的CI/CD，可以看到如下画面：  
 
-![](https://raw.githubusercontent.com/JiangTJ/assets/master/img/others/ci-1.jpg)  
+![](https://jiangtj.github.io/assets/img/others/ci-1.jpg)  
 
 当然你看到的可能是pending或running，这时请耐心等待。当显示为passed时，在浏览器中输入托管地址https://your-name.gitlab.io/projext-name，能访问，就意味着搭建成功咯    
 
@@ -34,7 +34,7 @@ tags: [hexo,gitlab-ci]
 
 这个项目结构是标准的hexo的项目，除了多个一个`.gitlab-ci.yml`，如下图   
 
-![](https://raw.githubusercontent.com/JiangTJ/assets/master/img/others/ci-2.jpg)  
+![](https://jiangtj.github.io/assets/img/others/ci-2.jpg)  
 
 我们仅需关心script部分即可，而这部分其实是标准的hexo命令。    
 
