@@ -14,7 +14,7 @@ comments: false
 - 工具: IntelliJ, VS Code, Git, Jenkins, Gitlab-CI
 - 架构: Spring Cloud, Docker
 
-#### 联系方式：
+#### 联系方式
 
 - 邮箱:   <jiang.taojie@foxmail.com>
 - 简书:   [MrTT](http://www.jianshu.com/u/42d8a7c1b531)
