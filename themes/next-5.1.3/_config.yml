@@ -92,7 +92,7 @@ menu:
 # Enable/Disable menu icons.
 menu_icons:
   enable: true
-  
+
 
 # ---------------------------------------------------------------
 # Scheme Settings
@@ -135,11 +135,11 @@ social_icons:
   transition: false
 
 # Blog rolls
-#links_title: Links
+links_title: Links
 #links_layout: block
 #links_layout: inline
-#links:
-  #Title: http://example.com/
+links:
+  Mzeht: http://mzeht.com/
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
@@ -185,7 +185,7 @@ sidebar:
 
   # Scroll percent label in b2t button.
   scrollpercent: false
-  
+
   # Enable sidebar on narrow view (only for Muse | Mist).
   onmobile: false
 
@@ -287,7 +287,7 @@ font:
 
   # Uri of fonts host. E.g. //fonts.googleapis.com (Default).
   host:
-  
+
   # Font options:
   # `external: true` will load this font family from `host` above.
   # `family: Times New Roman`. Without any quotes.
@@ -363,8 +363,8 @@ changyan:
   appid:
   appkey:
 
-    
-# Valine. 
+
+# Valine.
 # You can get your appid and appkey from https://leancloud.cn
 # more info please open https://github.com/xCss/Valine
 valine:
