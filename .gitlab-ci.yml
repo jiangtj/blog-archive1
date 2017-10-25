@@ -19,6 +19,10 @@ pages:
   - npm install hexo-generator-baidu-sitemap --save
 
   - hexo deploy
+
+  # robots
+  - copy robots.txt public
+  
   artifacts:
     paths:
     - public
