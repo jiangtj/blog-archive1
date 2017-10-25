@@ -1,8 +1,8 @@
 ---
 title: Shiro拦截器与过滤器
 date: 2017-8-11
-categories: [java]
-tags: [shiro]
+categories: [Java]
+tags: [Shiro]
 ---
 
 > 这篇是对 [开涛的《跟我学shiro》](http://www.iteye.com/blogs/subjects/shiro) 的部分章节补充，更详细的探讨shiro的过滤器和拦截器

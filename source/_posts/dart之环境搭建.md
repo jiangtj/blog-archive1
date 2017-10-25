@@ -1,8 +1,8 @@
 ---
 title: Dart之环境搭建
 date: 2017-10-8
-categories: [web]
-tags: [dart]
+categories: [Web]
+tags: [Dart]
 ---
 
 

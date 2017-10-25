@@ -1,8 +1,8 @@
 ---
 title: GitLab Pages 搭建Hexo教程
 date: 2017-10-11
-categories: [web]
-tags: [hexo,gitlab-ci]
+categories: [Web]
+tags: [Hexo,GitLab-CI]
 ---
 
 大部分情况下，都是github pages与hexo组合搭建静态博客。但不可否认的是，这样存在一些问题。比如，每次文章写完都需要要编译，才能上传，如果我仅仅想写个博客，这样的操作显得繁琐。又比如，你拥有多台电脑的情况，你需要在每台电脑上都配置一样的环境。    

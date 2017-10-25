@@ -1,7 +1,7 @@
 ---
 title: Java ProjectReactor框架之Flux篇
 date: 2017-9-17
-categories: [java]
+categories: [Java]
 tags: [WebFlux,Reactor,Reactive]
 ---
 

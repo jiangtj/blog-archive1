@@ -1,8 +1,8 @@
 ---
 title: Spring Data Jpa与Mybatis的选择
 date: 2017-9-11
-categories: [java]
-tags: [jpa,mybatis]
+categories: [Java]
+tags: [Jpa,Mybatis]
 ---
 
 看了会jpa的文档，感觉挺不错的，如果都是增删改和简单查询，那基本就不用写sql，同时数据库也交由jpa管理，省心。  
