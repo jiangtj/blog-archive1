@@ -15,9 +15,9 @@ override: false
 # Default NexT favicons placed in `hexo-site/themes/next/source/images/` directory.
 # And if you want to place your icons in `hexo-site/source/`, you must remove `/images` prefix from pathes.
 favicon:
-  small: /images/favicon/xin-16.png
-  medium: /images/favicon/xin-32.png
-  apple_touch_icon: /images/favicon/xin-32.png
+  small: /images/favicon/xin-64.png
+  medium: /images/favicon/xin-128.png
+  apple_touch_icon: /images/favicon/xin-128.png
   safari_pinned_tab: /images/favicon/xin.svg
   #android_manifest: /images/manifest.json
   #ms_browserconfig: /images/browserconfig.xml
