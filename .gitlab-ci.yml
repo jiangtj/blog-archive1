@@ -21,8 +21,8 @@ pages:
   - hexo deploy
 
   # robots
-  - copy robots.txt public
-  
+  - cp robots.txt public
+
   artifacts:
     paths:
     - public
