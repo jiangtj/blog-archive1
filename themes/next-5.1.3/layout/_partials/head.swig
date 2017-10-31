@@ -5,8 +5,8 @@
 
 
 {% if theme.pace %}
-  {% set pace_css_uri = url_for_lang(theme.vendors._internal + '/pace/'+ theme.pace_theme +'.min.css?v=1.0.2') %}
-  {% set pace_js_uri = url_for_lang(theme.vendors._internal + '/pace/pace.min.js?v=1.0.2') %}
+  {% set pace_css_uri = url_for(theme.vendors._internal + '/pace/'+ theme.pace_theme +'.min.css?v=1.0.2') %}
+  {% set pace_js_uri = url_for(theme.vendors._internal + '/pace/pace.min.js?v=1.0.2') %}
     {% if theme.vendors.pace %}
       {% set pace_js_uri = theme.vendors.pace %}
     {% endif %}
@@ -19,7 +19,7 @@
 
 
 {% if theme.han %}
-  {% set Han_uri = url_for_lang(theme.vendors._internal + '/Han/dist/han.min.css?v=3.3') %}
+  {% set Han_uri = url_for(theme.vendors._internal + '/Han/dist/han.min.css?v=3.3') %}
   {% if theme.vendors.Han %}
     {% set Han_uri = theme.vendors.Han %}
   {% endif %}
@@ -56,7 +56,7 @@
 
 
 {% if theme.fancybox %}
-  {% set fancybox_css_uri = url_for_lang(theme.vendors._internal + '/fancybox/source/jquery.fancybox.css?v=2.1.5') %}
+  {% set fancybox_css_uri = url_for(theme.vendors._internal + '/fancybox/source/jquery.fancybox.css?v=2.1.5') %}
   {% if theme.vendors.fancybox_css %}
     {% set fancybox_css_uri = theme.vendors.fancybox_css %}
   {% endif %}
@@ -65,31 +65,31 @@
 
 {% include "./head/external-fonts.swig" %}
 
-{% set font_awesome_uri = url_for_lang(theme.vendors._internal + '/font-awesome/css/font-awesome.min.css?v=4.6.2') %}
+{% set font_awesome_uri = url_for(theme.vendors._internal + '/font-awesome/css/font-awesome.min.css?v=4.6.2') %}
 {% if theme.vendors.fontawesome %}
   {% set font_awesome_uri = theme.vendors.fontawesome %}
 {% endif %}
 <link href="{{ font_awesome_uri }}" rel="stylesheet" type="text/css" />
 
-<link href="{{ url_for_lang(theme.css) }}/main.css?v={{ theme.version }}" rel="stylesheet" type="text/css" />
+<link href="{{ url_for(theme.css) }}/main.css?v={{ theme.version }}" rel="stylesheet" type="text/css" />
 
 {% if theme.favicon.apple_touch_icon %}
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ url_for_lang(theme.favicon.apple_touch_icon) }}?v={{ theme.version }}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ url_for(theme.favicon.apple_touch_icon) }}?v={{ theme.version }}">
 {% endif %}
 {% if theme.favicon.medium %}
-  <link rel="icon" type="image/png" sizes="32x32" href="{{ url_for_lang(theme.favicon.medium) }}?v={{ theme.version }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ url_for(theme.favicon.medium) }}?v={{ theme.version }}">
 {% endif %}
 {% if theme.favicon.small %}
-  <link rel="icon" type="image/png" sizes="16x16" href="{{ url_for_lang(theme.favicon.small) }}?v={{ theme.version }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ url_for(theme.favicon.small) }}?v={{ theme.version }}">
 {% endif %}
 {% if theme.favicon.safari_pinned_tab %}
-  <link rel="mask-icon" href="{{ url_for_lang(theme.favicon.safari_pinned_tab) }}?v={{ theme.version }}" color="{{ theme.android_chrome_color }}">
+  <link rel="mask-icon" href="{{ url_for(theme.favicon.safari_pinned_tab) }}?v={{ theme.version }}" color="{{ theme.android_chrome_color }}">
 {% endif %}
 {% if theme.favicon.android_manifest %}
-  <link rel="manifest" href="{{ url_for_lang(theme.favicon.android_manifest) }}">
+  <link rel="manifest" href="{{ url_for(theme.favicon.android_manifest) }}">
 {% endif %}
 {% if theme.favicon.ms_browserconfig %}
-  <meta name="msapplication-config" content="{{ url_for_lang(theme.favicon.ms_browserconfig) }}" />
+  <meta name="msapplication-config" content="{{ url_for(theme.favicon.ms_browserconfig) }}" />
 {% endif %}
 
 {% if page.keywords %}
@@ -105,7 +105,7 @@
   {% set theme.rss = config.feed.path %}
 {% endif %}
 {% if theme.rss %}
-  <link rel="alternate" href="{{ url_for_lang(theme.rss) }}" title="{{ config.title }}" type="application/atom+xml" />
+  <link rel="alternate" href="{{ url_for(theme.rss) }}" title="{{ config.title }}" type="application/atom+xml" />
 {% endif %}
 
 
