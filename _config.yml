@@ -112,3 +112,8 @@ baidusitemap:
 # 静态资源
 github:
   assets: https://jiangtj.github.io/assets
+
+# config hexo-generator-i18n
+i18n:
+  type: [page, post]
+  generator: [index, archive, category, tag]
