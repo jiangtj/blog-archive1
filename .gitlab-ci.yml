@@ -17,6 +17,8 @@ pages:
   # sitemap
   - npm install hexo-generator-sitemap --save
   - npm install hexo-generator-baidu-sitemap --save
+  # i18n
+  - npm install hexo-generator-i18n --save
 
   - hexo deploy
 
