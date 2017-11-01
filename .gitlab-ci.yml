@@ -7,17 +7,13 @@ pages:
 
   script:
   
+  # cli
   - npm install hexo-cli -g
-  # RSS
-  - npm install hexo-generator-feed --save
-  # 搜索
-  - npm install hexo-generator-searchdb --save
-  # api
-  - npm install hexo-generator-restful --save
   # sitemap
-  - npm install hexo-generator-sitemap --save
+  # - npm install hexo-generator-sitemap --save
   - npm install hexo-generator-baidu-sitemap --save
 
+  # deploy
   - hexo deploy
 
   # robots

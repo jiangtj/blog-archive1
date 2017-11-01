@@ -7,9 +7,7 @@ title: Kurome ☀
 subtitle: life within eat drink and sleep
 description: Only to be the best.
 author: Mr.J
-language: 
-  - zh-Hans
-  - en
+language: zh-Hans
 timezone: Asia/Shanghai
 
 # URL
@@ -26,7 +24,7 @@ tag_dir: tags
 archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
-i18n_dir: zh-Hans
+i18n_dir: :lang
 skip_render:
 
 # Writing
