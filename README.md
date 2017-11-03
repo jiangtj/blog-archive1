@@ -3,9 +3,9 @@
 ---
 
 这是我的blog，地址<https://jiangtj.gitlab.io>  
-部署：gitlab-ci  
-工具：hexo  
-主题：next  
+部署：GitLab-CI and GitLab-Pages  
+工具：Hexo  
+主题：NexT  
 
 ---
 
