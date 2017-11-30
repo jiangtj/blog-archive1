@@ -86,6 +86,6 @@ SELECT * FROM test a WHERE EXISTS(SELECT 1 FROM test_bak b WHERE b.`Name` = a.`N
 
 ### 原因
 
-MySQL自某个版本起（不记得了，逃~~），对于in中无条件的查询，会优化为join方式执行。这比EXISTS高效的多    
+MySQL自某个版本起（不记得了，逃~~），对于in中无与外表的数据做条件判断的查询，会优化为join方式执行。这比EXISTS高效的多    
 当然，in中内表不能与外表的数据做条件判断，否则请用join    
  
