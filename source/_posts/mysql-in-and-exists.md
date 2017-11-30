@@ -19,6 +19,8 @@ CREATE TABLE test(
 )ENGINE=INNODB DEFAULT CHARSET utf8; 
 ```
 
+<!-- more -->
+
 * 创建生成测试数据的存储过程
 ```sql
 DROP PROCEDURE IF EXISTS pre_test; 
