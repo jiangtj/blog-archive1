@@ -369,7 +369,7 @@ gitalk:
   enable: true
   clientID: eec838646ffdbfa26ff5
   clientSecret: 47aeb75be9e5a88e87c63e48a4704ccfac9793a7
-  repo: https://github.com/JiangTJ/blog
+  repo: blog
   owner: JiangTJ
   admin: JiangTJ
   pagerDirection: first
