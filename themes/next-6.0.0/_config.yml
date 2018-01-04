@@ -376,7 +376,7 @@ changyan:
 # Gitalk
 # more info please open https://github.com/gitalk/gitalk
 gitalk:
-  enable: false
+  enable: true
   clientID: eec838646ffdbfa26ff5
   clientSecret: 47aeb75be9e5a88e87c63e48a4704ccfac9793a7
   repo: blog
@@ -411,7 +411,7 @@ valine:
 # Introduction: https://imsun.net/posts/gitment-introduction/
 # You can get your Github ID from https://api.github.com/users/<Github username>
 gitment:
-  enable: true
+  enable: false
   mint: true # RECOMMEND, A mint on Gitment, to support count, language and proxy_gateway
   count: true # Show comments count in post meta area
   lazy: false # Comments lazy loading with a button
