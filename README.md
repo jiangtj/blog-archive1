@@ -2,9 +2,9 @@
 
 ---
 
-这是我的blog，地址<https://jiangtj.gitlab.io>  
-部署：GitLab-CI and GitLab-Pages  
-工具：Hexo  
+我的博客(blog)地址:<https://jiangtj.gitlab.io>  
+部署：GitLab-Pages  
+工具：Hexo & GitLab-CI  
 主题：NexT  
 
 ---
@@ -12,9 +12,9 @@
 
 ### Thanks
 
-[GitLab](https://gitlab.com/groups/pages) 
-[Hexo](https://hexo.io/)
-[NexT](http://theme-next.iissnan.com/) 
+[GitLab](https://gitlab.com/groups/pages)  
+[Hexo](https://hexo.io/)  
+[NexT](https://github.com/theme-next)   
 
 ### License
 
