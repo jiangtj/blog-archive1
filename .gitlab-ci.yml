@@ -7,11 +7,11 @@ pages:
 
   script:
   
-  # cli
+  # install cli
   - npm install hexo-cli -g
-  # sitemap
-  # - npm install hexo-generator-sitemap --save
-  - npm install hexo-generator-baidu-sitemap --save
+  
+  # update dependencies
+  - npm install
 
   # deploy
   - hexo deploy
