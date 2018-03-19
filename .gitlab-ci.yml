@@ -14,6 +14,9 @@ pages:
   - npm install
 
   # deploy
+  - hexo clean
+
+  # deploy
   - hexo deploy
 
   # robots
