@@ -472,17 +472,6 @@ changyan:
   appid:
   appkey:
 
-# Gitalk
-# more info please open https://github.com/gitalk/gitalk
-gitalk:
-  enable: true
-  clientID: eec838646ffdbfa26ff5
-  clientSecret: 47aeb75be9e5a88e87c63e48a4704ccfac9793a7
-  repo: blog
-  owner: JiangTJ
-  admin: JiangTJ
-  pagerDirection: first
-
 # Valine.
 # You can get your appid and appkey from https://leancloud.cn
 # more info please open https://valine.js.org
@@ -962,5 +951,3 @@ images: images
 # Theme version
 version: 6.1.0
 
-# Baidu share
-baidu_site_verification: xtf2YgRPUK
