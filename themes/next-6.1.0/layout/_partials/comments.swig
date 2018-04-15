@@ -44,6 +44,10 @@
     <div class="comments" id="comments">
       <div id="SOHUCS"></div>
     </div>
+    
+  {% elseif theme.gitalk.enable %}
+     <div id="gitalk-container"></div>
+     <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
 
   {% elseif theme.gitment.enable %}
     <div class="comments" id="comments">
