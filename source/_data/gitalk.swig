@@ -10,8 +10,8 @@
           owner: '{{theme.gitalk.owner}}',
           admin: '{{theme.gitalk.admin}}'.split(','),
           pagerDirection: '{{theme.gitalk.pagerDirection}}',
-          // facebook-like distraction free mode
-          distractionFreeMode: false
+          id: location.pathname,      // Ensure uniqueness and length less than 50
+          distractionFreeMode: false   // facebook-like distraction free mode
         })
         gitalk.render('gitalk-container')
       </script>
