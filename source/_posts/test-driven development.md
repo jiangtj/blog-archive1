@@ -261,7 +261,61 @@ include::{snippets}/user-add/http-response.adoc[]
 2. 运行接口文档   
 ![](https://jiangtj.github.io/assets/img/others/spring-restdocs-test.png)   
 
+## 测试驱动
+
+以上的步骤，我们走完了测试环境的搭建。但测试驱动并不是写完功能代码编写测试用例，而且在开始前（设计阶段），编写测试用例，为后续的开发提供依据，同时接口文档也需要提前生成为前后端分离开发提供助力    
+
+**那，该怎么做呢？**   
+
+这时候，我们就需要模拟一个实现类，大部分情况下是模拟一个Service。这里推荐使用Spring Test的一个工具`ReflectionTestUtils`，注入测试实现类     
+
+1. 先创建service接口的测试实现，例如    
+```java
+public class UserServiceTestBean implements UserService {
+
+    @Override
+    public ResultDto<User> getUserById(long id) {
+        ResultDto<User> result = new ResultDto<>(ResultCode.SUCCESS);
+        result.setObject(new User());
+        return result;
+    }
+
+    @Override
+    public ResultDto<User> add(User t) {
+        ResultDto<User> result = new ResultDto<>(ResultCode.SUCCESS);
+        result.setObject(t);
+        return result;
+    }
+
+    //......
+}
+```
+
+2. 在调用之前注入测试的模拟对象    
+```java
+    @Test
+    @Rollback
+    public void add() throws Exception {
+
+        //为userController注入userService对象
+        ReflectionTestUtils.setField(userController, "userService", new UserServiceTestBean());
+
+        User user = getMockUser();
+        super.mockMvc.perform(MockMvcRequestBuilders.post("/user/add")
+                .contentType(MediaType.APPLICATION_JSON)
+                .content(Objects.requireNonNull(JacksonUtils.toJson(user))))
+                .andExpect(status().isOk())
+                .andExpect(content().contentType(MediaType.APPLICATION_JSON_UTF8))
+                .andDo(document("user-add"));
+    }
+```
+
+这样我们完成了在实现之前，优先编写完测试用例。当然当service实现后，相应的mock代码都需要注释掉。使用Mockito模拟service对象也是行的，但在尝试后，不如直接编写测试对象来的高效。    
+
+
+
 # 结尾 
 上面代码开源在GitHub上，有兴趣的可以去看看  
 <https://github.com/JiangTJ/enterpriseAssetManagement/tree/testng%26spring-rest-docs>   
+缺少mock相关的代码，毕竟当时写测试用例时，service已经全部实现了，当然，您可以fork后自己尝试一下mock一些对象    
 
