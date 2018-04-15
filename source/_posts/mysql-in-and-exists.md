@@ -1,5 +1,5 @@
 ---
-title: MySQL5.7 IN与EXISTS，请尽量使用IN
+title: MySQL5.7 IN与EXISTS
 date: 2017-12-1
 categories: [MySQL]
 tags: [MySQL]
