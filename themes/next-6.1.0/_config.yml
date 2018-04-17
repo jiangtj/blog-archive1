@@ -341,7 +341,7 @@ cheers_enabled: true
 # Manual define the max content width
 # !!Only available for Gemini Scheme currently
 # Leave it empty for the default 75% (suggest not less than 1000px)
-#max_content_width: 1000px
+max_content_width: 1000px
 
 # Manual define the sidebar width
 # !!Only available for Gemini Scheme currently
