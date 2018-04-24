@@ -21,10 +21,10 @@ tags: [笔记,学习]
 ## 已学习/尝试使用
 - Grafana 多数据源数据分析
 - Mattermost 开源的slack，企业内部消息平台
-- Vue WEB MVVM框架
-- Angular WEB MVVM框架
+- Vue&Angular WEB MVVM框架
 - GitLab-CI 持续集成工具
 - Docker 容器技术
+- Gitbook&Docsify 两个功能相似的静态文档工具
 
 ## 废弃
 - Jenkins 持续集成工具（目前最主流的CI工具）
