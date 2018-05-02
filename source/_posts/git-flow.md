@@ -9,20 +9,20 @@ tags: [Git]
 
 接下来，将介绍这个Git工作流，以及它所衍生出来的其它不错的工作流（GitHub Flow与GitLab Flow）    
 
-![](http://nvie.com/img/git-model@2x.png)   
+![](https://nvie.com/img/git-model@2x.png)   
 
 <!-- more -->
 
 # Git Flow By Vincent Driessen
 
 如上图，它包含了全部的流程内容，一个由两个主分支develop和master以及三个支持分支hot-fix、feature、release组成的工作流。我们每次功能开发以develop分支为主，从它这里拉出feature分支，当完成时合并回develop，如下图     
-![](http://nvie.com/img/fb@2x.png)   
+![](https://nvie.com/img/fb@2x.png)   
 
 当开发完成，将develop发布到一release分支上进行测试以及bug修复。测试通过后将release分支的代码合并到master，作为一版本发布    
-![](http://nvie.com/img/main-branches@2x.png)
+![](https://nvie.com/img/main-branches@2x.png)
 
 线上问题，是常见的情况，无论是谁都不可能保证自己的代码不出问题。这时需要从master的tags（一般每次版本发布都需打上tags）中拉出修复分支hot-fix，修复并测试该问题。当完成后，须将此次更新同时合并到master和develop    
-![](http://nvie.com/img/hotfix-branches@2x.png)
+![](https://nvie.com/img/hotfix-branches@2x.png)
 
 Vincent Driessen作为首个Git成功模型的提出者，值得敬佩。后来的许多分支管理流程或多或少都有参照他的设计。    
 
@@ -53,7 +53,7 @@ Release branches是GitLab提出的第三种分支模型，它适用于您需要�
 - A:可以使用git cherry-picked拉取某次提交到指定分支
 
 # 参考文献
-[Git Flow By Vincent Driessen](http://nvie.com/posts/a-successful-git-branching-model/)    
+[Git Flow By Vincent Driessen](https://nvie.com/posts/a-successful-git-branching-model/)    
 [GitHub Flow](https://guides.github.com/introduction/flow/)    
 [GitLab Flow](https://docs.gitlab.com/ee/workflow/gitlab_flow.html)    
 
