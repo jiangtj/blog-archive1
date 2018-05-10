@@ -1,7 +1,8 @@
 {% if not (theme.duoshuo and theme.duoshuo.shortname) and not theme.duoshuo_shortname %}
   {% if theme.gitalk.enable %}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1.2.2/dist/gitalk.css">
     {% if page.comments %}
-      <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/gitalk@1.2.2/dist/gitalk.min.js"></script>
       <script type="text/javascript">
         const gitalk = new Gitalk({
           clientID: '{{theme.gitalk.clientID}}',
