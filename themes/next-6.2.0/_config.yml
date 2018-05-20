@@ -123,9 +123,9 @@ menu:
   categories: /categories/ || th
   archives: /archives/ || archive
   schedule: /schedule/ || calendar
-  #sitemap: https://chro.j-time.cn/sources/1/dashboards/2 || sitemap
+  #sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
-  站点数据: https://chro.j-time.cn/sources/1/dashboards/2 || sitemap
+  站点数据: https:////chro.j-time.cn/sources/1/dashboards/2 || sitemap
 
 # Enable/Disable menu icons / item badges.
 menu_settings:
