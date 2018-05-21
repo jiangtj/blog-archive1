@@ -1,4 +1,4 @@
-image: node:8.11.1
+image: node:8.11.2
 
 pages:
   cache:
@@ -11,14 +11,10 @@ pages:
   - npm install -g hexo-cli
   
   # update dependencies
-  - yarn --version
-  - yarn
+  - yarn install
 
-  # deploy
-  - hexo clean
-
-  # deploy
-  - hexo deploy
+  # generate
+  - hexo generate
 
   # robots
   - cp robots.txt public
