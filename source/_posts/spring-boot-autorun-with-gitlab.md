@@ -1,7 +1,7 @@
 ---
 title: Spring Boot 自动重启脚本
 date: 2018-4-20
-categories: [Java]
+categories: [DevOps]
 tags: [Java,Shell,CI]
 ---
 一个脚本，自动从GitLab上下载jar，同时重启服务。为后续的CI自动部署做准备

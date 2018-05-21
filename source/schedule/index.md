@@ -7,12 +7,11 @@ comments: false
 
 # 学习中
 - Spring Cloud 微服务解决方案
-- TICK技术栈 数据采集、存储、分析、监控方案
+- Kubernetes 基于容器技术的分布式架构
+- Vertx java框架
 
 # 计划
-- Vertx java框架
 - Mycat 数据库分库分表中间件
-- Kubernetes 基于容器技术的分布式架构
 
 <!-- more -->
 
@@ -24,6 +23,7 @@ comments: false
 - Docker 容器技术
 - Docsify 静态文档工具
 - JMeter 压力测试工具
+- TICK技术栈 数据采集、存储、分析、监控方案
 
 # 归档
 - Jenkins 持续集成工具（目前最主流的CI工具）
