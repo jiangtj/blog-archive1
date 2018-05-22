@@ -8,7 +8,7 @@ pages:
   script:
   
   # install cli
-  - npm install -g hexo-cli
+  - yarn global add hexo-cli
   
   # update dependencies
   - yarn install
