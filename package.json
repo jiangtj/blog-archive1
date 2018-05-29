@@ -19,6 +19,7 @@
     "hexo-generator-search": "^1.0.2",
     "hexo-generator-sitemap": "^1.2.0",
     "hexo-generator-tag": "^0.2.0",
+    "hexo-lazyload-image": "^1.0.3",
     "hexo-pagination": "^0.1.0",
     "hexo-renderer-ejs": "^0.2.0",
     "hexo-renderer-less": "^0.2.0",
