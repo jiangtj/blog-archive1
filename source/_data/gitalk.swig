@@ -1,7 +1,7 @@
 {% if not (theme.duoshuo and theme.duoshuo.shortname) and not theme.duoshuo_shortname %}
   {% if theme.gitalk.enable %}
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1.2.2/dist/gitalk.css">
     {% if page.comments %}
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1.2.2/dist/gitalk.css">
       <script src="https://cdn.jsdelivr.net/npm/gitalk@1.2.2/dist/gitalk.min.js"></script>
       <script type="text/javascript">
         const gitalk = new Gitalk({
