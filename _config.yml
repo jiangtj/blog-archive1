@@ -78,29 +78,6 @@ search:
   format: html
   limit: 10000
 
-restful:
-  # site 可配置为数组选择性生成某些属性
-  # site: ['title', 'subtitle', 'description', 'author', 'since', email', 'favicon', 'avatar']
-  site: true        # hexo.config mix theme.config
-  posts_size: 10    # 文章列表分页，0 表示不分页
-  posts_props:      # 文章列表项的需要生成的属性
-    title: true
-    slug: true
-    date: true
-    updated: true
-    comments: true
-    path: true
-    excerpt: false
-    cover: true      # 封面图，取文章第一张图片
-    content: false
-    keywords: false
-    categories: true
-    tags: true
-  categories: true  # 分类数据
-  tags: true        # 标签数据
-  post: true        # 文章数据
-  pages: true      # 额外的 Hexo 页面数据, 如 About
-
 # sitemap
 sitemap:
   path: sitemap.xml
@@ -115,6 +92,39 @@ github:
 i18n:
   type: [page, post]
   generator: [index, archive, category, tag]
+
+
+lazyload:
+  enable: true 
+  onlypost: false
+  loadingImg: # eg /images/loading.gif
+
+pwa:
+  manifest:
+    path: /manifest.json
+    body:
+      name: Kurome blog
+      short_name: Kurome
+      icons:
+        - src: /images/favicon/xin-192.png
+          sizes: 192*192
+          type: image/png
+  serviceWorker:
+    path: /sw.js
+    preload:
+      urls:
+        - /
+      posts: 5
+    opts:
+      networkTimeoutSeconds: 5
+    routes:
+      # - pattern: !!js/regexp /hm.baidu.com/
+      #   strategy: networkOnly
+      - pattern: !!js/regexp /.*\.(js|css|jpg|jpeg|png|gif)$/
+        strategy: cacheFirst
+      - pattern: !!js/regexp /\//
+        strategy: networkFirst
+  priority: 5
 
 theme_config:
   # Gitalk
@@ -134,7 +144,3 @@ theme_config:
     你很棒: http://www.cnblogs.com/lovelinux199075/
     leiqjl: http://www.cnblogs.com/leiqjl
 
-lazyload:
-  enable: true 
-  onlypost: false
-  loadingImg: # eg /images/loading.gif
