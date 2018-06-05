@@ -39,7 +39,7 @@ $ aria2c http://a/f.iso ftp://b/f.iso
 ```
 3. 使用两个连接下载
 ```bash
-$ aria2c -x2 http://a/f.iso
+$ aria2c -x 2 http://a/f.iso
 ```
 4. 使用BitTorrent下载
 ```bash
@@ -53,7 +53,7 @@ $ aria2c 'magnet:?xt=urn:btih:248D0A1CD08284299DE78D5C1ED359BB46717D8C'
 ```bash
 $ aria2c -i uris.txt
 ```
-6. 修改名称与路径
+7. 修改名称与路径
 ```bash
 $ aria2c http://example.org/a.txt -o b.txt -d your-dir
 ```
