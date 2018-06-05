@@ -1,8 +1,7 @@
 ---
 title: Aria2 一个轻量级的命令行下载工具
 date: 2018-6-5
-categories: [Web]
-tags: [Dart,Node]
+categories: [工具]
 ---
 
 aria2 是一个轻量级的、多源、跨平台的命令行下载实用工具。它支持HTTP/HTTPS、FTP、SFTP、BitTorrent和Metalink。       
