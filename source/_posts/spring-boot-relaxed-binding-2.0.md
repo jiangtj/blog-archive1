@@ -89,7 +89,8 @@ MY_FOO_1_2_ = my.foo[1][2]
 - 必须是 小写
 - 唯一允许的特殊字符是`[]`，用于表示list的索引
 - 用连接符`-`分割单词
-- 不能以数字开头
+- 不能以数字开头   
+
 下面是一个从配置文件中读出属性的例子：
 ```java
 this.environment.containsProperty("spring.jpa.database-platform")
