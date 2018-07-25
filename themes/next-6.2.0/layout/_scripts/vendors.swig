@@ -63,6 +63,13 @@
 <script type="text/javascript">
 
     //debugger;
+    function doWriteInfluxDb() {
+
+    //开发环境不发送统计数据
+    if (window.location.hostname === 'localhost'){
+      return;
+    }
+
     var influx = {
       referrer: {},
       path: {},
@@ -107,5 +114,9 @@
     influx.write(influxTemp);
     //alert(JSON.stringify(influx))
     //alert(JSON.stringify(influxTemp))
+
+    }
+
+    doWriteInfluxDb();
 
 </script>
