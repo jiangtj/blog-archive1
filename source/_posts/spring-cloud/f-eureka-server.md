@@ -88,7 +88,7 @@ eureka:
     enable-self-preservation: false
 ```
 
-3. 实例二   
+3. 实例三   
 ```yml
 server:
   port: 9002

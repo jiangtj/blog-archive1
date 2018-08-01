@@ -244,7 +244,8 @@ public interface BaseClient {
 ```json
 {
     "Delete":"fail: BaseClient#deleteUser() failed and no fallback available.",
-    "Query Jone":"Your QueryParams is {name=[Jone Taki]}","Post":"Your Body is {\"name\":\"Jone Tiki\",\"age\":20,\"sex\":1}",
+    "Query Jone":"Your QueryParams is {name=[Jone Taki]}",
+    "Post":"Your Body is {\"name\":\"Jone Tiki\",\"age\":20,\"sex\":1}",
     "ID 1":"Your id is 1",
     "Put":"Your Body is {\"name\":\"Jone Kolo\",\"age\":30,\"sex\":1}"
 }
