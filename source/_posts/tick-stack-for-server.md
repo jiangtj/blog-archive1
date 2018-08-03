@@ -35,6 +35,19 @@ wget https://dl.influxdata.com/kapacitor/releases/kapacitor_1.4.1_amd64.deb
 sudo dpkg -i kapacitor_1.4.1_amd64.deb
 ```
 
+也可以通过添加apt源安装      
+```bash
+curl -sL https://repos.influxdata.com/influxdb.key | sudo apt-key add -
+source /etc/lsb-release
+echo "deb https://repos.influxdata.com/${DISTRIB_ID,,} ${DISTRIB_CODENAME} stable" | sudo tee /etc/apt/sources.list.d/influxdb.list
+sudo apt-get update 
+sudo apt-get install influxdb
+sudo apt-get install telegraf
+sudo apt-get install chronograf
+sudo apt-get install kapacitor
+```
+
+
 # 运行
 通过linux命令启动相应的服务    
 ```bash
