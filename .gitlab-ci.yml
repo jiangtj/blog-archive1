@@ -19,6 +19,10 @@ pages:
   # robots
   - cp robots.txt public
 
+  environment:
+    name: page
+    url: https://jiangtj.gitlab.io
+
   artifacts:
     paths:
     - public
