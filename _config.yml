@@ -65,11 +65,6 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: next-6.4.0
 
-# Deployment
-## Docs: https://hexo.io/docs/deployment.html
-# deploy:
-#   type:
-
 favicon: /images/Smile.ico
 
 search:
