@@ -1,19 +1,14 @@
 <script type="text/javascript">
 
-    debugger;
     function doWriteInfluxDb() {
 
-    //开发环境不发送统计数据
-    if (window.location.hostname === 'localhost'){
-      return;
-    }
-
     var influx = {
-      referrer: {},
-      path: {},
+      data: {},
+      db: "mine-test",
+      measurement: "visit",
       write: function (formData){
         $.ajax({
-            url: "https://chro.j-time.cn/influx/write?db=mine-test",
+            url: "https://chro.j-time.cn/influx/write?db=" + influx.db,
             type: "post",
             data: formData,
             dataType: "json",
@@ -25,33 +20,44 @@
         });
       }
     }
-    influxTemp = "visit";
+
+    var influxTemp = influx.measurement;
 
     //referrer
-    influx.referrer.data = document.referrer;
-    if (influx.referrer.data != "") {
-      influx.referrer.begin = influx.referrer.data.indexOf("://") + 3;
-      influx.referrer.end = influx.referrer.data.indexOf("/", influx.referrer.begin);
-      influx.referrer.host = influx.referrer.data.substring(influx.referrer.begin,influx.referrer.end).split(":")[0];
-      //var influxTemp = "referrer,host="+influx.referrer.host + " value='"+influx.referrer.data + "'";
-      if (influx.referrer.host != "localhost" && influx.referrer.host != "jiangtj.gitlab.io") {
-        influxTemp += ",referrer="+influx.referrer.host;
+    var referrerData = document.referrer;
+    if (referrerData != "") {
+      var begin = referrerData.indexOf("://") + 3;
+      var end = referrerData.indexOf("/",begin);
+      var host = referrerData.substring(begin,end).split(":")[0];
+      //var influxTemp = "referrer,host="+influx.referrer.host + " value='"+referrerData + "'";
+      if (host != "localhost" && host != "jiangtj.gitlab.io") {
+        influx.data.referrer=host;
       }
     }
 
-    //visit
-    influx.path.datas = window.location.pathname.split("/");
-    if (influx.path.datas.length >= 6) {
-      if (influx.path.datas[1].length === 4&&influx.path.datas[2].length === 2
-        &&influx.path.datas[3].length === 2)
-      influx.path.article = influx.path.datas[influx.path.datas.length - 2];
-      influxTemp += ",article=" + influx.path.article;
+    //article
+    var pathDatas = window.location.pathname.split("/");
+    if (pathDatas.length >= 6) {
+      if (pathDatas[1].length === 4&&pathDatas[2].length === 2
+        &&pathDatas[3].length === 2)
+      influx.data.article = pathDatas[pathDatas.length - 2];
     }
+
+    //填充数据
+    $.each(influx.data, function (key, value) {
+      influxTemp += "," + key + "=" + value;
+    });
     
+    //访问次数
     influxTemp += " value=1";
+
+    //开发环境不发送统计数据
+    if (window.location.hostname === 'localhost'){
+      return;
+    }
+
+    //发送数据
     influx.write(influxTemp);
-    //alert(JSON.stringify(influx))
-    //alert(JSON.stringify(influxTemp))
 
     }
 
