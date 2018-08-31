@@ -387,7 +387,7 @@ cheers_enabled: true
 # Arial | Tahoma | Helvetica | Times New Roman | Courier New | Verdana | Georgia | Palatino | Garamond | Comic Sans MS | Trebuchet MS
 # ---------------------------------------------------------------
 font:
-  enable: false
+  enable: ture
 
   # Uri of fonts host. E.g. //fonts.googleapis.com (Default).
   host:
@@ -407,7 +407,7 @@ font:
   # Fallback to `global` font settings.
   headings:
     external: true
-    family:
+    family: Satisfy
     size:
 
   # Font settings for posts.
@@ -420,13 +420,15 @@ font:
   # Fallback to `global` font settings.
   logo:
     external: true
-    family:
-    size:
+    family: Lobster
+    size: 24
 
   # Font settings for <code> and code blocks.
   codes:
     external: true
-    family:
+    # family: Satisfy
+    # family: IM Fell English
+    family: PT Serif
     size:
 
 
