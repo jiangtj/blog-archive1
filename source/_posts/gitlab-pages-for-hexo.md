@@ -58,3 +58,45 @@ tags: [Hexo,CI]
 
 - you can modify script in `.gitlab-ci.yml`.
 - you can change the theme to next, which is most popular theme of hexo, by a official tutorial <http://theme-next.iissnan.com>
+
+## Updated
+
+### Command Lines
+Use command lines to init a blog with gilab page, written in 2018.9.19
+
+#### Init hexo project
+```bash
+hexo init your-blog-dir
+cd your-blog-dir
+hexo s
+```
+Hexo is running at http://localhost:4000, you can test it.
+
+#### Git remote
+Assert your project remote url is https://gitlab.com/your-gitlab-name/project-name.
+```bash
+git init
+git remote add origin git@gitlab.com:<your-gitlab-name>/<project-name>.git
+git add .
+git commit -m "Initial commit"
+git push -u origin master
+```
+
+#### Add CI config  
+Please rename `<*-name>` to real name, such as `sed -ri 's/.*(url:.*)/url: https:\/\/jiangtj.gitlab.io/g' _config.yml`   
+```bash
+wget -O .gitlab-ci.yml https://gitlab.com/JiangTJ/hexo/raw/master/.gitlab-ci.yml?inline=false
+sed -ri 's/.*(url:.*)/url: https:\/\/<your-gitlab-name>.gitlab.io/g' _config.yml
+```
+If project-name is not your-gitlab-name.gitlab.io, update `root` var.
+```bash
+sed -ri 's/.*(root:.*)/root: \/<project-name>\//g' _config.yml
+```
+Push to remote
+```bash
+git add .
+git commit -m "CI"
+git push -u origin master
+```
+Wait pipeline finish running, your hexo blog is running at https://your-gitlab-name.gitlab.io/project-name.
+
