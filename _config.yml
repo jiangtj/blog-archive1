@@ -147,11 +147,11 @@ theme_config:
   # more info please open https://github.com/gitalk/gitalk
   gitalk:
     enable: true
-    clientID: eec838646ffdbfa26ff5
-    clientSecret: 47aeb75be9e5a88e87c63e48a4704ccfac9793a7
-    repo: blog
-    owner: JiangTJ
-    admin: JiangTJ
+    clientID: 1aa6738adddb1c5ff8e1
+    clientSecret: dd0d9bcafa5dd98f196fe3877ddfe163b485679d
+    repo: comment
+    owner: jiangtjtest
+    admin: jiangtjtest
     pagerDirection: first
   # baidu_site_verification
   baidu_site_verification: xtf2YgRPUK
