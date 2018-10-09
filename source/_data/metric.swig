@@ -55,6 +55,10 @@
     if (window.location.hostname === 'localhost'){
       return;
     }
+    //next-last根目录用于测试next主题，确保更新至博客时不出问题
+    if (pathDatas.length >= 2 || pathDatas[1] === 'next-last'){
+      return;
+    }
 
     //发送数据
     influx.write(influxTemp);
