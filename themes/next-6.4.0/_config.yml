@@ -407,7 +407,8 @@ font:
   # Fallback to `global` font settings.
   headings:
     external: true
-    family: Satisfy
+    # family: Satisfy
+    family: 
     size:
 
   # Font settings for posts.
@@ -428,7 +429,8 @@ font:
     external: true
     # family: Satisfy
     # family: IM Fell English
-    family: PT Serif
+    # family: PT Serif
+    family: 
     size:
 
 

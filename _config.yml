@@ -130,11 +130,17 @@ live2d:
   model:
     use: live2d-widget-model-epsilon2_1
   display:
-    position: right
+    superSample: 2
     width: 150
     height: 300
+    position: right
+    hOffset: 0
+    vOffset: -65
   mobile:
     show: false
+  react:
+    opacityDefault: 0.7
+    opacityOnHover: 0.2
 
 theme_config:
   # Gitalk
