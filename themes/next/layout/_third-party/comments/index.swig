@@ -1,6 +1,6 @@
+{% include '../../../../../source/_data/gitalk.swig' %}
 {% include 'disqus.swig' %}
 {% include 'livere.swig' %}
 {% include 'changyan.swig' %}
 {% include 'gitment.swig' %}
 {% include 'valine.swig' %}
-{% include '../../../../../source/_data/gitalk.swig' %}

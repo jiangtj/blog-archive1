@@ -185,7 +185,7 @@ social_icons:
 # Usage: `permalink || title`
 # Value before `||` delimeter is the target permalink.
 # Value after `||` delimeter is the title and aria-label name.
-# github_banner: https://github.com/jiangtj || Follow me on GitHub
+#github_banner: https://github.com/yourname || Follow me on GitHub
 
 # Blog rolls
 links_icon: link
@@ -564,14 +564,14 @@ needmoreshare2:
       iconStyle: box
       boxForm: horizontal
       position: bottomCenter
-      networks: Weibo,Wechat,Douban,QQZone,Twitter,Facebook,GooglePlus
+      networks: Weibo,Wechat,Douban,QQZone,Twitter,Facebook
   float:
     enable: true
     options:
       iconStyle: box
       boxForm: horizontal
       position: middleRight
-      networks: Weibo,Wechat,Douban,QQZone,Twitter,Facebook,GooglePlus
+      networks: Weibo,Wechat,Douban,QQZone,Twitter,Facebook
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
