@@ -8,6 +8,8 @@ pages:
     - node_modules/
 
   script:
+
+  - ls themes/next-sub
   
   # install cli
   - yarn global add hexo-cli
