@@ -9,7 +9,7 @@ tags: [VPN,Shadowsocks]
 
 Shadowsocks可以指：一种基于Socks5代理方式的加密传输协议，也可以指实现这个协议的各种传输包。目前包使用Python、C、C++、C#、Go语言等编程语言开发，大部分主要实现（iOS平台的除外）采用Apache许可证、GPL、MIT许可证等多种自由软件许可协议开放源代码。Shadowsocks分为服务器端和客户端，在使用之前，需要先将服务器端部署到服务器上面，然后通过客户端连接并创建本地代理。    
 
-目前Shadowsocks有多个实现支持，以自由软件形式发布的主要有原始Shadowsocks（以Python语言编写）、Shadowsocks-libev（分支项目openwrt-Shadowsocks）、Shadowsocks-rust、Shadowsocks-go/go-Shadowsocks2、libQtShadowsocks、Shadowsocks-qt5（仅作为客户端）、Shadowsocks-android（仅作为客户端）、Shadowsocks-windows（仅作为客户端）、ShadowsocksX-NG（仅作为客户端）、Outline[11]、V2Ray、Brook[12]等等，还有为数甚多的免费软件及专有软件（多数是iOS上运行的，如shadowrocket、Surge等）。    
+目前Shadowsocks有多个实现支持，以自由软件形式发布的主要有原始Shadowsocks（以Python语言编写）、Shadowsocks-libev（分支项目openwrt-Shadowsocks）、Shadowsocks-rust、Shadowsocks-go/go-Shadowsocks2、libQtShadowsocks、Shadowsocks-qt5（仅作为客户端）、Shadowsocks-android（仅作为客户端）、Shadowsocks-windows（仅作为客户端）、ShadowsocksX-NG（仅作为客户端）、Outline、V2Ray、Brook等等，还有为数甚多的免费软件及专有软件（多数是iOS上运行的，如shadowrocket、Surge等）。    
 
 <!-- more -->
 
@@ -68,7 +68,7 @@ sudo ssserver --help
 # 客户端
 由于商店无法进入，可以在GitHub上下载
 - shadowsocks-windows: <https://github.com/shadowsocks/shadowsocks-windows>   
-- shadowsocks-android: <https://github.com/Jigsaw-Code/outline-client/>   
+- shadowsocks-android: <https://github.com/shadowsocks/shadowsocks-android>   
 
 Or
 - outline: <https://github.com/Jigsaw-Code/outline-client/>   
@@ -76,7 +76,7 @@ Or
 # 其他VPN
 
 ## L2TP
-执行脚本一件安装运行：<https://github.com/hwdsl2/setup-ipsec-vpn>，shadowsocks也有类似的[脚本](https://freed.ga/github/shadowsocksR.sh)([相关教程](https://www.qcgzxw.cn/1640.html))，但下载下来是乱码，反正我不放心。。。    
+执行脚本一键安装运行：<https://github.com/hwdsl2/setup-ipsec-vpn>，shadowsocks也有类似的[脚本](https://freed.ga/github/shadowsocksR.sh)([相关教程](https://www.qcgzxw.cn/1640.html))，但下载下来是乱码，反正我不放心。。。    
 L2TP相对于shadowsocks来说，系统支持较好（可能部分系统如MIUI10，连接后会自动断开，我是被这个原因逼到shadowsocks的），无需安装第三方客户端，但也因此只有全局代理   
 
 > 这篇文章长期更新，推荐的是我正在使用的VPN，其他VPN中是以前使用过的
