@@ -24,7 +24,8 @@ bash -c "$(wget -qO- https://raw.githubusercontent.com/Jigsaw-Code/outline-serve
 将您linux上安装输出信息放入步骤二的输入框内，接下来添加key，复制key中的密钥`ss://xxxxxx?outline=1`至您的客户端即可    
 其他方式见下面   
 
-## 安装
+## shadowsocks-libev
+### 安装
 执行以下命令，从PPA源安装shadowsocks-libev，shadowsocks-libev是纯C实现的Shadowsocks服务端，相对于Python，有更好的性能
 ```bash
 sudo apt-get install software-properties-common -y
@@ -32,13 +33,8 @@ sudo add-apt-repository ppa:max-c-lv/shadowsocks-libev -y
 sudo apt-get update
 sudo apt install shadowsocks-libev
 ```
-您可以安装Python的shadowsocks，centos或者其他看这里<https://github.com/shadowsocksr-backup/shadowsocksr>
-```bash
-sudo apt-get install python-pip
-sudo pip install shadowsocks
-```
 
-## 运行
+### 运行
 shadowsocks-libev需要修改配置文件
 ```bash
 # Edit the configuration file
@@ -63,6 +59,15 @@ sudo vim /etc/default/shadowsocks-libev
 sudo /etc/init.d/shadowsocks-libev start    # for sysvinit, or
 sudo systemctl start shadowsocks-libev      # for systemd
 ```
+
+## Python
+您可以安装Python的shadowsocks，centos或者其他看这里<https://github.com/shadowsocksr-backup/shadowsocksr>
+### 安装
+```bash
+sudo apt-get install python-pip
+sudo pip install shadowsocks
+```
+### 运行
 基于Python的shadowsocks运行
 ```bash
 # Example
@@ -70,6 +75,8 @@ sudo ssserver -k password --user nobody -d start
 # See help
 sudo ssserver --help
 ```
+
+## 其他
 建议开启`fastopen`,修改`/etc/sysctl.conf`文件中的`net.ipv4.tcp_fastopen = 3`    
 其他高级配置，可在翻墙后访问<https://shadowsocks.org/en/config/advanced.html>
 
