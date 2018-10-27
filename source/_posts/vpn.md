@@ -16,8 +16,16 @@ Shadowsocks可以指：一种基于Socks5代理方式的加密传输协议，也
 # 服务端
 本文使用Ubuntu16.04，其他版本可查看官方文档<https://github.com/shadowsocks/shadowsocks-libev>
 
+## Outline Manage
+最简单的方式是通过Outline Manage配置，可在[Outline的GitHub](https://github.com/Jigsaw-Code/outline-server/)上下载，选择`Set up Outline anywhere`，在linux上运行步骤一的脚本
+```bash
+bash -c "$(wget -qO- https://raw.githubusercontent.com/Jigsaw-Code/outline-server/master/src/server_manager/install_scripts/install_server.sh)"
+```
+将您linux上安装输出信息放入步骤二的输入框内，接下来添加key，复制key中的密钥`ss://xxxxxx?outline=1`至您的客户端即可    
+其他方式见下面   
+
 ## 安装
-执行以下命令，从PPA源安装shadowsocks-libev，shadowsocks-libev是纯C实现的Shadowsocks客户端，相对于Python，有更好的性能
+执行以下命令，从PPA源安装shadowsocks-libev，shadowsocks-libev是纯C实现的Shadowsocks服务端，相对于Python，有更好的性能
 ```bash
 sudo apt-get install software-properties-common -y
 sudo add-apt-repository ppa:max-c-lv/shadowsocks-libev -y
@@ -66,7 +74,7 @@ sudo ssserver --help
 其他高级配置，可在翻墙后访问<https://shadowsocks.org/en/config/advanced.html>
 
 # 客户端
-由于商店无法进入，可以在GitHub上下载
+由于商店无法进入，可以在GitHub上下载，客户端推荐shadowsocks，因为outline目前只能全局代理
 - shadowsocks-windows: <https://github.com/shadowsocks/shadowsocks-windows>   
 - shadowsocks-android: <https://github.com/shadowsocks/shadowsocks-android>   
 
