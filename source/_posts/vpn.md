@@ -14,7 +14,6 @@ Shadowsocks可以指：一种基于Socks5代理方式的加密传输协议，也
 <!-- more -->
 
 # 服务端
-本文使用Ubuntu16.04，其他版本可查看官方文档<https://github.com/shadowsocks/shadowsocks-libev>
 
 ## Outline Manage
 最简单的方式是通过Outline Manage配置，可在[Outline的GitHub](https://github.com/Jigsaw-Code/outline-server/)上下载，选择`Set up Outline anywhere`，在linux上运行步骤一的脚本
@@ -25,6 +24,7 @@ bash -c "$(wget -qO- https://raw.githubusercontent.com/Jigsaw-Code/outline-serve
 其他方式见下面   
 
 ## shadowsocks-libev
+本文使用Ubuntu16.04，其他版本可查看官方文档<https://github.com/shadowsocks/shadowsocks-libev>
 ### 安装
 执行以下命令，从PPA源安装shadowsocks-libev，shadowsocks-libev是纯C实现的Shadowsocks服务端，相对于Python，有更好的性能
 ```bash
