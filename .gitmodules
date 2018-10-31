@@ -1,3 +1,6 @@
 [submodule "themes/next-sub"]
 	path = themes/next-sub
 	url = https://github.com/jiangtj/hexo-theme-next
+[submodule "themes/artchen-typescript"]
+	path = themes/artchen-typescript
+	url = https://github.com/jiangtj/hexo-theme-typescript

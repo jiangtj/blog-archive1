@@ -17,11 +17,16 @@ pages:
   # update dependencies
   - yarn install
 
-  # generate
+  # generate another theme
+  - hexo generate --config themes/artchen-typescript.yml
+  - mv public temp_public
+
+  # generate next theme
   - hexo generate
 
-  # robots
+  # others
   - cp robots.txt public
+  - mv temp_public public/simple
 
   environment:
     name: page
