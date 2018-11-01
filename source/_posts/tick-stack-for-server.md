@@ -7,8 +7,6 @@ tags: [TICK Stack]
 
 [TICK Stack](https://www.influxdata.com/time-series-platform/)是由一系列的服务组成的监控分析处理数据的解决方案，一般用于系统监控，或者收集处理与时间紧密相关的数据。    
 
-![图片来自官网](https://2bjee8bvp8y263sjpl3xui1a-wpengine.netdna-ssl.com/wp-content/uploads/Tick-Stack-Complete.png)
-
 它包含了以下服务：   
 - Telegraf 是一个插件驱动的代理服务，用于收集并提供系统数据（如CPU、内存等）
 - InfluxDB 是一个时序数据库，为满足高负载的读写而开发的数据库
