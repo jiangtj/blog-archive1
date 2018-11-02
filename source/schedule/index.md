@@ -1,9 +1,13 @@
 ---
-title: 日程表
-date: 2017-10-15
+title: 规划
+date: 2018-11-02
 type: "schedule"
 comments: false
 ---
+
+# 文档规范
+- almond 杏仁果 2017-2018
+- beechnut 山毛榉坚果 2019-future
 
 # 学习中
 - Spring Cloud 微服务解决方案
