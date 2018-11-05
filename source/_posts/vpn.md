@@ -3,6 +3,7 @@ title: VPN教程 - Shadowsocks
 date: 2018-10-26
 categories: [工具]
 tags: [VPN,Shadowsocks]
+reward: true
 ---
 
 # Wikipedia
