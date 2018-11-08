@@ -142,6 +142,16 @@ live2d:
     opacityDefault: 0.7
     opacityOnHover: 0.2
 
+feed:
+  type: rss2
+  path: rss2.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date
+
 theme_config:
   # Gitalk
   # more info please open https://github.com/gitalk/gitalk
