@@ -2,6 +2,8 @@
 
     function doWriteInfluxDb() {
 
+      debugger;
+
     var influx = {
       data: {},
       db: "mine-test",
@@ -37,9 +39,8 @@
 
     //article
     var pathDatas = window.location.pathname.split("/");
-    if (pathDatas.length >= 6) {
-      if (pathDatas[1].length === 4&&pathDatas[2].length === 2
-        &&pathDatas[3].length === 2)
+    if (pathDatas.length >= 3) {
+      if (pathDatas[1] === "articles")
       influx.data.article = pathDatas[pathDatas.length - 2];
     }
 
