@@ -86,12 +86,6 @@ i18n:
   type: [page, post]
   generator: [index, archive, category, tag]
 
-
-lazyload:
-  enable: true 
-  onlypost: false
-  loadingImg: # eg /images/loading.gif
-
 pwa:
   manifest:
     path: /manifest.json
