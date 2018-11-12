@@ -1,7 +1,6 @@
 ---
 title: 规划
 date: 2018-11-02
-type: "schedule"
 comments: false
 ---
 

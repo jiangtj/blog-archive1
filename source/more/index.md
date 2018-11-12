@@ -1,5 +1,5 @@
 ---
-title: 关于我
+title: 关于
 date: 2017-10-17
 comments: false
 ---
