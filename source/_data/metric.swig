@@ -2,8 +2,6 @@
 
     function doWriteInfluxDb() {
 
-      debugger;
-
     var influx = {
       data: {},
       db: "mine-test",
