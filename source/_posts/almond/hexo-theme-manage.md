@@ -9,7 +9,7 @@ tags: [Hexo,CI]
 1. 自动合并自定义内容与配置
 2. 校验更新操作是否正常工作
 
-> 如果您不了解如何使用hexo搭建博客，您可以参考这篇博客：<https://jiangtj.gitlab.io/2017/10/10/gitlab-pages-for-hexo/>
+> 如果您不了解如何使用hexo搭建博客，您可以参考这篇博客：<https://jiangtj.gitlab.io/articles/almond/gitlab-pages-for-hexo/>
 
 <!-- more -->
 
