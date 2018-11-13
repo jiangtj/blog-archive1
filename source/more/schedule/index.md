@@ -13,7 +13,7 @@ comments: false
 - Kubernetes 基于容器技术的分布式架构
 
 # 计划
-- Mycat 数据库分库分表中间件
+- Sharding-Sphere 分布式数据库中间件
 - Vertx java框架
 
 <!-- more -->
@@ -28,6 +28,7 @@ comments: false
 - TICK技术栈 数据采集、存储、分析、监控方案
 
 # 备选
+- Mycat 数据库分库分表中间件
 - Grafana 多数据源数据分析
 - Jenkins 持续集成工具（目前最主流的CI工具）
 - Gitbook 静态文档工具（相对的阅读体验更佳，但配置与UI较差）
