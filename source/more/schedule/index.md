@@ -31,7 +31,7 @@ comments: false
 - Mycat 数据库分库分表中间件
 - Grafana 多数据源数据分析
 - Jenkins 持续集成工具（目前最主流的CI工具）
-- Gitbook 静态文档工具（相对的阅读体验更佳，但配置与UI较差）
+- ~~Gitbook 静态文档工具（做协作平台，不在维护该工具）~~
 - VuePress 静态文档工具（配置复杂，seo优化好）
 - Guava Google的java工具类
 - Dart 类js语言（沉迷于其它，暂无时间）
