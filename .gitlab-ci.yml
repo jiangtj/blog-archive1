@@ -17,6 +17,9 @@ pages:
   # update dependencies
   - yarn install
 
+  # clean
+  - hexo clean
+
   # generate another theme
   - hexo generate --config themes/artchen-typescript.yml
   - mv public temp_public
