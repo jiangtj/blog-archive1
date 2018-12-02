@@ -54,7 +54,7 @@ a:hover {
     margin: 0 auto;
     padding: 0;
     width: 120px;
-    margin: 20px 0;
+    margin: 10px 0;
 }
 
 .item .fab,.fas {
@@ -63,7 +63,7 @@ a:hover {
 
 
 .tt-avatar {
-    margin: 150px auto 30px;
+    margin: 100px auto 30px;
     width:160px;
     height:160px;
     border-radius:100px;
