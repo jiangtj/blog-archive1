@@ -158,16 +158,6 @@ feed:
   order_by: -date
 
 theme_config:
-  # Gitalk
-  # more info please open https://github.com/gitalk/gitalk
-  gitalk:
-    enable: false
-    clientID: 1aa6738adddb1c5ff8e1
-    clientSecret: dd0d9bcafa5dd98f196fe3877ddfe163b485679d
-    repo: comment
-    owner: jiangtjtest
-    admin: jiangtjtest
-    pagerDirection: first
   # baidu_site_verification
   baidu_site_verification: xtf2YgRPUK
   links:
