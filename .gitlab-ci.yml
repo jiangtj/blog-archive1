@@ -57,7 +57,6 @@ github:
     - git init
     - git add .
     - git commit -m "gitlab-auto-deploy"
-    - git push --force --quiet --set-upstream https://$GITHUB_ACCESS_TOKEN@github.com/jiangtj/jiangtj.github.io.git gh-pages
+    - git push --force --quiet --set-upstream https://$GITHUB_ACCESS_TOKEN@github.com/jiangtj/jiangtj.github.io.git master:gh-pages
   only:
     - master
-  
