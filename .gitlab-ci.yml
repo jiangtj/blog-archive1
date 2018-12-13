@@ -1,13 +1,14 @@
+image: node:10.13.0
+
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
 
 before_script:
-  # - export TZ='Asia/Shanghai'
   # Restore last modified time
   - "git ls-files -z | while read -d '' path; do touch -d \"$(git log -1 --format=\"@%ct\" \"$path\")\" \"$path\"; done"
 
 pages:
-  image: node:10.13.0
+  stage: build
   cache:
     paths:
     - node_modules/
@@ -46,3 +47,17 @@ pages:
 
   only:
   - master
+
+github:
+  stage: deploy
+  script:
+    - git config --global user.name "jiangtj"
+    - git config --global user.email "jiang.taojie@foxmail.com"
+    - cd ./public
+    - git init
+    - git add .
+    - git commit -m "gitlab-auto-deploy"
+    - git push --force --quiet --set-upstream https://$GITHUB_ACCESS_TOKEN@github.com/jiangtj/jiangtj.github.io.git gh-pages
+  only:
+    - master
+  
