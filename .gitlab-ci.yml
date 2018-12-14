@@ -14,8 +14,6 @@ pages:
     - node_modules/
 
   script:
-
-  - ls themes/next-sub
   
   # install cli
   - yarn global add hexo-cli
@@ -42,11 +40,12 @@ pages:
 
   artifacts:
     paths:
-    - public
+      - public
     expire_in: 3 mos
 
   only:
-  - master
+    - tags
+    - master
 
 github:
   stage: deploy
@@ -59,4 +58,4 @@ github:
     - git commit -m "gitlab-auto-deploy"
     - git push --force --quiet --set-upstream https://$GITHUB_ACCESS_TOKEN@github.com/jiangtj/jiangtj.github.io.git master
   only:
-    - master
+    - tags
