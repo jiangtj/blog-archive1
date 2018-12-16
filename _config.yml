@@ -87,6 +87,10 @@ i18n:
   type: [page, post]
   generator: [index, archive, category, tag]
 
+# ... 标准M与GFM不同
+marked:
+  breaks: false
+
 pwa:
   manifest:
     path: /manifest.json
