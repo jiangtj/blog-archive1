@@ -162,10 +162,10 @@ feed:
   order_by: -date
 
 theme_config:
-  # baidu_site_verification
   baidu_site_verification: xtf2YgRPUK
-  links:
+  #links:
     #Mzeht: http://mzeht.com/
-    你很棒: http://www.cnblogs.com/lovelinux199075/
+    #你很棒: http://www.cnblogs.com/lovelinux199075/
     #leiqjl: http://www.cnblogs.com/leiqjl
-
+  #social:
+    #Find More Mine Site: https://jiangtj.gitlab.io/cover || heart

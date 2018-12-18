@@ -37,4 +37,4 @@ Best Wishes In 2018.12.18
 - 工具: IntelliJ, VS Code, Git, Jenkins, Gitlab-CI
 - 架构: Spring Cloud, Docker
  
-*新域名(dnocm.com)被吃了，稍后哦~~*
+*新域名(dnocm.com)被吃掉了，稍后哦~~*
