@@ -143,3 +143,7 @@ live2d:
     opacityDefault: 0.7
     opacityOnHover: 0.2
 
+
+# ... 标准M与GFM不同
+marked:
+  breaks: false

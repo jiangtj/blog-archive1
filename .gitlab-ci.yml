@@ -28,6 +28,8 @@ pages:
   - hexo generate --config themes/artchen-typescript.yml
   - mv public temp_public
 
+  # clean
+  - hexo clean
   # generate next theme
   - hexo generate
 
