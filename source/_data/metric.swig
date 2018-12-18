@@ -30,7 +30,7 @@
       var end = referrerData.indexOf("/",begin);
       var host = referrerData.substring(begin,end).split(":")[0];
       //var influxTemp = "referrer,host="+influx.referrer.host + " value='"+referrerData + "'";
-      if (host != "localhost" && host != "jiangtj.gitlab.io" && host != "jiangtj.github.io") {
+      if (host != window.location.hostname) {
         influx.data.referrer=host;
       }
     }
