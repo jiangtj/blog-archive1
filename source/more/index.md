@@ -18,16 +18,16 @@ Best Wishes In 2018.12.18
 
 # PY？
 <a href="mailto:love@dnocm.com" target="_blank">
-  <img style="marge:0;float:left;" src="https://img.shields.io/badge/Mail-@dnocm-blue.svg" alt="mail">
+<img style="margin:0;float:left;" src="https://img.shields.io/badge/Mail-@dnocm-blue.svg" alt="mail">
 </a>
 <a href="https://github.com/JiangTJ" target="_blank">
-  <img style="marge:0;float:left;" src="https://img.shields.io/badge/GitHub-JiangTJ-blue.svg" alt="GitHub">
+<img style="margin:0;float:left;" src="https://img.shields.io/badge/GitHub-JiangTJ-blue.svg" alt="GitHub">
 </a>
 <a href="https://gitlab.com/JiangTJ" target="_blank">
-  <img style="marge:0;float:left;" src="https://img.shields.io/badge/GitLab-JiangTJ-blue.svg" alt="GitHub">
+<img style="margin:0;float:left;" src="https://img.shields.io/badge/GitLab-JiangTJ-blue.svg" alt="GitHub">
 </a>
 <a href="http://www.jianshu.com/u/42d8a7c1b531" target="_blank">
-  <img style="marge:0;float:left;" src="https://img.shields.io/badge/简书-MrTT-blue.svg" alt="简书">
+<img style="margin:0;float:left;" src="https://img.shields.io/badge/简书-MrTT-blue.svg" alt="简书">
 </a>
 <div style="clear:both;"></div>
 
