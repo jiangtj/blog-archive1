@@ -1,23 +1,40 @@
 ---
-title: 关于
-date: 2017-10-17
+title: Dnocm
+date: 2018-12-18
 comments: false
 ---
 
-#### Kurome
+# <span style="color:red">D</span>o you <span style="color:red">no</span>ti<span style="color:red">c</span>e <span style="color:red">m</span>e?
+你注意过我么    
+距离上一次更新关于界面正好一年的时间    
+这一年来，断断续续写了好几篇文章   
+但更多的觉得在原地踏步    
+甚至连未来的目标也模糊了，后端？前端？架构师？    
+所以之后的日子不想再这么颓废下去    
+所以新的标题，新的域名，一切都重新开始    
+这或许是我最好的选择吧   
+但无论如何感谢您的到来    
+Best Wishes In 2018.12.18   
 
-是我最喜爱的动漫人物之一---黑瞳     
+# PY？
+<a href="mailto:love@dnocm.com" target="_blank">
+  <img style="marge:0;float:left;" src="https://img.shields.io/badge/Mail-@dnocm-blue.svg" alt="mail">
+</a>
+<a href="https://github.com/JiangTJ" target="_blank">
+  <img style="marge:0;float:left;" src="https://img.shields.io/badge/GitHub-JiangTJ-blue.svg" alt="GitHub">
+</a>
+<a href="https://gitlab.com/JiangTJ" target="_blank">
+  <img style="marge:0;float:left;" src="https://img.shields.io/badge/GitLab-JiangTJ-blue.svg" alt="GitHub">
+</a>
+<a href="http://www.jianshu.com/u/42d8a7c1b531" target="_blank">
+  <img style="marge:0;float:left;" src="https://img.shields.io/badge/简书-MrTT-blue.svg" alt="简书">
+</a>
+<div style="clear:both;"></div>
 
-#### 技能
+# 我会的，就这些吧？
 - 语言: Java, JavaScript, Dart
 - 系统: Ubuntu 16, Windows 10
 - 工具: IntelliJ, VS Code, Git, Jenkins, Gitlab-CI
 - 架构: Spring Cloud, Docker
-
-#### 联系方式
-
-- 邮箱:   <jiang.taojie@foxmail.com>
-- 简书:   [MrTT](http://www.jianshu.com/u/42d8a7c1b531)
-- GitHub: [JiangTJ](https://github.com/JiangTJ)
-- GitLab: [JiangTJ](https://gitlab.com/JiangTJ)  
-
+ 
+*新域名(dnocm.com)被吃了，稍后哦~~*

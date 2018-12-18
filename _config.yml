@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Kurome ☀
+title: Dnocm ☀
 subtitle: 若白驹过隙，忽然而已
-description: 
+description: Dnocm ☀ Do U Notice Me?
 author: Mr.J
 language: zh-CN
 timezone: Asia/Shanghai
@@ -95,8 +95,8 @@ pwa:
   manifest:
     path: /manifest.json
     body:
-      name: Kurome Blog
-      short_name: Kurome
+      name: Dnocm Blog
+      short_name: dnocm
       lang: zh-CN
       start_url: .
       display: standalone
@@ -165,7 +165,7 @@ theme_config:
   # baidu_site_verification
   baidu_site_verification: xtf2YgRPUK
   links:
-    Mzeht: http://mzeht.com/
+    #Mzeht: http://mzeht.com/
     你很棒: http://www.cnblogs.com/lovelinux199075/
-    leiqjl: http://www.cnblogs.com/leiqjl
+    #leiqjl: http://www.cnblogs.com/leiqjl
 
