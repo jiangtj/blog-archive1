@@ -5,7 +5,7 @@ comments: false
 ---
 
 # <span style="color:red">D</span>o you <span style="color:red">no</span>ti<span style="color:red">c</span>e <span style="color:red">m</span>e?
-你注意过我么    
+你注意到我了吗    
 距离上一次更新关于界面正好一年的时间    
 这一年来，断断续续写了好几篇文章   
 但更多的觉得在原地踏步    
@@ -31,10 +31,10 @@ Best Wishes In 2018.12.18
 </a>
 <div style="clear:both;"></div>
 
-# 我会的，就这些吧？
+# 大概就这些？
 - 语言: Java, JavaScript, Dart
 - 系统: Ubuntu 16, Windows 10
 - 工具: IntelliJ, VS Code, Git, Jenkins, Gitlab-CI
 - 架构: Spring Cloud, Docker
  
-*新域名(dnocm.com)被吃掉了，稍后哦~~*
+*新域名(dnocm.com)被吃掉了，稍后哦ヽ(ﾟ∀ﾟ*)ﾉ━━━ｩ♪*
