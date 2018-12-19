@@ -4,14 +4,14 @@ date: 2018-12-18
 comments: false
 ---
 
-# <span style="color:red">D</span>o you <span style="color:red">no</span>ti<span style="color:red">c</span>e <span style="color:red">m</span>e?
-你注意到我了吗    
+# <span style="color:red">D</span>e<span style="color:red">no</span>minator of <span style="color:red">c</span>li<span style="color:red">m</span>ber?
 距离上一次更新关于界面正好一年的时间    
 这一年来，断断续续写了好几篇文章   
 但更多的觉得在原地踏步    
 甚至连未来的目标也模糊了，后端？前端？架构师？    
 所以之后的日子不想再这么颓废下去    
 所以新的标题，新的域名，一切都重新开始    
+以"登山者"为目标    
 这或许是我最好的选择吧   
 但无论如何感谢您的到来    
 Best Wishes In 2018.12.18   
