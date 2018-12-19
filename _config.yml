@@ -5,14 +5,14 @@
 # Site
 title: Dnocm ☀
 subtitle: 若白驹过隙，忽然而已
-description: Dnocm ☀ Denominator Of Climber
+description: Denominator Of Climber
 author: Mr.J
 language: zh-CN
 timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://jiangtj.gitlab.io
+url: https://www.dnocm.com
 root: /
 permalink: articles/:title/
 permalink_defaults:
