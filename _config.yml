@@ -169,3 +169,18 @@ theme_config:
     #leiqjl: http://www.cnblogs.com/leiqjl
   #social:
     #Find More Mine Site: https://jiangtj.gitlab.io/cover || heart
+  menu:
+    home: / || home
+    tags: /tags/ || tags
+    categories: /categories/ || th
+    archives: /archives/ || archive
+    #sitemap: /sitemap.xml || sitemap
+    #commonweal: /404/ || heartbeat
+    更多:
+      default: /more/ || info-circle
+      我: https://www.dnocm.com/cover || heart
+      数据: https://chro.j-time.cn/sources/1/dashboards/2 || sitemap
+      schedule: /schedule/ || calendar
+      公告: /update/ || cogs
+      工具: /tools/ || briefcase
+      VPN: /vpn/ || plane

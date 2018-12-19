@@ -1,3 +1,4 @@
+# 暂时不用了
 image: node:10.13.0
 
 variables:

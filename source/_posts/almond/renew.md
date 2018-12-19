@@ -8,11 +8,13 @@ date: 2018-12-18
 
 所以准备在接下来有所改变
 
-新的域名（dnocm.com）,来自<span style="color:red">D</span>o you <span style="color:red">no</span>ti<span style="color:red">c</span>e <span style="color:red">m</span>e。算是一种督促吧，我会再近期将其他站点迁移到这上面   
+新的域名（dnocm.com）,我会再近期将其他站点迁移到这上面   
 
 新的博客Lofter，准备写一些其他兴趣相关的（Code外，动漫、游戏？），虽然目前还是零记录   
 
 新的CI/CD，使用Netlify做静态托管，能自动https，GitLab 3年前就开始讨论与准备集成Let's Encrypt，但。。。    
 
 新的邮箱（有新域名自然换啊），<love@dnocm.com>欢迎联系   
+
+新的封页（https://www.dnocm.com/cover）,可能调整到根路径下，打算用Web Components重写，打算中。。。
 
