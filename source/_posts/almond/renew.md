@@ -14,7 +14,7 @@ date: 2018-12-18
 
 新的CI/CD，使用Netlify做静态托管，能自动https，GitLab 3年前就开始讨论与准备集成Let's Encrypt，但。。。    
 
-新的邮箱（有新域名自然换啊），<love@dnocm.com>欢迎联系   
+新的邮箱（有新域名自然换啊），<i@dnocm.com>欢迎联系   
 
-新的封页（https://www.dnocm.com/cover）,可能调整到根路径下，打算用Web Components重写，打算中。。。
+新的封页（<https://www.dnocm.com/cover>）,可能调整到根路径下，打算用Web Components重写，打算中。。。
 

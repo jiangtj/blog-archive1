@@ -17,7 +17,7 @@ comments: false
 Best Wishes In 2018.12.18   
 
 # PY？
-<a href="mailto:love@dnocm.com" target="_blank">
+<a href="mailto:i@dnocm.com" target="_blank">
 <img style="margin:0;float:left;" src="https://img.shields.io/badge/Mail-@dnocm-blue.svg" alt="mail">
 </a>
 <a href="https://github.com/JiangTJ" target="_blank">
