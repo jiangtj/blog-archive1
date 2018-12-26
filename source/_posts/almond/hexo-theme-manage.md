@@ -46,6 +46,14 @@ git submodule add <remote-url> <local-path>
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
 ```
+
+# npm依赖更新
+除了主题外还有hexo相关脚本需要更新。事实上，我们很难知道哪些脚本发布了新版本，这和npm更新机制有很大关系，如果在版本号前添加了`^`那么npm会下载兼容的最新版本包（除非存在`package.lock`或者`yarn.loc`），比如`^1.0.0`，如果存在`1.0.1`版本，那么你下载下来的是后者。。。    
+
+关于依赖的管理，通过GitHub市场中的[依赖管理工具](https://github.com/marketplace/category/dependency-management)会是个不错的办法，比如我所使用的[dependabot](https://github.com/marketplace/dependabot)，它会帮助我检测最新的依赖，并更新它（提交PR），我做的事就只剩Merge了。    
+
+这里就存在另一个问题，怎么测试PR是否正常运行。一个方式是本地部署PR分支测试，但大部分情况下都不会出问题，这就比较耗时了。这里我使用[Netlify](https://www.netlify.com/)PR预览功能，协助我测试（我最近已经将托管服务迁移到它上了，如果使用GitLab做托管，那么你可能需要做双向镜像，以便GitLab与GitHub之间的代码库保持一致）。   
+
 # 参考
 1. [GitHub - 对项目做出贡献](https://git-scm.com/book/zh/v2/GitHub-%E5%AF%B9%E9%A1%B9%E7%9B%AE%E5%81%9A%E5%87%BA%E8%B4%A1%E7%8C%AE)
 2. [Git 工具 - 子模块](https://git-scm.com/book/zh/v2/Git-%E5%B7%A5%E5%85%B7-%E5%AD%90%E6%A8%A1%E5%9D%97)
