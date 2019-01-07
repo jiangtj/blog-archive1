@@ -1,8 +1,8 @@
 ---
 title: 微服务设计 - 版本控制
 date: 2018-11-10
-categories: [DevOps]
-tags: [Version Control,Design]
+categories: [Design]
+tags: [Version Control,Design,Microservices]
 ---
 
 # 背景
