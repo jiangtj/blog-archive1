@@ -161,6 +161,9 @@ feed:
   content_limit_delim: ' '
   order_by: -date
 
+netlify_cms:
+  config_file: netlify.yaml
+
 theme_config:
   baidu_site_verification: xtf2YgRPUK
   #links:
