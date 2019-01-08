@@ -1053,10 +1053,10 @@ hexo-generator-archive@^0.1.5:
     hexo-pagination "0.0.2"
     object-assign "^2.0.0"
 
-hexo-generator-baidu-sitemap@^0.1.5:
-  version "0.1.5"
-  resolved "https://registry.yarnpkg.com/hexo-generator-baidu-sitemap/-/hexo-generator-baidu-sitemap-0.1.5.tgz#c012afd89f07d592a20101dc90cdd89dbb73e28f"
-  integrity sha512-aogAsd6wcRZGro8ttUY2L+Aj4a/9FwNHR0ZykpwAW7d3bGxMdCsVu7F7zanQT/MnwBEZxSaZhbZ3JX9bEjEqtw==
+hexo-generator-baidu-sitemap@^0.1.6:
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/hexo-generator-baidu-sitemap/-/hexo-generator-baidu-sitemap-0.1.6.tgz#0ac2f89a62a28d9b5b9710fdd29d2e9425d54f04"
+  integrity sha512-8AAqiuMp0MriVC8lFeFn4Y6O1dPvEo/YHxJWBdaEevoYyfCOtwdunk21XTcIHPHH9voWaKTuC0RJ1Cdaz8KifQ==
   dependencies:
     ejs "^2.5.5"
     hexo "^3.0.0"
