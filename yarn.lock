@@ -1138,10 +1138,10 @@ hexo-log@^0.2.0:
     chalk "^1.1.1"
     hexo-bunyan "^1.0.0"
 
-hexo-netlify-cms@^0.0.9:
-  version "0.0.9"
-  resolved "https://registry.yarnpkg.com/hexo-netlify-cms/-/hexo-netlify-cms-0.0.9.tgz#3baeb281a0f5715487ab4f2260a50046f778178b"
-  integrity sha512-rwXdR61gu8WsEDhd1TaoY++5t+3T4IsUyOIZnAalIPFQOcLzG7+tMuFSMe4DcEW6/uNZrRDPKnmeZfah2c8RDw==
+hexo-netlify-cms@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/hexo-netlify-cms/-/hexo-netlify-cms-0.1.0.tgz#bcc8ae4e471c681032f2afe370cde1a522728d05"
+  integrity sha512-CPcMdG/RE71xKfwKczDIMKltWuQactSMCch0ag1ox/aj8pB/cYatbKRHUk8ROc0ZXD6JB+PANkk3Yh52qWR4Tw==
   dependencies:
     js-yaml "^3.12.1"
 
