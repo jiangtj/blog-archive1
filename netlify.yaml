@@ -31,7 +31,8 @@ collections:
       preview: false
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "date", dateFormat: "YYYY-MM-DD", required: false}
+      - {label: "Publish Date", name: "date", widget: "date", format: "YYYY-MM-DD", dateFormat: "YYYY-MM-DD", required: false}
       - {label: "Tags", name: "tags", widget: "list", required: false}
       - {label: "Categories", name: "categories", widget: "list", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: false}
+      - {label: "Comments", name: "comments", widget: "boolean", default: true, required: false}
