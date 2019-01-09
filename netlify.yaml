@@ -3,6 +3,7 @@ backend:
   branch: master
 
 publish_mode: editorial_workflow
+
 # pages auto generate
 pages: 
   enabled: true
@@ -14,6 +15,8 @@ pages:
     editor:
       preview: false
     # fields: 
+# through hexo config over fields
+over_format: true
 
 media_folder: source/images/uploads
 public_folder: /images/uploads
@@ -31,7 +34,7 @@ collections:
       preview: false
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "date", format: "YYYY-MM-DD", dateFormat: "YYYY-MM-DD", required: false}
+      - {label: "Publish Date", name: "date", widget: "date", required: false}
       - {label: "Tags", name: "tags", widget: "list", required: false}
       - {label: "Categories", name: "categories", widget: "list", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: false}
