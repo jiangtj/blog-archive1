@@ -1,7 +1,7 @@
 ---
 title: 这是什么
 date: 2018-12-18
-comments: false
+comments: true
 ---
 
 # Hi!
@@ -35,5 +35,4 @@ Best Wishes In 2018.12.18
 - 工具: IntelliJ, VS Code, Git, Jenkins, Gitlab-CI
 - 架构: Spring Cloud, Docker
  
-*新域名(dnocm.com)上线了ヽ(ﾟ∀ﾟ*)ﾉ━━━ｩ♪*    
-*(这个域名仅仅因为够短，写起来好看，没意义哈...)*   
+*新域名(dnocm.com)上线了ヽ(ﾟ∀ﾟ)ﾉ━━━ｩ♪(这个域名仅仅因为够短，写起来好看，没意义哈...)*

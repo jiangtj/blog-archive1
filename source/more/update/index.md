@@ -1,8 +1,7 @@
 ---
 title: 调整公告
 date: 2018-11-12 13:01:12
-reward: false
-comments: false
+comments: true
 ---
 
 # 2018-12-19
