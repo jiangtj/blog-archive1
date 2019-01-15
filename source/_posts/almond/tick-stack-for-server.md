@@ -66,7 +66,7 @@ sudo service chronograf start
 目前Chronograf 的权限支持github,google等账号体系，但企业内部使用可能需要重新开发，满足企业内部帐号权限系统  
 
 # 其他   
-事实上，监控的功能挺多余的，云服务商一般都为我们提供了不错的监控服务。但influxdb，目前来说最主流的时序数据库，可以用来存储其他一些数据。例如网站的访问量等。再通过chronograf展示数据，在[我的博客](https://jiangtj.gitlab.io/)的左侧菜单上有站点数据，就是通过这种方式来实现的，[我统计用的js脚本可以点这里看](https://gitlab.com/JiangTJ/jiangtj.gitlab.io/blob/master/source/_data/metric.swig)。   
+事实上，监控的功能挺多余的，云服务商一般都为我们提供了不错的监控服务。但influxdb，目前来说最主流的时序数据库，可以用来存储其他一些数据。例如网站的访问量等。再通过chronograf展示数据，在[我的博客](https://www.dnocm.com/)的左侧菜单上有站点数据，就是通过这种方式来实现的，[我统计用的js脚本可以点这里看](https://gitlab.com/JiangTJ/jiangtj.gitlab.io/blob/master/source/_data/metric.swig)。   
 
 # 参考
 - [TICK技术栈 -- DevOps轻量级监控解决方案](https://blog.csdn.net/lin_credible/article/details/60579738)  

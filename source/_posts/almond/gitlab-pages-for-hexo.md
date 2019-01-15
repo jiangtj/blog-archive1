@@ -83,7 +83,7 @@ git push -u origin master
 ```
 
 #### Add CI config  
-Please rename `<*-name>` to real name, such as `sed -ri 's/.*(url:.*)/url: https:\/\/jiangtj.gitlab.io/g' _config.yml`   
+Please rename `<*-name>` to real name, such as `sed -ri 's/.*(url:.*)/url: https:\/\/www.dnocm.com/g' _config.yml`   
 ```bash
 wget -O .gitlab-ci.yml https://gitlab.com/JiangTJ/hexo/raw/master/.gitlab-ci.yml?inline=false
 sed -ri 's/.*(url:.*)/url: https:\/\/<your-gitlab-name>.gitlab.io/g' _config.yml

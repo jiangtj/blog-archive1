@@ -67,7 +67,7 @@ release-deploy:
   only:
     - /^release-.*$/
 ```
-其中shell脚本，与我的[另一篇博客](https://jiangtj.gitlab.io/articles/almond/spring-boot-autorun-with-gitlab/)类似，稍做修改就行
+其中shell脚本，与我的[另一篇博客](https://www.dnocm.com/articles/almond/spring-boot-autorun-with-gitlab/)类似，稍做修改就行
 
 # 参考文档
 - [GitLab CI Document](https://docs.gitlab.com/ee/ci/)
