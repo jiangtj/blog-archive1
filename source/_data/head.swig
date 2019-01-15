@@ -18,6 +18,7 @@ Custom head.
 <!-- /Chatra {/literal} -->
 
 <!-- Google Ads -->
+<!-- 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <script>
   (adsbygoogle = window.adsbygoogle || []).push({
@@ -28,3 +29,4 @@ Custom head.
 <script async custom-element="amp-auto-ads"
         src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
 </script>
+ -->
