@@ -165,6 +165,7 @@ netlify_cms:
   config_file: netlify.yaml
 
 theme_config:
+  # scheme: Muse
   baidu_site_verification: xtf2YgRPUK
   google_site_verification: TWf4Ma3V7xRcvKFWw_1iOCJKgNJmUUB1CmLucKjvV2A
   google_analytics: UA-132230328-1
