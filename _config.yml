@@ -167,6 +167,7 @@ netlify_cms:
 theme_config:
   # scheme: Muse
   baidu_site_verification: xtf2YgRPUK
+  baidu_analytics: 52b8556a6b4d24a9509575c96cce2c4a
   google_site_verification: TWf4Ma3V7xRcvKFWw_1iOCJKgNJmUUB1CmLucKjvV2A
   google_analytics: UA-132230328-1
   #links:
