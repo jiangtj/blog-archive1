@@ -15,25 +15,7 @@ comments: true
 Best Wishes In 2018.12.18     
 
 # PY？
-<a href="mailto:i@dnocm.com" target="_blank">
-<img style="margin:0;float:left;" src="https://img.shields.io/badge/Mail-@dnocm-blue.svg" alt="Mail">
-</a>
-<a href="https://github.com/JiangTJ" target="_blank">
-<img style="margin:0;float:left;" src="https://img.shields.io/badge/GitHub-JiangTJ-blue.svg" alt="GitHub">
-</a>
-<a href="https://gitlab.com/JiangTJ" target="_blank">
-<img style="margin:0;float:left;" src="https://img.shields.io/badge/GitLab-JiangTJ-blue.svg" alt="GitHub">
-</a>
-<a href="http://www.jianshu.com/u/42d8a7c1b531" target="_blank">
-<img style="margin:0;float:left;" src="https://img.shields.io/badge/简书-MrTT-blue.svg" alt="简书">
-</a>
-<a href="https://gitter.im/jiangtj/Lobby" target="_blank">
-<img style="margin:0;float:left;" src="https://img.shields.io/gitter/room/jiangtj/Lobby.svg" alt="Gitter">
-</a>
-<!-- <a href="https://discord.gg/h98cTKQ" target="_blank">
-<img style="margin:0;float:left;" src="https://img.shields.io/discord/441186172287582209.svg?logo=discord" alt="Discord">
-</a> -->
-<div style="clear:both;"></div>
+{% shields mine %}
 
 # 大概就这些？
 - 语言: Java, JavaScript, Dart
