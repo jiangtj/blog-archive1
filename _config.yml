@@ -190,6 +190,9 @@ theme_config:
       好友: /friends/ || heart
       schedule: /schedule/ || calendar
       公告: /update/ || bullhorn
-      工具: /tools/ || briefcase
+      工具: 
+        default: /tools/ || briefcase
+        正则: /regex/ || registered
+        二维码: /qrcode/ || qrcode
       VPN: /vpn/ || plane
 
