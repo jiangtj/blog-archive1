@@ -174,8 +174,17 @@ theme_config:
     #Mzeht: http://mzeht.com/
     #你很棒: http://www.cnblogs.com/lovelinux199075/
     #leiqjl: http://www.cnblogs.com/leiqjl
-  #social:
+  social:
     #Find More Mine Site: https://www.dnocm.com/cover || heart
+    Mail: mailto:i@dnocm.com || envelope
+    GitHub: https://github.com/JiangTJ || github
+    GitLab: https://gitlab.com/JiangTJ || gitlab
+    Gitter: https://gitter.im/jiangtj/Lobby || github-alt
+    Telegram: https://t.me/dnocm || telegram
+  social_icons:
+    enable: true
+    icons_only: true
+    transition: true
   menu:
     home: / || home
     tags: /tags/ || tags
@@ -185,11 +194,14 @@ theme_config:
     #commonweal: /404/ || heartbeat
     更多:
       default: /more/ || info-circle
-      我: https://www.dnocm.com/cover || heart
+      #我: https://www.dnocm.com/cover || heart
       #数据: https://chro.j-time.cn/sources/1/dashboards/2 || sitemap
       好友: /friends/ || heart
       schedule: /schedule/ || calendar
-      公告: /update/ || bullhorn
+      公告: 
+        default: /bullhorn/ || bullhorn
+        文章: /articles/ || font
+        技术: /tech/ || fire
       工具: 
         default: /tools/ || briefcase
         正则: /regex/ || registered

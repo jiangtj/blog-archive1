@@ -1,5 +1,5 @@
 ---
-title: 调整公告
+title: 公告
 date: 2018-11-12 13:01:12
 comments: true
 ---
