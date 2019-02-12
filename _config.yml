@@ -178,7 +178,7 @@ theme_config:
     #Find More Mine Site: https://www.dnocm.com/cover || heart
     Mail: mailto:i@dnocm.com || envelope
     GitHub: https://github.com/JiangTJ || github
-    GitLab: https://gitlab.com/JiangTJ || gitlab
+    #GitLab: https://gitlab.com/JiangTJ || gitlab
     Gitter: https://gitter.im/jiangtj/Lobby || github-alt
     Telegram: https://t.me/dnocm || telegram
   social_icons:
