@@ -25,4 +25,6 @@ Best Wishes In 2018.12.18
  
 *新域名(dnocm.com)上线了ヽ(ﾟ∀ﾟ)ﾉ━━━ｩ♪(这个域名仅仅因为够短，写起来好看，没意义哈...)*    
 
-[还有这里，一个问卷调查，关于这个站点](https://wj.qq.com/s2/3118951/60bf)   
+<a data-fancybox data-type="iframe" data-src="https://wj.qq.com/s2/3118951/60bf/" href="javascript:;">
+	还有这里，一个问卷调查，关于这个站点!!
+</a>
