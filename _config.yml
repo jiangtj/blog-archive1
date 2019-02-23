@@ -70,7 +70,9 @@ favicon: /images/Smile.ico
 
 search:
   path: search.xml
-  field: post
+  field: all
+  format: raw
+  limit: 1000
 
 # sitemap
 sitemap:
