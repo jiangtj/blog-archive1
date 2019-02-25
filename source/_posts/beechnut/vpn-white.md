@@ -25,7 +25,7 @@ tags: [vpn]
 # 使用SS
 1. 添加密钥，你可以为不同使用者分配不同的key
 {% asset_img 3.png %}
-2. 点击上图中的分享，或者其中的SS密钥
+2. 点击上图中的分享，复制其中的SS密钥（access key）
 {% asset_img 4.png %}
 3. 下载客户端，outline客户端不好用，推荐官方的
   - [安卓](https://github.com/shadowsocks/shadowsocks-android/releases)
