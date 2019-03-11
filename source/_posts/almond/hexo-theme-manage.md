@@ -36,7 +36,7 @@ git submodule add <remote-url> <local-path>
 
 
 如果您使用vs code，那么在侧边栏Git里，可以很方便的可视化管理子模块
-{% img /images/md/almond/sub-vs.png sub-vs %}
+{% img /images/md/almond/sub-vs.png 300 sub-vs %}
 
 这样之后，您的更新操作，也变得足够简单，基本自定义的配置错了，也可以直接对子模块做修改并提交
 

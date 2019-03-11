@@ -56,7 +56,7 @@ git push origin master
 # 图像转换功能
 这是另一大激动人心的功能，能帮我们自动转换图片大小。可以省下我们很多事。或者说我们可以不再准备多套分辨率了，想调用api一样获得
 
-不过在hexo中比较难处理。目前我也只能通过[过滤器](https://github.com/JiangTJ/hexo-theme-next/blob/neet/scripts/filters/netlify-lm.js)，把`<img>`中带`width`、`height`转化为netlify的图像转换api，那样就能得到适合大小的图片，加快页面载入
+通过响应式懒加载库lazod.js实现了该功能，[过滤器](https://github.com/JiangTJ/hexo-theme-next/blob/neet/scripts/filters/lazyload.js)，但奇怪的地方是图片明明一样的，但在不同屏幕下，显示大小不同。所以我改为宽度100%作为默认方案。
 
 # 参考
 1. [Netlify Large Media Doc](https://www.netlify.com/docs/large-media/)
