@@ -216,4 +216,9 @@ theme_config:
     alpha: 0.6
     zIndex: -1
   excerpt_description: false
+  disqus:
+    enable: true
+    shortname: jiangtj
+    count: false
+    lazyload: false
 
