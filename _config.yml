@@ -202,7 +202,7 @@ theme_config:
       #我: https://www.dnocm.com/cover || heart
       #数据: https://chro.j-time.cn/sources/1/dashboards/2 || sitemap
       好友: /friends/ || heart
-      schedule: /schedule/ || calendar
+      #schedule: /schedule/ || calendar
       公告: 
         default: /bullhorn/ || bullhorn
         文章: /articles/ || font
