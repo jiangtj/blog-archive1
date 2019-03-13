@@ -21,10 +21,13 @@ Best Wishes In 2018.12.18
 - 语言: Java, JavaScript, Dart
 - 系统: Ubuntu 16, Windows 10
 - 工具: IntelliJ, VS Code, Git, Jenkins, Gitlab-CI
-- 架构: Spring Cloud, Docker
- 
-*新域名(dnocm.com)上线了ヽ(ﾟ∀ﾟ)ﾉ━━━ｩ♪(这个域名仅仅因为够短，写起来好看，没意义哈...)*    
+- 架构: Spring Cloud, Docker  
 
-<a data-fancybox data-type="iframe" data-src="https://wj.qq.com/s2/3118951/60bf/" href="javascript:;">
-	还有这里，一个问卷调查，关于这个站点!!
-</a>
+# 简历
+<p>
+  <a data-fancybox data-type="iframe" data-src="https://pan.wps.cn/l/s8ikcg4" href="javascript:;">
+	  <i class="fa fa-heart" aria-hidden="true" style='color:black'></i> 我的简历档案，求内推呀！
+  </a>
+</p>
+ 
+*新域名(dnocm.com)上线了ヽ(ﾟ∀ﾟ)ﾉ━━━ｩ♪(这个域名仅仅因为够短，写起来好看，没意义哈...)*  
