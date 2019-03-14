@@ -7,55 +7,71 @@ comments: true
 
 {% tabs Tools %}
 
-<!-- tab 编辑器 -->
-- Typora  markdown编辑器
-- VS Code  代码编辑器
-- OneNote 微软出的笔记应用
-- IntelliJ IDEA java开发工具
+<!-- tab Code -->
+- 编辑器
+  - Typora markdown编辑器
+  - VS Code 文本编辑器
+  - OneNote 笔记本
+  - IntelliJ IDEA Java开发工具
+- Git 客户端
+  - GitHub Desktop
+  - GUI
+- Fiddler 抓包工具
+- Postman 接口调试
+- Navicat 数据库客户端
 <!-- endtab -->
 
-<!-- tab 设计 -->
-- 墨刀  原型模型设计
-- 亿图 流程图软件，试用过期了还能用
+<!-- tab 产品 -->
+- Axure 原型模型设计
+- 亿图 流程图软件
+- Visio 流程图软件
+- MindMaster 脑图
 - Sway 微软出的故事线应用
+- Zeplin 
 <!-- endtab -->
 
-<!-- tab 文档 -->
-- Docsify 静态文档工具
-- VuePress 静态文档工具（配置复杂，seo优化好）
-- Hexo+NexT
-- 石墨文档 协作文档  
-<!-- endtab -->
-
-<!-- tab DevOps -->
-- CI/CD
-  - GitLab-CI 持续集成工具
-  - Jenkins 持续集成工具（目前最主流的CI工具）
+<!-- tab 运维 -->
+- CI/CD 持续集成工具
+  - GitLab-CI 
+  - Jenkins
 - 数据分析
   - TICK技术栈 数据采集、存储、分析、监控方案
   - Grafana 多数据源数据分析
   - Google 分析
 <!-- endtab -->
 
-<!-- tab 消息沟通 -->
-- 客服支持
-  - Chatra
-  - Tidio
-  - small.chat
+<!-- tab 团队 -->
+- 静态文档生成方案
+  - Docsify
+  - VuePress
+  - Hexo+NexT
+- 协作文档
+  - 石墨文档
+  - 腾讯文档
+  - WPS云文档  
 - 内部沟通
   - Slack
-  - Mattermost 开源的slack，企业内部消息平台
+  - Mattermost
+  - WeChat&QQ
+  - Telegram
 <!-- endtab -->
 
 <!-- tab 排行 -->
 - [TIOBE](https://www.tiobe.com/tiobe-index/)
 - [TechEmpower Benchmarks](https://www.techempower.com/benchmarks/)
 - [DB-Engines Ranking](https://db-engines.com/en/ranking)
+- [Wappalyzer Technologies](https://www.wappalyzer.com/technologies)
 <!-- endtab -->
 
 <!-- tab 其他 -->
-- Snipaste  截图工具(出了Win10商店版)
-- Git2Go ios git client
+- 客服支持
+  - Chatra
+  - Tidio
+  - small.chat
+  - Intercom
+- 小工具
+  - Snipaste 截图工具
+  - Sticky Notes 便签 
 <!-- endtab -->
 
 {% endtabs %}
