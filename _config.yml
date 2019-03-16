@@ -184,7 +184,8 @@ theme_config:
     GitHub: https://github.com/JiangTJ || github
     #GitLab: https://gitlab.com/JiangTJ || gitlab
     Gitter: https://gitter.im/jiangtj/Lobby || github-alt
-    Telegram: https://t.me/dnocm || telegram
+    Telegram: https://t.me/jiangtj || telegram
+    Telegram-Group: https://t.me/dnocm || telegram
   social_icons:
     enable: true
     icons_only: true
