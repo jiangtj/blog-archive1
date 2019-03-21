@@ -11,3 +11,10 @@
         src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
 </script>
  -->
+
+<script>
+  ((window.gitter = {}).chat = {}).options = {
+    room: 'jiangtj/Lobby'
+  };
+</script>
+<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>

@@ -224,10 +224,10 @@ theme_config:
     shortname: jiangtj
     count: false
     lazyload: false
-  chatra:
-    enable: true
-    async: true
-    id: BBphpQAouKacekeKq
+  #chatra:
+  #  enable: true
+  #  async: true
+  #  id: BBphpQAouKacekeKq
   back2top:
     enable: true
     sidebar: true
