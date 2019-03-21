@@ -186,6 +186,7 @@ theme_config:
     Gitter: https://gitter.im/jiangtj/Lobby || github-alt
     Telegram: https://t.me/jiangtj || telegram
     Telegram-Group: https://t.me/dnocm || telegram
+    Slack: https://join.slack.com/t/dnocm/shared_invite/enQtNTg0MDMzMzM1ODkzLTQ4YjhkYTg5YTdhMjY3MzdhOGM0ZjI0YzgzYjZjMzZlNmMzNjE4YTkwMTUyN2UzZjFiYzcxN2ZmMWY2ZjFjMzU || slack
   social_icons:
     enable: true
     icons_only: true
