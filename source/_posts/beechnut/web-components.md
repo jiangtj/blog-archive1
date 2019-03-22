@@ -144,7 +144,7 @@ customElements.define('other-custom-element',
 
 # Shadow DOM
 
-{% asset_img shadow-dom.png %}
+{% asset_img shadow-dom.webp %}
 
 如图，Shadow DOM会在自定义标签解析时，加载到普通的DOM上。内部可以通过Element.attachShadow()来获取shadow root。它有一个mode属性，值可以是`open`或者`closed`,表示能否在外部获取Shadow DOM对象，一般而言应当为`closed`，内部实现不应该对外可见。
 
