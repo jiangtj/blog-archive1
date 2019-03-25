@@ -16,17 +16,17 @@ tags: [vpn]
 # 部署SS
 1. 下载[Outline Manage](https://github.com/Jigsaw-Code/outline-server/releases)，选择合适你的系统（日常使用，不是服务器），安装管理软件
 2. 点击添加，选择你的服务器供应商（如果没有，选第四个）
-{% asset_img 1.webp %}
+{% asset_img 1.png %}
 3. 复制步骤1中的脚本，在服务器上运行
-{% asset_img 2.webp %}
+{% asset_img 2.png %}
 4. 耐心等待安装完成
 5. 复制安装结束后的输出内容至上图步骤2的输入框内
 
 # 使用SS
 1. 添加密钥，你可以为不同使用者分配不同的key
-{% asset_img 3.webp %}
+{% asset_img 3.png %}
 2. 点击上图中的分享，复制其中的SS密钥（access key）
-{% asset_img 4.webp %}
+{% asset_img 4.png %}
 3. 下载客户端，outline客户端不好用，推荐官方的
   - [安卓](https://github.com/shadowsocks/shadowsocks-android/releases)
   - [Windows](https://github.com/shadowsocks/shadowsocks-windows/releases)
