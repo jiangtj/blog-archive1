@@ -24,8 +24,6 @@
     "hexo-renderer-marked": "^0.3.2",
     "hexo-renderer-stylus": "^0.3.3",
     "hexo-server": "^0.3.3",
-    "imagemin": "^6.1.0",
-    "imagemin-webp": "^5.0.0",
     "live2d-widget-model-epsilon2_1": "^1.0.5",
     "live2d-widget-model-miku": "^1.0.5"
   }
