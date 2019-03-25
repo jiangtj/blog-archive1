@@ -5,4 +5,3 @@ source/_posts/**/*.jpg filter=lfs diff=lfs merge=lfs -text
 source/_posts/**/*.png filter=lfs diff=lfs merge=lfs -text
 source/_posts/**/*.jpeg filter=lfs diff=lfs merge=lfs -text
 source/_posts/**/*.gif filter=lfs diff=lfs merge=lfs -text
-source/_posts/**/*.webp filter=lfs diff=lfs merge=lfs -text
