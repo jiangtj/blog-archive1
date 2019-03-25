@@ -181,16 +181,22 @@ theme_config:
   social:
     #Find More Mine Site: https://www.dnocm.com/cover || heart
     Mail: mailto:i@dnocm.com || envelope
-    GitHub: https://github.com/JiangTJ || github
-    #GitLab: https://gitlab.com/JiangTJ || gitlab
     Gitter: https://gitter.im/jiangtj/Lobby || github-alt
-    Telegram: https://t.me/jiangtj || telegram
+    Telegram: https://t.me/jiangtj || phone-square
     Telegram-Group: https://t.me/dnocm || telegram
     Slack: https://join.slack.com/t/dnocm/shared_invite/enQtNTg0MDMzMzM1ODkzLTQ4YjhkYTg5YTdhMjY3MzdhOGM0ZjI0YzgzYjZjMzZlNmMzNjE4YTkwMTUyN2UzZjFiYzcxN2ZmMWY2ZjFjMzU || slack
+    Riot: https://riot.im/app/#/room/#dnocm:matrix.org || bolt
+    # GitHub: https://github.com/JiangTJ || github
+    # GitLab: https://gitlab.com/JiangTJ || gitlab
+    # 简书: https://www.jianshu.com/u/42d8a7c1b531 || book
   social_icons:
     enable: true
     icons_only: true
     transition: true
+  github_banner:
+    enable: true
+    permalink: https://github.com/jiangtj
+    title: Follow me on GitHub
   menu:
     home: / || home
     tags: /tags/ || tags
