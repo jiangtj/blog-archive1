@@ -241,3 +241,5 @@ theme_config:
     scrollpercent: true
   add_this_id: ra-5c89eda469b69fca
 
+jiang:
+  post_base_dir: beechnut
