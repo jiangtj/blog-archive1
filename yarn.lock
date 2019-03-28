@@ -1644,10 +1644,10 @@ hexo-log@^0.2.0:
     chalk "^1.1.1"
     hexo-bunyan "^1.0.0"
 
-hexo-netlify-cms@^0.1.2-4:
-  version "0.1.2-4"
-  resolved "https://registry.yarnpkg.com/hexo-netlify-cms/-/hexo-netlify-cms-0.1.2-4.tgz#13476d573cc035aa12f25020b182835d2486757e"
-  integrity sha512-fgEXpm489rAxqvMsPbtBOg3LBU95zOFljpXI5hTPklNacJJ4fC5997T5N77saf4UdWKb5Cb0mgksI07FjAMPQg==
+hexo-netlify-cms@^0.1.2-5:
+  version "0.1.2-5"
+  resolved "https://registry.yarnpkg.com/hexo-netlify-cms/-/hexo-netlify-cms-0.1.2-5.tgz#b8a0c69181dafa0dd4cd70feddb40f2f12babe90"
+  integrity sha512-4vlauAkmwiu7rwIokpeZnOpIwWz7ajgGl4FCu19/DNyE+BIkfjmOcxzyxwPlgGSlVCU00ZUS+z9aGe/CySSPsA==
   dependencies:
     js-yaml "^3.12.1"
 
@@ -2088,16 +2088,9 @@ isurl@^1.0.0-alpha5:
     has-to-string-tag-x "^1.2.0"
     is-object "^1.0.1"
 
-js-yaml@^3.12.1:
+js-yaml@^3.12.1, js-yaml@^3.6.1:
   version "3.12.1"
   resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.12.1.tgz#295c8632a18a23e054cf5c9d3cecafe678167600"
-  dependencies:
-    argparse "^1.0.7"
-    esprima "^4.0.0"
-
-js-yaml@^3.6.1:
-  version "3.12.0"
-  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.12.0.tgz#eaed656ec8344f10f527c6bfa1b6e2244de167d1"
   dependencies:
     argparse "^1.0.7"
     esprima "^4.0.0"
