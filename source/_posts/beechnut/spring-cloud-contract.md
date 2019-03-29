@@ -1,8 +1,11 @@
 ---
 title: Spring Cloud Contract 契约测试
-date: 2019-03-28 23:18:51
-categories: [DevOps]
-tags: [微服务,Spring Cloud]
+date: 2019-03-28T23:18:51.000Z
+tags:
+  - 微服务
+  - Spring Cloud
+categories:
+  - DevOps
 ---
 
 Spring Cloud Contract是契约测试的一个实现，最早看到契约测试还是在《微服务设计》书中，不过那时候绝对想不到真的会接触它。
@@ -146,10 +149,10 @@ response:
 时效性对于契约来说十分重要，若无法保证，那单元测试中的问题就等于没解决，所以需要及时的发布生成的-stubs jar包
 
 1. 配置nexus oss，并发布至上面，与一般的上传一致`mvn deploy`，在例子，我使用的是[jfrog bintray](https://bintray.com/jiangtj/maven)发布
-2. 如果没有二进制存储库，可以选择Git进行发布（待实践）
-3. 还可以通过Pack（待实践）
+2. 如果没有二进制存储库，可以选择Git进行发布
+3. 还可以通过Pack，但是，需要在pack上先定义好契约，麻烦
 
-二进制存储库发布，会将jar也发布，占用的空间较大。比较看到方案三
+二进制存储库发布，会将jar也发布，占用的空间较大。方案二比较好些，建议使用本地契约而不是远程，不然在指定文件夹下创建文件，绝对会让你疯掉，具体看例子哦
 
 ## Stub Runner
 由于服务提供方对契约是校验的，所以我们可以认为这个mock数据是基本准确的。mock方式有多种
