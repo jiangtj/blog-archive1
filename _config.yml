@@ -204,7 +204,7 @@ theme_config:
     archives: /archives/ || archive
     #sitemap: /sitemap.xml || sitemap
     #commonweal: /404/ || heartbeat
-    影视动漫,推荐!: https://neet.dnocm.com/ || television
+    #影视动漫,推荐!: https://neet.dnocm.com/ || television
     更多:
       default: /more/ || info-circle
       #我: https://www.dnocm.com/cover || heart
