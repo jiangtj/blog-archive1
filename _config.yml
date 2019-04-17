@@ -165,7 +165,7 @@ feed:
   order_by: -date
 
 netlify_cms:
-  config_file: netlify.yaml
+  config_file: netlify-cms.yaml
 
 theme_config:
   # scheme: Muse
