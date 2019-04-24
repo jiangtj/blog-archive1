@@ -1,6 +1,6 @@
 ---
 title: Spring Cloud Contract 契约测试
-date: 2019-03-28T23:18:51.000Z
+date: 2019-03-28 23:18:51
 tags:
   - 微服务
   - Spring Cloud
@@ -142,7 +142,7 @@ response:
 **Step 3：运行**
 
 1. 使用命令`mvn spring-cloud-contract:generateTests`生成测试用例（在target\generated-test-sources\contracts目录下），并执行单条测试
-2. 运行`mvn test`会生成并执行测试用例
+2. 运行`mvn test`会生成并执行所有测试用例
 
 **Step 4：发布**
 
@@ -150,22 +150,28 @@ response:
 
 1. 配置nexus oss，并发布至上面，与一般的上传一致`mvn deploy`，在例子，我使用的是[jfrog bintray](https://bintray.com/jiangtj/maven)发布
 2. 如果没有二进制存储库，可以选择Git进行发布
-3. 还可以通过Pack，但是，需要在pack上先定义好契约，麻烦
+3. 还可以通过Pack，但是，在pack上需要先由前端定义好契约
 
-二进制存储库发布，会将jar也发布，占用的空间较大。方案二比较好些，建议使用本地契约而不是远程，不然在指定文件夹下创建文件，绝对会让你疯掉，具体看例子哦
+三个方案各有优缺点：
+
+第一个方案，利用maven来处理是非常合理的，maven本身就是用于二进制文件管理，但如果你无法做到独立升级部署（多个微服务一同修改），那么你可能需要依赖于SNAPSHOT jar，不稳定的版本需要你多次上传，而且maven的快照机制也造成每次都需要检测获取最新版本
+
+第二个方案，对于契约的存储独立存放在git仓库，它的工作原理是clone整个存储库至本地，解析版本以及一些其他的定义，获取契约数据。问题在于clone，本身契约内容是不多的，也就是clone并不会浪费太多时间。但假如多年后呢，如果契约定义不规范频繁改动的情况出现（在企业内，这是很常见的现象），可能造成存储库变得庞大
+
+第三个方案，这是有别于前两个，由消费方定义契约。所以使用场景也更加明确，那就是前端人员充足时。Pact提供了图形化的界面展示契约的验证情况，这是挺好的特性。但是对于后端微服务来说，提供契约需要通过其它方式（未很好的集成），这无疑造成了学习成本增加
 
 ## Stub Runner
 由于服务提供方对契约是校验的，所以我们可以认为这个mock数据是基本准确的。mock方式有多种
 
 方案一：下载提供方源码，编译并运行`mvn spring-cloud-contract:convert && mvn spring-cloud-contract:run`
 
-方案二：提供方将stubs上传至仓库，使用spring cloud cli运行，
+方案二：在单元测试中使用，可以配合spring cloud替换一些注册中心的服务，在运行时，不再需要启动多个外部服务
+
+方案三：独立部署契约进行mock，一个很好的前后端分离方案是，前端依据契约mock数据开发，后端依据契约校验提供数据
+
+方案四：使用spring cloud cli运行，
 安装spring boot cli[文档](https://docs.spring.io/spring-boot/docs/2.1.3.RELEASE/reference/htmlsingle/#getting-started-installing-the-cli)，
 安装spring cloud cli（待再次实践 按文档教程操作失败路过）
-
-方案三：独立部署？<http://wiremock.org/>，如果能独立部署，可以为前端提供mock数据，方便他们调试（待实践）
-
-方案四：在单元测试中使用，可以配合spring cloud替换一些注册中心的服务，在运行时，不再需要启动多个外部服务
 
 ### 单元测试
 
@@ -191,6 +197,7 @@ eureka:
     enabled: false
 stubrunner:
   ids:
+    # - [groupId]:artifactId:[version]:[classify]:[port]
     - com.jtj.cloud:spring-contract-example:1.0.0
   ids-to-service-ids:
     # 映射服务
@@ -199,10 +206,28 @@ stubrunner:
   stubs-mode: local
 ```
 
+### 独立部署
+
+首先下载`stub-runner.jar` 
+```bash
+wget -O stub-runner.jar 'https://search.maven.org/remotecontent?filepath=org/springframework/cloud/spring-cloud-contract-stub-runner-boot/2.1.1.RELEASE/spring-cloud-contract-stub-runner-boot-2.1.1.RELEASE.jar'
+```
+
+在同路径创建配置文件`application.yml`，并添加stubrunner的配置，如下
+```yml
+stubrunner:
+  ids:
+    # - [groupId]:artifactId:[version]:[classify]:[port]
+    # 指定运行在8081端口
+    - com.jtj.cloud:spring-contract-example:1.0.0:+:8081
+  # 该模式下会从远程maven仓库缓存到本地
+  stubs-mode: local
+```
+
+通过`java -jar stub-runner.jar`运行。即可访问`com.jtj.cloud:spring-contract-example`的mock数据啦！
+
 # 参考
 - [上面所提到的例子工程-mockmvc](https://github.com/JiangTJ/spring-contract-example)
 - [上面所提到的例子工程-webflux](https://github.com/JiangTJ/spring-contract-example/tree/webflux)
 - [spring-cloud-contract doc](https://cloud.spring.io/spring-cloud-static/spring-cloud-contract/2.1.0.RELEASE/single/spring-cloud-contract.html)
 
-
-> 吐槽一下：测试相关的学习太费劲了，都得看官方的文档。国内的文章资源实在是太少了
