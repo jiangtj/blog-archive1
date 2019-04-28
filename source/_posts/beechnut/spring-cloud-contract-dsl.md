@@ -89,16 +89,16 @@ Contract.make {
 //url与urlPath稍后讲，一个指定值，一个进行正则匹配
 Contract.make {
     request {
-		url "/user/10"
-		//...
-	}
+        url "/user/10"
+        //...
+    }
     priority(1)
 }
 Contract.make {
     request {
         urlPath($(c(regex('^/user/.+')),p(1)))
-		//...
-	}
+        //...
+    }
     priority(2)
 }
 ```
