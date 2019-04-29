@@ -308,20 +308,109 @@ Contract.make {
 }
 ```
 
-## RequestBody
+## Body
 当method为PUT或者POST时，依据http协议，我们可以将数据放在body中。
+```groovy
+Contract.make {
+    request {
+        headers {
+            contentType(applicationJson())
+        }
+        body([
+                name: value(anyNonEmptyString(), producer("从入门到弃坑")),
+                price: value(anyNumber(), producer("1"))
+        ])
+    }
+}
+```
+
+根据contentType不同，它会自动转换至Json或者FormParam。body的值也能设置动态参数，参考上文。除此之外，body还支持bodyMatchers，我们可以提供body样例，在外部提供匹配规则
+```groovy
+Contract.make {
+    request {
+        headers {
+            contentType(applicationJson())
+        }
+        body ([
+            "name":"YaYaYa"
+        ])
+        bodyMatchers {
+            jsonPath('$.name', byRegex(nonBlank()))
+        }
+    }
+}
+```
+
+通过`$.[path]`获取json位置，通过`by*`定义匹配规则
+
+> 但需要特别注意：动态参数目前还不支持FormParam。如果存在FormParam，改用QueryParam传参（反正一样的）。    
+参考：[spring-cloud-contract#112](https://github.com/spring-cloud/spring-cloud-contract/issues/112)与[wiremock#383](https://github.com/tomakehurst/wiremock/issues/383)
+
+
 
 # Response
 
+response与request存在一些共通点，比如`header` `body`等，这些写法上与Request中是一致的，可以参考上文
+
 ## Status
 
-## ResponseBody
+`status code`是响应独有的，而且是必须的一项
+```groovy
+Contract.make {
+    response {
+        status OK()
+    }
+}
+```
 
-### FromReques
+## FromReques
 
-> 特别注意：目前还不支持FormParam。如果存在FormParam，改用QueryParam传参（反正一样的）。
+某些情况下，我们可能需要返回request中的值。比如添加一个用户，成功时，我们应当返回该用户在后端实际存储的信息给前端。所以我们需要调用`fromReques()`获取数据
+```groovy
+Contract.make {
+    response {
+        body([
+                "gender": fromRequest().query('gender'),
+                "name": fromRequest().body('$.name')
+        ])
+    }
+}
+```
+`fromRequest()`有以下一些方法：
+- fromRequest().url(): 返回URL与query parameters.
+- fromRequest().query(String key): 返回第一个匹配到的query parameter值.
+- fromRequest().query(String key, int index): 返回第[index]个匹配到的query parameter值.
+- fromRequest().path(): 返回完整的url路径.
+- fromRequest().path(int index): 返回第[index]个url路径元素.
+- fromRequest().header(String key):返回第一个匹配到的header值.
+- fromRequest().header(String key, int index): 返回第[index]个匹配到的header值.
+- fromRequest().body(): 返回完整的body.
+- fromRequest().body(String jsonPath): 返回body中指定JSON路径的元素.
 
-# 一个完整示例
+## Body
+
+在Response中，我们可以使用其他的写法给body赋值，比如`"""`添加字符串
+```groovy
+Contract.make {
+    response {
+        body """{"name":"YaYaYa"}"""
+    }
+}
+```
+
+又或者我们可以将它放在外部（如果样例非常大时，是个不错的方案）
+```groovy
+Contract.make {
+    response {
+        body (file('文件的相对路径，例如xxxx.json'))
+    }
+}
+```
+
+> 这块内容在Request中也是可用的，但如果与动态属性结合会出错，可能是[issue](https://github.com/spring-cloud/spring-cloud-contract/issues/1065)吧。所以尽量不要在Request中使用这块内容。
+
+# 一个比较完整示例
+在最后，给个比较完整的例子，将就着看吧~~
 ```groovy
 package contracts
 
@@ -357,7 +446,7 @@ Contract.make {
         status OK()
         body([
                 "gender": fromRequest().query('gender'),
-                "offset": fromRequest().query('offset')
+                "name": fromRequest().body('$.name')
         ])
         headers {
             contentType(applicationJsonUtf8())
@@ -366,4 +455,3 @@ Contract.make {
 }
 ```
 
-> 未完待补，太晚了，明晚再写！
