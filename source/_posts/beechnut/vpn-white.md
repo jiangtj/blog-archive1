@@ -7,17 +7,17 @@ tags: [vpn]
 ---
 
 # 服务器
-你需要购买一台境外的服务，代理你的访问。你可以在很多地方购买，腾讯云、阿里云、vultr、Google Cloud、Digitalocean、AWS。
+你需要购买一台境外的服务器，代理你的访问。你可以在很多地方购买，腾讯云、阿里云、vultr、Google Cloud、Digitalocean、AWS。
 
 目前，vultr最便宜但可能不稳定，你根据自己的需求选择。
 
 <!-- more -->
 
 # 部署SS
-1. 下载[Outline Manage](https://github.com/Jigsaw-Code/outline-server/releases)，选择合适你的系统（日常使用，不是服务器），安装管理软件
+1. 下载[Outline Manage](https://github.com/Jigsaw-Code/outline-server/releases)，选择合适你的系统（你日常使用的电脑，不是服务器），安装管理软件
 2. 点击添加，选择你的服务器供应商（如果没有，选第四个）
 {% asset_img 1.png %}
-3. 复制步骤1中的脚本，在服务器上运行
+3. 复制下图步骤1中的脚本，在服务器上运行
 {% asset_img 2.png %}
 4. 耐心等待安装完成
 5. 复制安装结束后的输出内容至上图步骤2的输入框内
