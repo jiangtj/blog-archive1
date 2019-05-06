@@ -2,9 +2,7 @@
 
 'use strict';
 
-const fs = require('fs');
-
-hexo.extend.filter.register('before_generate', function() {
-  hexo.theme.setView('_custom/head.swig', fs.readFileSync('source/_data/head.swig').toString());
-  hexo.theme.setView('_custom/sidebar.swig', fs.readFileSync('source/_data/sidebar.swig').toString());
+hexo.extend.filter.register('theme_inject', function(injects) {
+  injects.head.file('custom', 'source/_data/head.swig');
+  injects.sidebar.file('custom', 'source/_data/sidebar.swig');
 });
