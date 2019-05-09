@@ -11,3 +11,5 @@ date: 2019-04-30 10:37:37
 - [ ] [Inside](https://github.com/elmorec/hexo-theme-inside)：厉害的作者，使用Angular重新了生成器
 
 计划：基于NexT改进，参照Inside的设计风格
+
+(*^__^*) 嘻嘻，你现在看到的页面就是正在改进哒~
