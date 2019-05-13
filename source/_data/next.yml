@@ -8,7 +8,7 @@ custom_file_path:
   # Default path: source/css/_custom/custom.styl
   styles: source/_data/styles.styl
 
-rss: rss2.xml
+# rss: rss2.xml
 
 github_banner:
   enable: false
@@ -38,11 +38,12 @@ google_analytics:
 
 social:
   Mail: mailto:i@dnocm.com || envelope
-  GitHub: https://github.com/JiangTJ || github
-  Gitter: https://gitter.im/jiangtj/Lobby || github-alt
-  Telegram: https://t.me/jiangtj || phone-square
   Telegram-Group: https://t.me/dnocm || telegram
-  Slack: https://join.slack.com/t/dnocm/shared_invite/enQtNTg0MDMzMzM1ODkzLTQ4YjhkYTg5YTdhMjY3MzdhOGM0ZjI0YzgzYjZjMzZlNmMzNjE4YTkwMTUyN2UzZjFiYzcxN2ZmMWY2ZjFjMzU || slack
+  rss: /rss2.xml || rss
+  GitHub: https://github.com/JiangTJ || github
+  # Gitter: https://gitter.im/jiangtj/Lobby || github-alt
+  # Telegram: https://t.me/jiangtj || phone-square
+  # Slack: https://join.slack.com/t/dnocm/shared_invite/enQtNTg0MDMzMzM1ODkzLTQ4YjhkYTg5YTdhMjY3MzdhOGM0ZjI0YzgzYjZjMzZlNmMzNjE4YTkwMTUyN2UzZjFiYzcxN2ZmMWY2ZjFjMzU || slack
   # Riot: https://riot.im/app/#/room/#dnocm:matrix.org || bolt
   # GitLab: https://gitlab.com/JiangTJ || gitlab
   # 简书: https://www.jianshu.com/u/42d8a7c1b531 || book
@@ -59,21 +60,21 @@ menu:
   #sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
   #影视动漫,推荐!: https://neet.dnocm.com/ || television
-  更多:
+  more:
     default: /more/ || info-circle
     #我: https://www.dnocm.com/cover || heart
     #数据: https://chro.j-time.cn/sources/1/dashboards/2 || sitemap
-    好友: /friends/ || heart
+    friends: /friends/ || heart
     #schedule: /schedule/ || calendar
-    公告: 
+    bullhorn: 
       default: /bullhorn/ || bullhorn
-      文章: /articles/ || font
-      技术: /tech/ || fire
-    工具: 
+      articles: /articles/ || font
+      technology: /tech/ || fire
+    tools: 
       default: /tools/ || briefcase
-      正则: /regex/ || registered
-      二维码: /qrcode/ || qrcode
-    VPN: /vpn/ || plane
+      regex: /regex/ || registered
+      qrcode: /qrcode/ || qrcode
+    vpn: /vpn/ || plane
 
 
 canvas_ribbon:
