@@ -13,7 +13,12 @@ banner: /articles/beechnut/todo-an-new-theme/g2.png
 
 计划：基于NexT改进，参照Inside的设计风格
 
-(*^__^*) 嘻嘻，你是幸运的25%用户（不幸的），现在看到的页面就是正在改进哒~
+Canary Channel：
+- 圆润化设计
+- 扁平化，去除阴影效果
+- banner图支持
+
+Next Plan：多评论系统支持，重构并简化配置（@w@现在好多），分离主题库（目前还工作在fork项目的分支上）
 
 下面是些样式，逐步修改中~
 
