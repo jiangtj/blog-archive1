@@ -19,25 +19,3 @@ Canary Channel：
 - banner图支持
 
 Next Plan：多评论系统支持，重构并简化配置（@w@现在好多），分离主题库（目前还工作在fork项目的分支上）
-
-下面是些样式，逐步修改中~
-
-**多层列表**
-- 列表A
-  - 列表B
-
-**代码块**
-```js
-hexo.extend.filter.register('theme_inject', function(injects) {
-  injects.head.file('custom', 'source/_data/head.swig', {}, {cache: true});
-  injects.sidebar.raw('custom', 'Put some in sidebar!');
-});
-```
-
-**表格**
-
-| 水果        | 价格    |  数量  |
-| --------   | -----:   | :----: |
-| 香蕉        | $1      |   5    |
-| 苹果        | $1      |   6    |
-| 草莓        | $1      |   7    |
