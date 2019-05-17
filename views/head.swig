@@ -26,6 +26,3 @@
 
 </script>
 <script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
-
-<!-- 搜狗验证 -->
-<meta name="sogou_site_verification" content="jKLnUQWPTi"/>
