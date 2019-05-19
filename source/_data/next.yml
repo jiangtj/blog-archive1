@@ -105,5 +105,4 @@ reward_settings:
   # If true, reward would be displayed in every article by default.
   # You can show or hide reward in a specific article throuth `reward: true | false` in Front Matter.
   enable: true
-  animation: true
-  comment: 请我喝杯咖啡呗☕~~
+  comment: Buy me a cup of coffee ☕.
