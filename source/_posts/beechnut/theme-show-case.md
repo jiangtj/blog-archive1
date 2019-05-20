@@ -1,7 +1,7 @@
 ---
 title: Theme Show Case
 categories: [Web]
-tags: [theme]
+tags: [Theme]
 banner: /articles/beechnut/theme-show-case/g1.png
 date: 2019-05-17 15:13:09
 ---
