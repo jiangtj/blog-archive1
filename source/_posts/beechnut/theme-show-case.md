@@ -30,9 +30,9 @@ date: 2019-05-17 15:13:09
 
 ## Checked List
 - [ ] check this point!
-- [ ] do you like it?
+- [x] do you like it?
 
-**代码块**
+# Code
 ```js
 hexo.extend.filter.register('theme_inject', function(injects) {
   injects.head.file('custom', 'source/_data/head.swig', {}, {cache: true});
@@ -40,7 +40,7 @@ hexo.extend.filter.register('theme_inject', function(injects) {
 });
 ```
 
-**表格**
+# Table
 
 | 水果        | 价格    |  数量  |
 | --------   | -----:  | :----: |
@@ -48,7 +48,7 @@ hexo.extend.filter.register('theme_inject', function(injects) {
 | 苹果        | $1      |   6    |
 | 草莓        | $1      |   7    |
 
-**长表格**
+## Long Table
 
 |水果|价格|数量|水果|价格|数量|水果|价格|数量|水果|价格|数量|水果|价格|数量|水果|价格|数量|
 |---|---:|:--:|---|---:|:--:|---|---:|:--:|---|---:|:--:|---|---:|:--:|---|---:|:--:|
