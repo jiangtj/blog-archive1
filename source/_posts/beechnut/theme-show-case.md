@@ -33,12 +33,28 @@ date: 2019-05-17 15:13:09
 - [x] do you like it?
 
 # Code
+
 ```js
 hexo.extend.filter.register('theme_inject', function(injects) {
   injects.head.file('custom', 'source/_data/head.swig', {}, {cache: true});
   injects.sidebar.raw('custom', 'Put some in sidebar!');
 });
 ```
+
+## codeblock
+{% codeblock 描述 lang:objc http://localhost:4000/articles/beechnut/theme-show-case/ haha.ocjc? %}
+[rectangle setX: 10 y: 10 width: 20 height: 20];
+{% endcodeblock %}
+
+## include_code
+{% include_code title lang:js hexo-newd.js %}
+
+## jsfiddle
+{% jsfiddle jiangtj/n1tg3hq2 %}
+
+## gist
+{% gist JiangTJ/2f2a8d5089193e5fa60ea45adedfcdec %}
+
 
 # Table
 
@@ -56,3 +72,10 @@ hexo.extend.filter.register('theme_inject', function(injects) {
 |苹果|$1|6    |苹果|$1|6    |苹果|$1|6    |苹果|$1|6    |苹果|$1|6    |苹果|$1|6    |
 |草莓|$1|7    |草莓|$1|7    |草莓|$1|7    |草莓|$1|7    |草莓|$1|7    |草莓|$1|7    |
 
+# blockquote 
+{% blockquote %}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit lacus ut purus iaculis feugiat. Sed nec tempor elit, quis aliquam neque. Curabitur sed diam eget dolor fermentum semper at eu lorem.
+{% endblockquote %}
+
+# Images
+Inline pic ok? ![](/articles/beechnut/theme-show-case/gua.png)
