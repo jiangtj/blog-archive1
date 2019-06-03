@@ -78,4 +78,16 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit 
 {% endblockquote %}
 
 # Images
-Inline pic ok? ![](/articles/beechnut/theme-show-case/gua.png)
+Inline pic ok? {% asset_img gua.png 100 %}
+
+![](/articles/beechnut/theme-show-case/gua.png)
+
+或者居中显示，你可以使用center或者box样式：
+```md
+{% asset_img center gua.png 呱呱呱 %}
+{% asset_img box gua.png 呱呱呱 %}
+```
+
+{% asset_img center gua.png 呱呱呱 %}
+
+{% asset_img box gua.png 呱呱呱 %}
