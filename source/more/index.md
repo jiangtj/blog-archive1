@@ -7,6 +7,7 @@ menu:
   bullhorn: /more/bullhorn/ || bullhorn
   tools: /more/tools/ || briefcase
   vpn: /more/vpn/ || plane
+  theme: /cake/ || eercast
 ---
 
 # Hi!

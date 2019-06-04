@@ -2,11 +2,11 @@
 # For example, you want to put your custom styles file outside theme directory in root `source/_data`, set `styles: source/_data/styles.styl`
 custom_file_path:
   # Default path: source/css/_variables/custom.styl
-  variables: source/_data/variables.styl
+  #variables: source/_data/variables.styl
   # Default path: source/css/_mixins/custom.styl
   #mixins: source/_data/mixins.styl
   # Default path: source/css/_custom/custom.styl
-  styles: source/_data/styles.styl
+  #styles: source/_data/styles.styl
 
 # rss: rss2.xml
 
@@ -23,7 +23,6 @@ favicon:
   #android_manifest: /images/manifest.json
   #ms_browserconfig: /images/browserconfig.xml
 
-# scheme: Muse
 baidu_site_verification: xtf2YgRPUK
 baidu_analytics: 52b8556a6b4d24a9509575c96cce2c4a
 google_site_verification: TWf4Ma3V7xRcvKFWw_1iOCJKgNJmUUB1CmLucKjvV2A
