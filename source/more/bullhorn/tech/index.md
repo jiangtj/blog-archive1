@@ -2,6 +2,10 @@
 title: 技术
 date: 2018-11-12 13:01:12
 comments: true
+breadcrumb:
+  more: /more/
+  bullhorn: /more/bullhorn/
+  技术:
 ---
 
 # 技术栈

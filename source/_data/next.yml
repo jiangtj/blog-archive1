@@ -61,22 +61,7 @@ menu:
   #sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
   #影视动漫,推荐!: https://neet.dnocm.com/ || television
-  more:
-    default: /more/ || info-circle
-    #我: https://www.dnocm.com/cover || heart
-    #数据: https://chro.j-time.cn/sources/1/dashboards/2 || sitemap
-    friends: /friends/ || heart
-    #schedule: /schedule/ || calendar
-    bullhorn: 
-      default: /bullhorn/ || bullhorn
-      articles: /articles/ || font
-      technology: /tech/ || fire
-    tools: 
-      default: /tools/ || briefcase
-      regex: /regex/ || registered
-      qrcode: /qrcode/ || qrcode
-    vpn: /vpn/ || plane
-
+  more: /more/ || info-circle
 
 canvas_ribbon:
   enable: true

@@ -2,6 +2,12 @@
 title: 公告
 date: 2018-11-12 13:01:12
 comments: true
+menu:
+  articles: /more/bullhorn/articles/ || font
+  technology: /more/bullhorn/tech/ || fire
+breadcrumb:
+  more: /more/
+  公告:
 ---
 
 # 2019-03-11

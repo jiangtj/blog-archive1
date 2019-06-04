@@ -2,6 +2,9 @@
 title: 友情链接
 date: '2019-01-01'
 comments: false
+breadcrumb:
+  more: /more/
+  friends:
 ---
 
 

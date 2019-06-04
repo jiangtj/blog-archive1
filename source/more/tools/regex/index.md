@@ -1,6 +1,10 @@
 ---
 title: 正则
 comments: true
+breadcrumb:
+  more: /more/
+  tools: /more/tools/
+  正则:
 ---
 
 请输入匹配值：  
