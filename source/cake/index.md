@@ -22,7 +22,7 @@ cd <dir>
 # 添加Cake主题作为子模块
 git init
 git add .
-git submodule add https://github.com/JiangTJ/hexo-theme-next themes/cake
+git submodule add https://github.com/JiangTJ/hexo-theme-cake themes/cake
 ```
 
 修改`_config.yml`中的`theme`为`cake`。
