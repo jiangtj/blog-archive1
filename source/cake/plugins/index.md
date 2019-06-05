@@ -1,9 +1,12 @@
 ---
 title: 插件
 comments: true
+reward: true
 menu:
   Home: /cake/ || eercast 
+  基础配置: /cake/options/ || cog 
   自定义: /cake/custom/ || wrench 
+  集成: /cake/cubes/ || cubes 
 ---
 
 Cake通过插件集成附加的功能，而本身不包含附加功能的任何文件。所以轻量且强大。

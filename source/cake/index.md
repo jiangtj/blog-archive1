@@ -1,8 +1,12 @@
 ---
 title: Hexo Theme Cake
 comments: true
+reward: true
 menu:
+  基础配置: /cake/options/ || cog 
   插件: /cake/plugins/ || plug 
+  自定义: /cake/custom/ || wrench 
+  集成: /cake/cubes/ || cubes 
 ---
 
 # 喜欢吃Cake嘛？
