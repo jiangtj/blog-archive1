@@ -62,12 +62,6 @@ menu:
   #影视动漫,推荐!: https://neet.dnocm.com/ || television
   more: /more/ || info-circle
 
-canvas_ribbon:
-  enable: true
-  size: 300
-  alpha: 0.6
-  zIndex: -1
-
 disqus:
   enable: true
   shortname: jiangtj

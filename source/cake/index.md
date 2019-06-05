@@ -1,6 +1,8 @@
 ---
 title: Hexo Theme Cake
 comments: true
+menu:
+  插件: /cake/plugins/ || plug 
 ---
 
 # 喜欢吃Cake嘛？

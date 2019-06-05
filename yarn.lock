@@ -1269,6 +1269,13 @@ hexo-bunyan@^1.0.0:
     mv "~2"
     safe-json-stringify "~1"
 
+hexo-cake-canvas-ribbon@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.npmjs.org/hexo-cake-canvas-ribbon/-/hexo-cake-canvas-ribbon-1.0.1.tgz#b9461048530b043623b1396fc820d805340ede60"
+  integrity sha512-p/wdcmp4xrdEMWuhH6pBL1S67X/7hSLtx8APNDm797jYks1h34OHsVe2JO84+WVxmLOBGYRG9kaFO2YEAktxLw==
+  dependencies:
+    js-yaml "^3.13.1"
+
 hexo-cli@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/hexo-cli/-/hexo-cli-1.1.0.tgz#496d238d4646dbfd1cf047b6dc5271bfb5cb798f"
@@ -1822,7 +1829,7 @@ jju@^1.1.0:
   resolved "https://registry.yarnpkg.com/jju/-/jju-1.4.0.tgz#a3abe2718af241a2b2904f84a625970f389ae32a"
   integrity sha1-o6vicYryQaKykE+EpiWXDzia4yo=
 
-js-yaml@^3.12.0, js-yaml@^3.12.1, js-yaml@^3.6.1:
+js-yaml@^3.12.0, js-yaml@^3.12.1, js-yaml@^3.13.1, js-yaml@^3.6.1:
   version "3.13.1"
   resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.13.1.tgz#aff151b30bfdfa8e49e05da22e7415e9dfa37847"
   integrity sha512-YfbcO7jXDdyj0DGxYVSlSeQNHbD7XPWvrVWeVUujrQEoZzWJIRrCPoyk6kL6IAjAG2IolMK4T0hNUe0HOUs5Jw==
