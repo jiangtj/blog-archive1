@@ -59,3 +59,31 @@ url: //cdn.jsdelivr.net/gh/theme-next/theme-next-canvas-ribbon@1/canvas-ribbon.j
 ```
 
 你可以寻找配置名称变量在对应的插件项目中
+
+# Create
+
+一般情况下，你只需要注入你的文件在`theme_inject`过滤器中，可能有些复杂的插件目前无法完成，需要重新设计主题的内部实现。
+
+请参考自定义章节的详细内容。
+
+# Debug
+
+这里提供一种简单的调试方式。仍以`hexo-cake-canvas-ribbon`为例
+
+需要在.gitignore中添加对example的忽略，例如
+```
+node_modules/
+*.log
+example/
+```
+
+克隆`hexo-cake-canvas-ribbon`项目，在该项目中运行以下步骤的命令
+```bash
+git clone --recursive git@github.com:jiangtj-lab/hexo-theme-cake-example.git example
+yarn link
+cd example
+yarn install
+yarn add hexo-cake-canvas-ribbon
+yarn link hexo-cake-canvas-ribbon
+hexo s
+```
