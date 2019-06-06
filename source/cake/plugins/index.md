@@ -15,6 +15,7 @@ Cake通过插件集成附加的功能，而本身不包含附加功能的任何�
 这里是一系列现有的插件
 
 - [hexo-cake-canvas-ribbon](https://github.com/jiangtj-lab/hexo-cake-canvas-ribbon): Ribbon背景
+- [hexo-cake-math](https://github.com/jiangtj-lab/hexo-cake-math): Math支持
 
 # Use
 
