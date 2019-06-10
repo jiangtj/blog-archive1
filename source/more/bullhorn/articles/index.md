@@ -1,6 +1,10 @@
 ---
 title: 文章
 comments: true
+breadcrumb:
+  more: /more/
+  bullhorn: /more/bullhorn/
+  文章:
 ---
 
 # 文章目录

@@ -1,6 +1,10 @@
 ---
 title: QRCode
 comments: true
+breadcrumb:
+  more: /more/
+  tools: /more/tools/
+  QRCode:
 ---
 
 请输入值：  

@@ -2,6 +2,12 @@
 title: 这是什么
 date: 2018-12-18
 comments: true
+menu:
+  friends: /more/friends/ || heart
+  bullhorn: /more/bullhorn/ || bullhorn
+  tools: /more/tools/ || briefcase
+  vpn: /more/vpn/ || plane
+  theme: /cake/ || eercast
 ---
 
 # Hi!
