@@ -1,8 +1,10 @@
-.moon-menu {
+.moon-menu,.moon-menu-text {
   position: fixed;
   right: 1.5rem;
   bottom: 1.5rem;
-  background-color: #000;
+  width: 4rem;
+  height: 4rem;
+  //background-color: #000;
 }
 
 .moon-menu-svg,.moon-menu-button {
@@ -11,5 +13,23 @@
 }
 
 .moon-menu-cricle {
-  fill: red;
+  fill: #607d8b;
+  opacity: .9;
+}
+
+.moon-menu-border {
+  stroke: #607d8b;
+  opacity: .9;
+  stroke-width: 1px;
+  fill: none;
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+}
+
+.moon-menu-text {
+  color: white;
+  font-weight: 400;
+  text-align: center;
+  line-height: 4rem;
+  font-size: 1.2rem;
 }
