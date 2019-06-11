@@ -1,5 +1,10 @@
 <div class="moon-menu">
-  <div class="moon-menu-item">
+  <div class="moon-menu-items">
+    {% for item in menus %}
+      <div class="moon-menu-item">
+        <i class="{{ item.icon }}"></i>
+      </div>
+    {% endfor %}
   </div>
   <div class="moon-menu-button">
     <svg class="moon-menu-svg">
@@ -18,7 +23,7 @@
   </div>
 </div>
 
-<script>
+<script defer>
 
 const moonMenuListener = function () {
 

@@ -13,20 +13,27 @@ hexo.extend.filter.register('theme_inject', function(injects) {
   injects.style.push('source/_data/styles.styl');
 
   // inject moon-menu
-  injects.bodyEnd.file('moon-menu', 'views/moon-menu.swig', {}, {cache: true});
   hexo.theme.config.back2top.enable = false;
-  hexo.theme.config.moon_menu = Object.assign({
+  let moonMenu = Object.assign({
     back2top: {
       enable: true,
-      icon: 's',
-      func: 'back2top'
+      icon: 'fa fa-chevron-up',
+      func: 'back2top',
+      order: -1
     },
     back2bottom: {
       enable: true,
-      icon: 's',
-      func: 'back2bottom'
+      icon: 'fa fa-chevron-down',
+      func: 'back2bottom',
+      order: -2
     },
   }, hexo.theme.config.moon_menu);
+  let moonMenuArr = Object.keys(moonMenu)
+    .map(key => moonMenu[key])
+    .filter(item => item.enable)
+    .sort((a, b) => a.order - b.order);
+  
+  injects.bodyEnd.file('moon-menu', 'views/moon-menu.swig', {menus: moonMenuArr}, {cache: true, only: true});
   injects.style.push('views/moon-menu.styl')
 
 });
