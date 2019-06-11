@@ -20,10 +20,18 @@
 .moon-menu-border {
   stroke: #607d8b;
   opacity: .9;
-  stroke-width: 1px;
+  stroke-width: 0;
   fill: none;
   transform: rotate(-90deg);
   transform-origin: 50% 50%;
+}
+
+.moon-menu-points {
+  transform: translate3d(2rem,2rem,0);
+}
+
+.moon-menu-point {
+  fill: white;
 }
 
 .moon-menu-text {
@@ -32,4 +40,5 @@
   text-align: center;
   line-height: 4rem;
   font-size: 1.2rem;
+  display: none;
 }
