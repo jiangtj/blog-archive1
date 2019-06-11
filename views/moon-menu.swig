@@ -58,4 +58,8 @@ window.addEventListener('load' , () => {
 });
 window.addEventListener('scroll' , moonMenuListener);
 
+const moonMenuClick = function () {
+  document.querySelector('.moon-menu-items').classList.add('.active')
+};
+
 </script>
