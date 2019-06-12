@@ -6,7 +6,7 @@
       </div>
     {% endfor %}
   </div>
-  <div class="moon-menu-button">
+  <div class="moon-menu-button" onclick="moonMenuClick()">
     <svg class="moon-menu-svg">
       <circle class="moon-menu-cricle" cx="50%" cy="50%" r="44%"></circle>
       <circle class="moon-menu-border" cx="50%" cy="50%" r="48%"></circle>
@@ -59,7 +59,29 @@ window.addEventListener('load' , () => {
 window.addEventListener('scroll' , moonMenuListener);
 
 const moonMenuClick = function () {
-  document.querySelector('.moon-menu-items').classList.add('.active')
+  let items = document.querySelector('.moon-menu-items')
+  items.classList.toggle('active');
+  let points = document.querySelectorAll('.moon-menu-point');
+  let childItems = document.querySelectorAll('.moon-menu-item');
+  if (items.classList.contains('active')) {
+    points[0].setAttribute("cx","-.8rem");
+    points[0].setAttribute("cy","0");
+    points[2].setAttribute("cx",".8rem");
+    points[2].setAttribute("cy","0");
+    for (let i=0; i<childItems.length; i++) {
+      childItems[i].style.top = -3 - 3*i + 'rem';
+      childItems[i].style.opacity = .9;
+    }
+  } else {
+    points[0].setAttribute("cx","0");
+    points[0].setAttribute("cy","-.8rem");
+    points[2].setAttribute("cx","0");
+    points[2].setAttribute("cy",".8rem");
+    for (let i=0; i<childItems.length; i++) {
+      childItems[i].style.top = '1rem';
+      childItems[i].style.opacity = 0;
+    }
+  }
 };
 
 </script>

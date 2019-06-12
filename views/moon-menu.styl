@@ -14,12 +14,13 @@ $moon-menu-button=4rem
   width: $moon-menu-button;
   height: $moon-menu-button;
 }
-
+.moon-menu-button {
+  cursor: pointer;
+}
 .moon-menu-cricle {
   fill: #607d8b;
   opacity: .9;
 }
-
 .moon-menu-border {
   stroke: #607d8b;
   opacity: .9;
@@ -32,9 +33,9 @@ $moon-menu-button=4rem
 .moon-menu-points {
   transform: translate3d($moon-menu-button/2,$moon-menu-button/2,0);
 }
-
 .moon-menu-point {
   fill: white;
+  transition: all .15s cubic-bezier(0,0,.382,1.618)
 }
 
 .moon-menu-text {
@@ -47,10 +48,26 @@ $moon-menu-button=4rem
 }
 
 .moon-menu-item {
-  position: fixed;
-  right: 2.5rem;
-  bottom: 2.5rem;
-  width: 2rem;
-  height: 2rem;
-  display: none;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background-color: #000;
+  opacity: 0;
+  display: block;
+  //display: none;
+  transition: all .3s cubic-bezier(0,0,.382,1.618);
+  z-index: -1;
+  text-align: center;
+  line-height: 2.5rem;
+  color: white;
+  cursor: pointer;
 }
+// .moon-menu-items.active>.moon-menu-item {
+//   display: block;
+// }
+// .moon-menu-item.active:nth-child(n) {
+//   bottom: 2.5rem + 2rem*n;
+// }
