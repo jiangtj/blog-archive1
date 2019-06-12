@@ -4,7 +4,7 @@
 
 hexo.extend.filter.register('theme_inject', function(injects) {
 
-  //injects.head.file('custom', 'views/head.swig', {}, {cache: true});
+  injects.head.file('custom', 'views/head.swig', {}, {cache: true});
   injects.sidebar.file('custom', 'views/sidebar.swig', {}, {cache: true});
   injects.bodyEnd.file('baidu-push', 'views/baidu-push.swig', {}, {cache: true});
   injects.bodyEnd.file('lozad', 'views/lozad.swig', {}, {cache: true});
@@ -27,9 +27,16 @@ hexo.extend.filter.register('theme_inject', function(injects) {
       func: 'back2bottom',
       order: -2
     },
-  }, hexo.theme.config.moon_menu);
+  }, hexo.theme.config.moon_menu, hexo.config.moon_menu);
   let moonMenuArr = Object.keys(moonMenu)
     .map(key => moonMenu[key])
+    .map(item => {
+      item.order = item.order || 0;
+      if (item.enable === undefined) {
+        item.enable = true;
+      }
+      return item;
+    })
     .filter(item => item.enable)
     .sort((a, b) => a.order - b.order);
   

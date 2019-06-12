@@ -166,3 +166,8 @@ feed:
 
 netlify_cms:
   config_file: netlify-cms.yaml
+
+moon_menu:
+  chat:
+    icon: fa fa-comments
+    func: openGitter
