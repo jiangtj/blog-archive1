@@ -1,7 +1,7 @@
 <div class="moon-menu">
   <div class="moon-menu-items">
     {% for item in menus %}
-      <div class="moon-menu-item">
+      <div class="moon-menu-item" onclick="{{ item.func }}()">
         <i class="{{ item.icon }}"></i>
       </div>
     {% endfor %}
@@ -54,7 +54,6 @@ const moonMenuListener = function () {
 
 window.addEventListener('load' , () => {
   moonMenuListener();
-  document.querySelector('.moon-menu-border').style.strokeWidth = '1px';
 });
 window.addEventListener('scroll' , moonMenuListener);
 
@@ -83,5 +82,15 @@ const moonMenuClick = function () {
     }
   }
 };
+
+const back2top = () => {
+  document.documentElement.scrollTop = 0;
+}
+
+const back2bottom = () => {
+  let offsetHeight =document.documentElement.offsetHeight;
+  let scrollHeight =document.documentElement.scrollHeight;
+  document.documentElement.scrollTop = (scrollHeight - offsetHeight);
+}
 
 </script>
