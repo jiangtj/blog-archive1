@@ -6,7 +6,7 @@
     "version": "3.8.0"
   },
   "dependencies": {
-    "hexo": "^3.8.0",
+    "hexo": "^3.9.0",
     "hexo-autoprefixer": "^2.0.0",
     "hexo-cake-canvas-ribbon": "^1.0.1",
     "hexo-generator-archive": "^0.1.5",
