@@ -104,27 +104,31 @@ Inline pic ok? {% asset_img gua.png 100 %}
 
 # Note
 
-{% note default %}
+{% note icon:disable %}
+content
+{% endnote %}
+
+{% note default default title %}
+content
+{% endnote %}
+
+{% note primary default title %}
 **Welcome** to [Hexo!](https://hexo.io)
 {% endnote %}
 
-{% note primary %}
+{% note info default title %}
 **Welcome** to [Hexo!](https://hexo.io)
 {% endnote %}
 
-{% note info %}
+{% note success default title %}
 **Welcome** to [Hexo!](https://hexo.io)
 {% endnote %}
 
-{% note success %}
+{% note warning default title %}
 **Welcome** to [Hexo!](https://hexo.io)
 {% endnote %}
 
-{% note warning %}
-**Welcome** to [Hexo!](https://hexo.io)
-{% endnote %}
-
-{% note danger %}
+{% note danger default title %}
 **Welcome** to [Hexo!](https://hexo.io)
 {% endnote %}
 
