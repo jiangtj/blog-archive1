@@ -91,3 +91,40 @@ Inline pic ok? {% asset_img gua.png 100 %}
 {% asset_img center gua.png 呱呱呱 %}
 
 {% asset_img box gua.png 呱呱呱 %}
+
+# Button
+
+```md
+{% btn #, Text & Icon (buggy), home %}
+{% btn #, Text & Icon (fixed width), home fa-fw %}
+```
+
+{% btn #, Text & Icon (buggy), home %}
+{% btn #, Text & Icon (fixed width), home fa-fw %}
+
+# Note
+
+{% note default %}
+**Welcome** to [Hexo!](https://hexo.io)
+{% endnote %}
+
+{% note primary %}
+**Welcome** to [Hexo!](https://hexo.io)
+{% endnote %}
+
+{% note info %}
+**Welcome** to [Hexo!](https://hexo.io)
+{% endnote %}
+
+{% note success %}
+**Welcome** to [Hexo!](https://hexo.io)
+{% endnote %}
+
+{% note warning %}
+**Welcome** to [Hexo!](https://hexo.io)
+{% endnote %}
+
+{% note danger %}
+**Welcome** to [Hexo!](https://hexo.io)
+{% endnote %}
+
