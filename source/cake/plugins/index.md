@@ -16,6 +16,7 @@ Cake通过插件集成附加的功能，而本身不包含附加功能的任何�
 
 - [hexo-cake-canvas-ribbon](https://github.com/jiangtj-lab/hexo-cake-canvas-ribbon): Ribbon背景
 - [hexo-cake-math](https://github.com/jiangtj-lab/hexo-cake-math): Math支持
+- [hexo-cake-live2d](https://github.com/jiangtj-lab/hexo-cake-live2d): Live2d支持(与上游区别：仅Cake生成的Html文件非全部)
 
 # Use
 
