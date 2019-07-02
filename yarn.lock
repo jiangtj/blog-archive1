@@ -1392,10 +1392,10 @@ hexo-bunyan@^1.0.0:
     mv "~2"
     safe-json-stringify "~1"
 
-hexo-cake-canvas-ribbon@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.npmjs.org/hexo-cake-canvas-ribbon/-/hexo-cake-canvas-ribbon-1.0.1.tgz#b9461048530b043623b1396fc820d805340ede60"
-  integrity sha512-p/wdcmp4xrdEMWuhH6pBL1S67X/7hSLtx8APNDm797jYks1h34OHsVe2JO84+WVxmLOBGYRG9kaFO2YEAktxLw==
+hexo-cake-canvas-ribbon@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.npmjs.org/hexo-cake-canvas-ribbon/-/hexo-cake-canvas-ribbon-1.0.2.tgz#c2cac2a6bb55175f3d1b99580b7d779ce129329a"
+  integrity sha512-NEz2YEju2lMPdEpuqD0YNIBopstwvz3B7kqqP1fNQVT6Q2axdxZbrKrl5BU/e3SqTBQbabiRJcZcGu8q68Gb8A==
   dependencies:
     js-yaml "^3.13.1"
 

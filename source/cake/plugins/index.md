@@ -20,72 +20,17 @@ Cake通过插件集成附加的功能，而本身不包含附加功能的任何�
 
 # Use
 
-## Install
-
 ```bash
+# use npm
 npm i <plugin-name>(example:hexo-cake-canvas-ribbon) --save
-# or
+# or use yarn
 yarn add <plugin-name>(example:hexo-cake-canvas-ribbon)
 ```
 
-It's easy to install. you just use like other hexo plugins.
-
-## Config
-
-插件支持多种配置方式，下面以`hexo-cake-canvas-ribbon`插件配置为例。
-
-**在Hexo配置文件中配置**
-```yml _config.yml
-canvas_ribbon:
-  size: 300
-  alpha: 0.6
-  zIndex: -1
-  url: //cdn.jsdelivr.net/gh/theme-next/theme-next-canvas-ribbon@1/canvas-ribbon.js
-```
-
-**在Cake主题配置文件中配置**
-```yml themes/cake/_config.yml
-canvas_ribbon:
-  size: 300
-  alpha: 0.6
-  zIndex: -1
-  url: //cdn.jsdelivr.net/gh/theme-next/theme-next-canvas-ribbon@1/canvas-ribbon.js
-```
-
-**在_date文件中配置**
-```yml source/_data/canvas_ribbon.yml
-size: 300
-alpha: 0.6
-zIndex: -1
-url: //cdn.jsdelivr.net/gh/theme-next/theme-next-canvas-ribbon@1/canvas-ribbon.js
-```
-
-你可以寻找配置名称变量在对应的插件项目中
+Cake插件非常容易安装，就像普通的hexo的插件一样，唯一的区别在于仅在Cake主题（或[集成了Cake主题的插件方式](/cake/cubes)）下有效。具体配置见插件项目。
 
 # Create
 
-一般情况下，你只需要注入你的文件在`theme_inject`过滤器中，可能有些复杂的插件目前无法完成，需要重新设计主题的内部实现。
+一般情况下，你只需要注入你的文件在`theme_inject`过滤器中。目前插件的开发仍在尝试阶段，存在较大的变化，如果您想尝试，可以参考`hexo-cake-canvas-ribbon`，这是最简单的插件实现。
 
-请参考自定义章节的详细内容。
-
-# Debug
-
-这里提供一种简单的调试方式。仍以`hexo-cake-canvas-ribbon`为例
-
-需要在.gitignore中添加对example的忽略，例如
-```
-node_modules/
-*.log
-example/
-```
-
-克隆`hexo-cake-canvas-ribbon`项目，在该项目中运行以下步骤的命令
-```bash
-git clone --recursive git@github.com:jiangtj-lab/hexo-theme-cake-example.git example
-yarn link
-cd example
-yarn install
-yarn add hexo-cake-canvas-ribbon
-yarn link hexo-cake-canvas-ribbon
-hexo s
-```
+关于`theme_inject`的使用，你可以参考[自定义章节](/cake/custom)的详细内容。

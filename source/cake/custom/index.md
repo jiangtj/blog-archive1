@@ -34,6 +34,8 @@ Api:
 - View: injects.[point].file/raw(name, file/raw[, locals][, options])
 - Css:  injects.[point].push(file)
 
+> todo css自定义的介绍
+
 # Replace
 
 这部分是hexo的功能，在大部分主题中都支持（NexT会在未来支持，需要使用partial替换include）。
