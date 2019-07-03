@@ -1414,6 +1414,20 @@ hexo-cake-live2d@^3.1.1:
     opencollective-postinstall "^2.0.2"
     path "^0.12.7"
 
+hexo-cake-moon-menu@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/hexo-cake-moon-menu/-/hexo-cake-moon-menu-1.0.0.tgz#ca538cc4c48fce4d709b2b5a49944337d82d3ee0"
+  integrity sha512-HLb8V/KhxIZtBnutSerHtScUsn5dn+hXibQFAb5fnpebrtHMY7491v1GrJGgLb1ZMNb/pJJS9ZXra+uilDFk9Q==
+  dependencies:
+    hexo-cake-utils "^1.0.0"
+
+hexo-cake-utils@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/hexo-cake-utils/-/hexo-cake-utils-1.0.0.tgz#c7203a63b8559b28854e52dc11f4dcc488c02f35"
+  integrity sha512-0snw0wQtOUs67PxfyWhPD3gvzmtx/AYzUFLBotwQRuacLUCP813oUlPQ8OvTcRiKoaSHVNkwDZ1OeCo9PEHB0g==
+  dependencies:
+    js-yaml "^3.13.1"
+
 hexo-cli@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/hexo-cli/-/hexo-cli-2.0.0.tgz#485b876829951886cbfc0bd20f92b745d65bc00b"
