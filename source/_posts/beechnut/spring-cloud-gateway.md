@@ -463,6 +463,8 @@ public GlobalFilter c() {
 
 ## Request/Response Body
 
+> IllegalStateException 问题范围为 Spring Cloud Gateway 2.0.0 至 2.1.1，1.x 理论上正常但未测试，2.1.2已修复。
+
 关于Body，Spring对于其的操作是，在最初始化阶段，读取Body内容放入Flux流中。之后都是对其操作。详细可以看下`AdaptCachedBodyGlobalFilter`全局过滤器的源码。
 
 似乎没什么问题是吧，我们就应该在这个操作流内不断的修改Body的内容，直至其被最终消费（转发）。但是当我们在过滤中使用`exchange.getRequest().getBody()`或者`exchange.getFormData()`之后，我们期望后续Spring是读取我们所产生的流，然而事实上，它仍然产生调用`getBody()`获取最初的流。流是线性的，已消费过的不能再次被消费！所以，我们无法方便的使用它达到我们的目的（当然Java DSL内有提供内置的过滤器，但我不推荐Java DSL本身）。
@@ -563,7 +565,9 @@ spring:
 
 当然，`exchange.getFormData()`的问题没有解决，需要对Body操作，请使用`exchange.getRequest().getBody()`
 
+> 在下方 issues:946 提了简化操作的建议，然后官方添加了相关Cache方法，然后发现不使用这个方法也不出问题。。。问题原因就是`AdaptCachedBodyGlobalFilter`对body解码器的封装，默认情况下2.1.2中不做处理，所以好了。。。
+
 # 参考
 - [项目源码](https://github.com/jiangtj-lab/spring-cloud-gateway-example)
 - [官方文档](https://cloud.spring.io/spring-cloud-static/spring-cloud-gateway/2.1.0.RELEASE/single/spring-cloud-gateway.html#_modify_request_body_gatewayfilter_factory)
-- [issues:946 关于Body流操作需要简化的建议（关注中）](https://github.com/spring-cloud/spring-cloud-gateway/issues/946)
+- [issues:946 关于Body流操作需要简化的建议](https://github.com/spring-cloud/spring-cloud-gateway/issues/946)
