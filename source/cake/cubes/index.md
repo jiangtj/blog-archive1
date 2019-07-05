@@ -20,11 +20,12 @@ menu:
   ```
 3. 在对应的位置添加注入点，你需要测试注入点是否可用，下面是Cake的注入点
   - Views
-    - https://github.com/JiangTJ/hexo-theme-cake/blob/18416cd667490b0edd0bbb3d4f4d9cc16a98501a/layout/_partials/head/head.swig#L120-L122
-    - https://github.com/JiangTJ/hexo-theme-cake/blob/18416cd667490b0edd0bbb3d4f4d9cc16a98501a/layout/_partials/header/index.swig#L4-L6
-    - https://github.com/JiangTJ/hexo-theme-cake/blob/18416cd667490b0edd0bbb3d4f4d9cc16a98501a/layout/_layout.swig#L115-L117
-    - https://github.com/JiangTJ/hexo-theme-cake/blob/18416cd667490b0edd0bbb3d4f4d9cc16a98501a/layout/_macro/sidebar.swig#L128-L130
-    - https://github.com/JiangTJ/hexo-theme-cake/blob/18416cd667490b0edd0bbb3d4f4d9cc16a98501a/layout/_partials/post/reward.swig#L4-L8
+    - https://github.com/JiangTJ/hexo-theme-cake/blob/3166ade3be26c09eedcb254c92cc3af6004dba48/layout/_partials/head/head.swig#L112-L114
+    - https://github.com/JiangTJ/hexo-theme-cake/blob/3166ade3be26c09eedcb254c92cc3af6004dba48/layout/_partials/header/index.swig#L4-L6
+    - https://github.com/JiangTJ/hexo-theme-cake/blob/3166ade3be26c09eedcb254c92cc3af6004dba48/layout/_layout.swig#L113-L115
+    - https://github.com/JiangTJ/hexo-theme-cake/blob/3166ade3be26c09eedcb254c92cc3af6004dba48/layout/_macro/sidebar.swig#L128-L130
+    - https://github.com/JiangTJ/hexo-theme-cake/blob/3166ade3be26c09eedcb254c92cc3af6004dba48/layout/_partials/post/reward.swig#L4-L8
   - Stylus
-    - https://github.com/JiangTJ/hexo-theme-cake/blob/18416cd667490b0edd0bbb3d4f4d9cc16a98501a/source/css/main.styl#L14-L15
-    - https://github.com/JiangTJ/hexo-theme-cake/blob/18416cd667490b0edd0bbb3d4f4d9cc16a98501a/source/css/main.styl#L45-L46
+    - https://github.com/jiangtj/hexo-theme-cake/blob/3166ade3be26c09eedcb254c92cc3af6004dba48/source/css/main.styl#L9-L10
+    - https://github.com/jiangtj/hexo-theme-cake/blob/3166ade3be26c09eedcb254c92cc3af6004dba48/source/css/main.styl#L17-L18
+    - https://github.com/jiangtj/hexo-theme-cake/blob/3166ade3be26c09eedcb254c92cc3af6004dba48/source/css/main.styl#L41-L42
