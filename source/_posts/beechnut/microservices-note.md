@@ -1,6 +1,7 @@
 ---
 title: 微服务设计笔记
 date: 2019-1-2
+tags: [Microservices]
 ---
 
 一些重要的，有争议的点
