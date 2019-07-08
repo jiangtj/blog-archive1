@@ -12,9 +12,7 @@
 if (window.location.hostname != 'www.dnocm.com') {
 
   document.querySelector(".pin-top-msg").style.display = 'block';
-  var reHost = window.location.href.replace(window.location.hostname, 'www.dnocm.com');
-  var reRort = reHost.replace( ":" + window.location.port, '');
-  document.querySelector(".jump-to-dnocm").href = reRort;
+  document.querySelector(".jump-to-dnocm").href = "https://www.dnocm.com" + window.location.pathname;
 
   var hidePin = function() {
     document.querySelector(".pin-top-msg").style.display = 'none';
