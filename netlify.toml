@@ -1,0 +1,9 @@
+[[redirects]]
+  from = "https://jiangtj.netlify.com/*"
+  to = "https://www.dnocm.com/:splat"
+  force = true
+
+[[redirects]]
+  from = "https://master--jiangtj.netlify.com/*"
+  to = "https://www.dnocm.com/:splat"
+  force = true

@@ -1,9 +1,17 @@
 ---
-title: 调整公告
+title: 公告
 date: 2018-11-12 13:01:12
-reward: false
-comments: false
+comments: true
+menu:
+  articles: /more/bullhorn/articles/ || font
+  technology: /more/bullhorn/tech/ || fire
+breadcrumb:
+  more: /more/
+  公告:
 ---
+
+# 2019-03-11
+1. 使用新的图片加载方式（默认模糊图片，懒加载清晰图片），但由于宽度改为了100%，可能导致部分文章不美观。
 
 # 2018-12-19
 1. 注册了新的域名（dnocm.com），迁移站点的地址到这上   

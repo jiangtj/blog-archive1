@@ -4,7 +4,7 @@ date: 2018-12-10
 categories: [DevOps]
 tags: [Test]
 ---
-大半年前就写过一篇文章[《测试驱动开发(TDD)的实践》](https://jiangtj.gitlab.io/articles/almond/test-driven development/)，关于测试的。时至今日，我仍然坚信测试是软件开发一重要环节，它在绝大多数情况下，保障了系统的质量与稳定性。   
+大半年前就写过一篇文章[《测试驱动开发(TDD)的实践》](https://www.dnocm.com/articles/almond/test-driven development/)，关于测试的。时至今日，我仍然坚信测试是软件开发一重要环节，它在绝大多数情况下，保障了系统的质量与稳定性。   
 
 但当时所搭的框架存在一些不足，当然主要是由于Asciidoctor。这是一个足够完善的标记语言，但也足够复杂。然而大多数情况下我们并不需要这些语法，Markdown正好足够。    
 

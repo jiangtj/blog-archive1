@@ -5,9 +5,9 @@
 # Site
 title: Dnocm ☀
 subtitle: 若白驹过隙，忽然而已
-description: 
+description: Meeting you is my most beautiful time. <br/>あなたに出会っては私の最も美しい楽しいひと时を过ごした. 
 author: Mr.J
-language: zh-CN
+language: en
 timezone: Asia/Shanghai
 
 # URL
@@ -64,13 +64,15 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: next-sub
+theme: cake
 
 favicon: /images/Smile.ico
 
 search:
   path: search.xml
-  field: post
+  field: all
+  format: raw
+  limit: 1000
 
 # sitemap
 sitemap:
@@ -139,17 +141,18 @@ live2d:
   model:
     use: live2d-widget-model-epsilon2_1
   display:
-    superSample: 2
-    width: 150
-    height: 300
-    position: right
+    width: 180
+    height: 360
+    position: left
     hOffset: 0
     vOffset: -65
   mobile:
     show: false
   react:
-    opacityDefault: 0.7
-    opacityOnHover: 0.2
+    opacity: 0.8
+  dialog:
+    enable: true
+    hitokoto: true
 
 feed:
   type: rss2
@@ -161,27 +164,10 @@ feed:
   content_limit_delim: ' '
   order_by: -date
 
-theme_config:
-  baidu_site_verification: xtf2YgRPUK
-  google_site_verification: TWf4Ma3V7xRcvKFWw_1iOCJKgNJmUUB1CmLucKjvV2A
-  #links:
-    #Mzeht: http://mzeht.com/
-    #你很棒: http://www.cnblogs.com/lovelinux199075/
-    #leiqjl: http://www.cnblogs.com/leiqjl
-  #social:
-    #Find More Mine Site: https://jiangtj.gitlab.io/cover || heart
-  menu:
-    home: / || home
-    tags: /tags/ || tags
-    categories: /categories/ || th
-    archives: /archives/ || archive
-    #sitemap: /sitemap.xml || sitemap
-    #commonweal: /404/ || heartbeat
-    更多:
-      default: /more/ || info-circle
-      我: https://www.dnocm.com/cover || heart
-      数据: https://chro.j-time.cn/sources/1/dashboards/2 || sitemap
-      schedule: /schedule/ || calendar
-      公告: /update/ || cogs
-      工具: /tools/ || briefcase
-      VPN: /vpn/ || plane
+netlify_cms:
+  config_file: netlify-cms.yaml
+
+moon_menu:
+  chat:
+    icon: fa fa-comments
+    func: openGitter
