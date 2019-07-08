@@ -8,3 +8,5 @@ date: 2019-1-12
 去掉去掉，毕竟每天只有1-2pv，一个月也就半百人访问这个小破站，而且谷歌广告需要点击才收费，点击一次3毛。。。。(2019.1.15写)
 
 另外页面会使用Google分析。。。这个可能对国内用户访问造成影响，请尽量在VPN下访问该站点，[vultr](https://www.vultr.com/)与[outline](https://getoutline.org/zh-CN/home)是不错的方案，或者可以看一下我的[VPN教程](https://www.dnocm.com/articles/beechnut/vpn-white/)
+
+> 又双叒叕加回来啦😂---2019.7.28
