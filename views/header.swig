@@ -4,7 +4,7 @@
 </amp-auto-ads>
 
 <div class="pin-top-msg">
-您访问的是非正式的站点（Dnocm）,不是最新内容，请<a class='jump-to-dnocm'>点击这里跳转</a>
+<a class='jump-to-dnocm'>您访问的是非正式的站点，不是最新内容哦，请点击这里前往Dnocm ヾ(=ﾟ･ﾟ=)ﾉ喵♪</a>
 <i class="fa fa-times" aria-hidden="true" onclick="hidePin()"></i> 
 </div>
 
