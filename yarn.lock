@@ -1414,10 +1414,10 @@ hexo-cake-live2d@^3.1.1:
     opencollective-postinstall "^2.0.2"
     path "^0.12.7"
 
-hexo-cake-moon-menu@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/hexo-cake-moon-menu/-/hexo-cake-moon-menu-1.0.0.tgz#ca538cc4c48fce4d709b2b5a49944337d82d3ee0"
-  integrity sha512-HLb8V/KhxIZtBnutSerHtScUsn5dn+hXibQFAb5fnpebrtHMY7491v1GrJGgLb1ZMNb/pJJS9ZXra+uilDFk9Q==
+hexo-cake-moon-menu@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.npmjs.org/hexo-cake-moon-menu/-/hexo-cake-moon-menu-1.1.0.tgz#e6b6474ff2ac7b6eb646a24c46bb2c50f3883431"
+  integrity sha512-fTXVC7PYxO+h9dLi0zw98YAsE7TdNqMn9s0f1VwTzfIuAkELEoWinty/sKAoUq9MzxRs6ybLLO6/uZl8a9xqvA==
   dependencies:
     hexo-cake-utils "^1.0.0"
 
