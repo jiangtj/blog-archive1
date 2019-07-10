@@ -23,10 +23,6 @@ Hexo Theme Cake是个lovely主题，基于7.1.0版本的NexT。原本计划重�
   - Exturl 加密对于前端来说没有意义，所以会去除
   - Note Tag 重构，调整其header的方式，去除了样式配置（保留一种好看的，原因是可以通过stylus自定义）
 
-未来：
-1. 目前在考虑优化NexT的插件方案，Cake为其中一个方案的实践，不稳定也不确定。当NexT插件化模块化方案确定后，Cake会改进并兼容
-2. Cake或许能成为NexT的一个外部scheme
-
 # 快速开始
 
 ```bash
