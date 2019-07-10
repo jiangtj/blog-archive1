@@ -11,14 +11,14 @@ menu:
 
 其他的主题，如果你希望使用这里的插件，可以通过以下方式，集成`theme_inject`至你的主题。
 
-1. 复制[injects.js](https://github.com/JiangTJ/hexo-theme-cake/blob/master/scripts/injects.js)至你的主题脚本目录`scripts`
-2. 添加`generateBefore`的监听
+1. 需要添加[injects.js](https://github.com/JiangTJ/hexo-theme-cake/blob/master/scripts/injects.js)与[injects-point.js](https://github.com/JiangTJ/hexo-theme-cake/blob/master/scripts/injects-point.js)至你的主题脚本目录`scripts`
+2. 在`generateBefore`的监听调用
   ```js
   hexo.on('generateBefore', function () {
     require('./injects')(hexo);
   });
   ```
-3. 在对应的位置添加注入点，你需要测试注入点是否可用，下面是Cake的注入点
+3. 在对应的位置添加注入点，你需要测试注入点是否可用，下面是Cake与NexT的注入点例子
   - Views
     - https://github.com/JiangTJ/hexo-theme-cake/blob/3166ade3be26c09eedcb254c92cc3af6004dba48/layout/_partials/head/head.swig#L112-L114
     - https://github.com/JiangTJ/hexo-theme-cake/blob/3166ade3be26c09eedcb254c92cc3af6004dba48/layout/_partials/header/index.swig#L4-L6
