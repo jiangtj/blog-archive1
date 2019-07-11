@@ -215,9 +215,11 @@ hexo s
 
 再次运行预览，你就可以看到按钮添加到你的例子工程中拉
 
-## 上传
+## 上传与分享
 
 完成后记得别忘记上传`yarn publish --access public`，然后赶紧在自己的博客中试下把`yarn add @jiangtj/hexo-moon-menu`
+
+如果你希望更多看到与使用你的插件，可以提交PR至 [Awesome-NexT](https://github.com/theme-next/awesome-next)
 
 # 后世果
 
