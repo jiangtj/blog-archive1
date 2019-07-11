@@ -10,6 +10,11 @@
     imagemin "^6.1.0"
     imagemin-webp "^5.0.0"
 
+"@jiangtj/hexo-next-article-anchor@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/@jiangtj/hexo-next-article-anchor/-/hexo-next-article-anchor-1.0.0.tgz#dd03d4612c91cc23509c6f0d815cebf5e7e0e7b6"
+  integrity sha512-MA8CBjKAWHTIDSSeEAuD7JqXyBdpFKq+39Mneb+wUnZjaiMih8stccJOGUPbAT/vPvssH6dysuRNIEz4SIY5DQ==
+
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.npmjs.org/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
