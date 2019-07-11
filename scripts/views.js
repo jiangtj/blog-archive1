@@ -13,4 +13,8 @@ hexo.extend.filter.register('theme_inject', function(injects) {
   injects.variable.push('source/_data/variables.styl');
   injects.style.push('source/_data/styles.styl');
 
+  //gitter
+  injects.head.file('gitter', 'views/gitter.swig', {}, {cache: true});
+  //injects.variable.push('views/gitter.styl');
+
 });
