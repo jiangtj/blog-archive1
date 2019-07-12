@@ -31,7 +31,7 @@ Best Wishes In 2018.12.18
 
 # 简历
 <p>
-  <a data-fancybox data-type="iframe" data-src="https://pan.wps.cn/l/s8ikcg4" href="javascript:;">
+  <a href="https://pan.wps.cn/l/s8ikcg4">
 	  <i class="fa fa-heart" aria-hidden="true" style='color:black'></i> 我的简历档案，求内推呀！
   </a>
 </p>
