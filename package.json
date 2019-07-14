@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "@jiangtj/hexo-cli": "^0.0.2",
-    "@jiangtj/hexo-next-article-anchor": "^1.0.0",
+    "@jiangtj/hexo-next-article-anchor": "^1.0.1",
     "hexo": "^3.9.0",
     "hexo-autoprefixer": "^2.0.0",
     "hexo-cake-canvas-ribbon": "^1.0.2",

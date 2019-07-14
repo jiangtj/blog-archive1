@@ -9,15 +9,17 @@ menu:
   集成: /cake/cubes/ || cubes 
 ---
 
-Cake通过插件集成附加的功能，而本身不包含附加功能的任何文件。所以轻量且强大。
+Cake通过插件集成附加的功能，而本身不包含附加功能的任何文件。所以轻量且强大。目前与NexT的插件方案一致，今后也会保持与它的同步，所以你可以前往[Awesome NexT](https://github.com/theme-next/awesome-next)查看更多的插件
 
 # List
-这里是一系列现有的插件
+
+下面是我所编写的插件，其中部分是NexT原本集成的功能被我独立出去的
 
 - [hexo-cake-canvas-ribbon](https://github.com/jiangtj-lab/hexo-cake-canvas-ribbon): Ribbon背景
 - [hexo-cake-math](https://github.com/jiangtj-lab/hexo-cake-math): Math支持
 - [hexo-cake-live2d](https://github.com/jiangtj-lab/hexo-cake-live2d): Live2d支持(与上游区别：仅Cake生成的Html文件非全部)
 - [hexo-cake-moon-menu](https://github.com/jiangtj-lab/hexo-cake-moon-menu): 新的右下角按钮
+- [hexo-next-article-anchor](https://github.com/jiangtj-lab/hexo-next-article-anchor): 页面标题锚点（例子，慎重使用）
 
 # Use
 
