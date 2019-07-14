@@ -29,7 +29,6 @@ Okay，缘由讲到这，接下来来体验下如何使用`theme_inject`。当�
 hexo.extend.filter.register('theme_inject', function(injects) {
   //名字路径等都可以随意修改，为了方便下文都以这里的定义为主
   injects.head.file('gitter', 'views/gitter.swig', {}, {cache: true});
-  //injects.variable.push('views/gitter.styl');
 });
 ```
 
@@ -52,7 +51,7 @@ hexo.extend.filter.register('theme_inject', function(injects) {
 ```js
 hexo.extend.filter.register('theme_inject', function(injects) {
   injects.head.file('gitter', 'views/gitter.swig', {}, {cache: true});
-  injects.variable.push('views/gitter.styl');
+  injects.style.push('views/gitter.styl');
 });
 ```
 

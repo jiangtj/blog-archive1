@@ -14,6 +14,6 @@ hexo.extend.filter.register('theme_inject', function(injects) {
 
   //gitter
   injects.head.file('gitter', 'views/gitter.swig', {}, {cache: true});
-  //injects.variable.push('views/gitter.styl');
+  //injects.style.push('views/gitter.styl');
 
 });
