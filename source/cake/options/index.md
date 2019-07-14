@@ -13,6 +13,8 @@ menu:
 
 # 菜单
 
+原子菜单去除，改为针对文章的快捷菜单
+
 ## 侧边栏菜单
 
 ```yaml
@@ -74,3 +76,9 @@ reward:
     image: /images/paypal.png
     url: https://www.paypal.me/jiangtj
 ```
+
+# 废弃
+
+- 如果你在Cake配置中未找到NexT中存在选项，那么这个功能可能已经被废弃。
+
+- 将废弃`vendors`，默认情况下所有的js都走cdn。如果你可能希望js保存在本地，那么通过cdn下载下来，并保存在blog的资源目录，然后在cdn设置选项中修改为本地地址即可。
