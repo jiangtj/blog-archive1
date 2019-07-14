@@ -11,7 +11,6 @@
     "hexo": "^3.9.0",
     "hexo-autoprefixer": "^2.0.0",
     "hexo-cake-canvas-ribbon": "^1.0.2",
-    "hexo-cake-live2d": "^3.1.1",
     "hexo-cake-moon-menu": "^1.1.0",
     "hexo-generator-archive": "^0.1.5",
     "hexo-generator-baidu-sitemap": "^0.1.6",
@@ -27,8 +26,6 @@
     "hexo-renderer-ejs": "^0.3.1",
     "hexo-renderer-marked": "^1.0.1",
     "hexo-renderer-stylus": "^0.3.3",
-    "hexo-server": "^0.3.3",
-    "live2d-widget-model-epsilon2_1": "^1.0.5",
-    "live2d-widget-model-miku": "^1.0.5"
+    "hexo-server": "^0.3.3"
   }
 }
