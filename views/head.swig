@@ -9,3 +9,4 @@
 <script async custom-element="amp-auto-ads"
         src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
 </script>
+<link rel="alternate" href="{{ url_for('rss2.xml') }}" title="{{ title }}" type="application/atom+xml"/>
