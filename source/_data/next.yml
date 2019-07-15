@@ -1,12 +1,3 @@
-# Redefine custom file paths. Introduced in NexT v6.0.2. If commented, will be used default custom file paths.
-# For example, you want to put your custom styles file outside theme directory in root `source/_data`, set `styles: source/_data/styles.styl`
-custom_file_path:
-  # Default path: source/css/_variables/custom.styl
-  #variables: source/_data/variables.styl
-  # Default path: source/css/_mixins/custom.styl
-  #mixins: source/_data/mixins.styl
-  # Default path: source/css/_custom/custom.styl
-  #styles: source/_data/styles.styl
 
 # rss: rss2.xml
 
@@ -14,6 +5,18 @@ github_banner:
   enable: false
   permalink: https://github.com/jiangtj
   title: Follow me on GitHub
+
+avatar:
+  # In theme directory (source/images): /images/avatar.gif
+  # In site directory (source/uploads): /uploads/avatar.gif
+  # You can also use other linking images.
+  url: /images/avatar.jpg
+  # If true, the avatar would be dispalyed in circle.
+  rounded: true
+  # The value of opacity should be choose from 0 to 1 to set the opacity of the avatar.
+  opacity: 1
+  # If true, the avatar would be rotated with the cursor.
+  rotated: false
 
 favicon:
   small: /images/favicon/xin-64.png
@@ -62,10 +65,17 @@ menu:
   #影视动漫,推荐!: https://neet.dnocm.com/ || television
   more: /more/ || info-circle
 
+comments:
+  # Type list:
+  # disqus valine 
+  type: disqus
+  # If comment system support, show comments count in meta area
+  count: 
+    page: true
+    post: true
+
 disqus:
-  enable: true
   shortname: jiangtj
-  count: false
   lazyload: false
 
 #chatra:
@@ -84,3 +94,13 @@ reward_settings:
   # You can show or hide reward in a specific article throuth `reward: true | false` in Front Matter.
   enable: true
   comment: Buy me a cup of coffee ☕.
+
+local_search:
+  enable: true
+  # If auto, trigger search by changing input.
+  # If manual, trigger search by pressing enter key or search button.
+  trigger: auto
+  # Show top n results per article, show all results by setting to -1
+  top_n_per_article: 1
+  # Unescape html strings to the readable one.
+  unescape: false
