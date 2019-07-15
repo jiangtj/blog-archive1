@@ -1,6 +1,6 @@
 ---
 title: Spring Cloud 之 Gateway （Greenwich版）
-categories: [DevOps]
+categories: [后端]
 tags: [微服务,Spring Cloud]
 date: 2019-05-20 21:16:33
 ---

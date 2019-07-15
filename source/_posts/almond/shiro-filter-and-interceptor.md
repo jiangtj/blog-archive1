@@ -1,7 +1,7 @@
 ---
 title: Shiro拦截器与过滤器
 date: 2017-8-11
-categories: [Java]
+categories: [后端]
 tags: [Shiro]
 ---
 

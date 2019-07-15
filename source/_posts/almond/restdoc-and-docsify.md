@@ -1,7 +1,7 @@
 ---
 title: Restdoc与Docsify,更简单的生成Api文档
 date: 2018-12-10
-categories: [DevOps]
+categories: [后端]
 tags: [Test]
 ---
 大半年前就写过一篇文章[《测试驱动开发(TDD)的实践》](https://www.dnocm.com/articles/almond/test-driven development/)，关于测试的。时至今日，我仍然坚信测试是软件开发一重要环节，它在绝大多数情况下，保障了系统的质量与稳定性。   

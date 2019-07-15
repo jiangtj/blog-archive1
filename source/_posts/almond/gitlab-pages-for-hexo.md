@@ -1,7 +1,7 @@
 ---
 title: GitLab Pages 搭建Hexo教程
 date: 2017-10-11
-categories: [Web]
+categories: [前端]
 tags: [Hexo,CI]
 ---
 

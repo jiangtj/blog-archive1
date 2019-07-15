@@ -1,7 +1,7 @@
 ---
 title: Spring Boot使用GitLab CI自动部署
 date: 2018-4-23
-categories: [DevOps]
+categories: [后端]
 tags: [Java,Shell,CI]
 ---
 # 定义场景

@@ -1,7 +1,7 @@
 ---
 title: Java动态代理小例子.
 date: 2016-7-18
-categories: [Java]
+categories: [后端]
 tags: [设计模式]
 ---
 ### 例子

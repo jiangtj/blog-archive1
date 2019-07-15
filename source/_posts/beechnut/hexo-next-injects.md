@@ -1,6 +1,6 @@
 ---
 title: Hexo NexT 高阶教程之 Injects
-categories: [Web]
+categories: [前端]
 tags: [Hexo, NexT]
 date: 2019-07-11 09:54:31
 description: 一个全新的自定义主题方式，分享你的Code。

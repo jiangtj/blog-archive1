@@ -1,7 +1,7 @@
 ---
 title: Spring Boot Relaxed Binding 2.0
 date: 2018-07-12
-categories: [Java]
+categories: [后端]
 tags: [Spring Boot]
 ---
 

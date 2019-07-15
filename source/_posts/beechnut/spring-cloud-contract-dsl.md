@@ -1,6 +1,6 @@
 ---
 title: Spring Cloud Contract DSL
-categories: [DevOps]
+categories: [后端]
 tags: [微服务,Spring Cloud]
 date: 2019-04-28 21:29:12
 ---

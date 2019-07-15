@@ -1,6 +1,6 @@
 ---
 title: 一点点解析Vue CLI之Create
-categories: [Web]
+categories: [前端]
 tags: [Vue,Vue CLI]
 date: 2019-04-16 21:27:47
 ---

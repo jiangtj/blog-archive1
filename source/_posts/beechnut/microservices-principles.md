@@ -2,7 +2,7 @@
 title: 微服务设计 - 原则
 date: 2019-3-5
 description: 《微服务设计》书中，提到了7大原则，十分赞同。
-categories: [DevOps]
+categories: [架构]
 tags: [微服务]
 ---
 

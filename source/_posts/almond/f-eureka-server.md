@@ -1,7 +1,7 @@
 ---
 title: Spring Cloud 之 Eureka （Finchley版）
 date: 2018-7-25
-categories: [Java]
+categories: [后端]
 tags: [Spring Cloud]
 ---
 

@@ -1,8 +1,7 @@
 ---
 title: Certbot 为你的HTTP服务加一层SSL协议
 date: 2018-04-27
-categories: [Web]
-tags: [Web]
+categories: [运维]
 ---
 
 谷歌Chrome安全产品经理艾米丽·谢克特（Emily Schechter）发表博文，证实当该公司在7月发布Chrome 68浏览器时，该浏览器将把所有未采用HTTPS（安全套接字层超文本传输协议）加密的网站都标记为“不安全”网站。    

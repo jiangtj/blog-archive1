@@ -4,8 +4,7 @@ date: 2019-03-28 23:18:51
 tags:
   - 微服务
   - Spring Cloud
-categories:
-  - DevOps
+categories: [后端]
 ---
 
 Spring Cloud Contract是契约测试的一个实现，最早看到契约测试还是在《微服务设计》书中，不过那时候绝对想不到真的会接触它。

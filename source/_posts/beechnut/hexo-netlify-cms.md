@@ -1,7 +1,7 @@
 ---
 title: Hexo Netlify CMS
 date: 2019-1-9
-categories: [Web]
+categories: [前端]
 tags: [Hexo]
 ---
 

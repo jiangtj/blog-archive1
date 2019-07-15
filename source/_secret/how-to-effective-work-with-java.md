@@ -1,7 +1,7 @@
 ---
 title: 作为一名Java工程师,如何高效的工作
 date: 2017-10-27
-categories: [Java]
+categories: [后端]
 tags: [高效]
 ---
 
