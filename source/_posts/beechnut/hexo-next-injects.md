@@ -111,7 +111,8 @@ success Saved package.json
 Done in 99.85s.
 ```
 
-name建议添加scope也就是`@你的用户名`，比如到时候有一样名字的包，无法上传
+- name建议添加`@scope`也就是`@你的用户名`，比如到时候有一样名字的包，无法上传
+- name必须以`hexo-`或者`@scope/hexo-`开头
 
 ## 创建例子工程预览插件
 
