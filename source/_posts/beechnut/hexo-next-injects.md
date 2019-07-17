@@ -111,12 +111,12 @@ success Saved package.json
 Done in 99.85s.
 ```
 
-- name建议添加`@scope`也就是`@你的用户名`，比如到时候有一样名字的包，无法上传
+- name建议添加`@scope`也就是`@你的用户名`，毕竟到时候有一样名字的包，无法上传
 - name必须以`hexo-`或者`@scope/hexo-`开头
 
 ## 创建例子工程预览插件
 
-你需要将你的插件上传上出（这步原本最后，但由于hexo会检测package.json来执行插件，所以必须先有插件），在当前项目中运行`yarn publish --access public`
+你需要将你的插件上传上出（这步原本是最后一步，但由于hexo会检测package.json来执行插件，所以必须先有插件），在当前项目中运行`yarn publish --access public`
 
 添加一个`.gitignore`，如果默认情况下，npm也会依据它忽略不必要的文件
 ```
@@ -145,12 +145,12 @@ hexo s
 ```bash
 # 添加依赖
 yarn add "@jiangtj/hexo-moon-menu"
-# 将插件创建引用，方便调试
+# 为插件创建引用，来调试
 cd ..
 yarn link
 cd example
 yarn link "@jiangtj/hexo-moon-menu"
-# 运行预览，由于没做说明所以没什么变话
+# 运行预览，由于什么都没做所以没什么变话
 hexo s
 ```
 
@@ -161,7 +161,7 @@ hexo s
 - moon-menu.swig 菜单的布局
 - moon-menu.styl 菜单的样式
 
-在上面的Injects使用中，你能体会到重点在于js脚本，样式等都是通过它进行组织的，所以样式我这边忽略了，如果你想研究可以查看那些
+在上面的Injects使用中，你能体会到重点在于js脚本，样式等都是通过它进行组织的，所以样式我就忽略了，如果你想研究可以查看那些
 
 ## 脚本
 
@@ -175,7 +175,7 @@ const path = require('path');
 
 hexo.extend.filter.register('theme_inject', function(injects) {
 
-  // 需要原本的按钮
+  // 需要禁用原本的按钮
   hexo.theme.config.back2top.enable = false;
 
   // 读取默认配置文件
@@ -219,7 +219,7 @@ hexo s
 
 完成后记得别忘记上传`yarn publish --access public`，然后赶紧在自己的博客中试下把`yarn add @jiangtj/hexo-moon-menu`
 
-如果你希望更多看到与使用你的插件，可以提交PR至 [Awesome-NexT](https://github.com/theme-next/awesome-next)
+如果你希望更多看到与使用你的插件，欢迎提交PR至 [Awesome-NexT](https://github.com/theme-next/awesome-next)
 
 # 后世果
 
