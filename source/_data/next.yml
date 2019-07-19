@@ -1,11 +1,4 @@
 
-# rss: rss2.xml
-
-github_banner:
-  enable: false
-  permalink: https://github.com/jiangtj
-  title: Follow me on GitHub
-
 avatar:
   # In theme directory (source/images): /images/avatar.gif
   # In site directory (source/uploads): /uploads/avatar.gif
