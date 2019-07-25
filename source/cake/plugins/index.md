@@ -19,7 +19,8 @@ Cake通过插件集成附加的功能，而本身不包含附加功能的任何�
 - [hexo-cake-math](https://github.com/jiangtj-lab/hexo-cake-math): Math支持
 - [hexo-cake-live2d](https://github.com/jiangtj-lab/hexo-cake-live2d): Live2d支持(与上游区别：仅Cake生成的Html文件非全部)
 - [hexo-cake-moon-menu](https://github.com/jiangtj-lab/hexo-cake-moon-menu): 新的右下角按钮
-- [hexo-next-article-anchor](https://github.com/jiangtj-lab/hexo-next-article-anchor): 页面标题锚点（例子，慎重使用）
+- [hexo-next-article-anchor](https://github.com/jiangtj-lab/hexo-next-article-anchor): 页面标题锚点
+- [hexo-cake-local-search](https://github.com/jiangtj-lab/hexo-cake-local-search): 本地搜索功能
 
 # Use
 
