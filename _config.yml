@@ -69,7 +69,6 @@ theme: cake
 favicon: /images/Smile.ico
 
 search:
-  path: search.xml
   field: all
   format: raw
   limit: 1000
