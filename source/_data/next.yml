@@ -98,6 +98,20 @@ reward_settings:
   enable: true
   comment: Buy me a cup of milkshake 🍨.
 
+reward:
+  wechat:
+    icon: weixin
+    image: /images/wechatpay.png
+  alipay:
+    name: 支
+    image: /images/alipay.png
+    url_name: 点击跳转
+    url: HTTPS://QR.ALIPAY.COM/FKX06416WJNHOWKMRQQFFE
+  paypal:
+    icon: paypal
+    image: /images/paypal.png
+    url: https://www.paypal.me/jiangtj
+
 local_search:
   enable: true
   # If auto, trigger search by changing input.
