@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@jiangtj/hexo-cli@^0.0.2":
-  version "0.0.2"
-  resolved "https://registry.npmjs.org/@jiangtj/hexo-cli/-/hexo-cli-0.0.2.tgz#2dc9ab3134cd390f856a07554d0fe034bb2f5bb3"
-  integrity sha512-l0vxFtggvuqJDPEVMmIJVTbuC4xdIlqKoYDx428lYT1T7GNkzC1l6599DSuAEGsYUZE/HvOzrb1cxW9wsIo+dA==
+"@jiangtj/hexo-cli@^0.0.4":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@jiangtj/hexo-cli/-/hexo-cli-0.0.4.tgz#05919fa91c25fa341c79eba6db39c7a710a2e75c"
+  integrity sha512-lex8K8C6FJDYKWGQQAiXa8nn3mqt3K+DMbfcFQpqHn5ZwTrbSjeT9lBj/gHZP8Rr6EsuSnBQExVLDoVdk9gwgA==
   dependencies:
     imagemin "^6.1.0"
     imagemin-webp "^5.0.0"
