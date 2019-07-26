@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@jiangtj/hexo-cli@^0.0.2":
-  version "0.0.2"
-  resolved "https://registry.npmjs.org/@jiangtj/hexo-cli/-/hexo-cli-0.0.2.tgz#2dc9ab3134cd390f856a07554d0fe034bb2f5bb3"
-  integrity sha512-l0vxFtggvuqJDPEVMmIJVTbuC4xdIlqKoYDx428lYT1T7GNkzC1l6599DSuAEGsYUZE/HvOzrb1cxW9wsIo+dA==
+"@jiangtj/hexo-cli@^0.0.4":
+  version "0.0.4"
+  resolved "https://registry.npmjs.org/@jiangtj/hexo-cli/-/hexo-cli-0.0.4.tgz#05919fa91c25fa341c79eba6db39c7a710a2e75c"
+  integrity sha512-lex8K8C6FJDYKWGQQAiXa8nn3mqt3K+DMbfcFQpqHn5ZwTrbSjeT9lBj/gHZP8Rr6EsuSnBQExVLDoVdk9gwgA==
   dependencies:
     imagemin "^6.1.0"
     imagemin-webp "^5.0.0"
@@ -1602,10 +1602,10 @@ hexo-cake-canvas-ribbon@^1.0.2:
   dependencies:
     js-yaml "^3.13.1"
 
-hexo-cake-local-search@^2.4.0-1:
-  version "2.4.0-1"
-  resolved "https://registry.npmjs.org/hexo-cake-local-search/-/hexo-cake-local-search-2.4.0-1.tgz#9295aeef7d4646d5731aa737ce1499dbe772be8f"
-  integrity sha512-lrdi69ubEilEUR7ZxG/m67hOG3pHDFptdL9AZyW3KC5u2e96pgYdOAVI1j0AVaRpbpPMBqnn8Kd7Zmfue8ymRQ==
+hexo-cake-local-search@^2.4.0-4:
+  version "2.4.0-4"
+  resolved "https://registry.npmjs.org/hexo-cake-local-search/-/hexo-cake-local-search-2.4.0-4.tgz#171c5e20fd37e207bad64121f063b66c275e75cb"
+  integrity sha512-4yLqGtBji7/vzO2LbQk4VH+54b2lGNgYsGXIgFIomN+4httHX67KJitHdZgZ3jz8JAPyvO6ryZfeZKPrk1TbUA==
 
 hexo-cake-moon-menu@^1.1.0:
   version "1.1.0"
