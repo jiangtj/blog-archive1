@@ -72,6 +72,9 @@ search:
   field: all
   format: raw
   limit: 1000
+  script:
+    type: cdn
+    path: //cdn.jsdelivr.net/npm/hexo-cake-local-search@2.4.0-5/dist/local-search.js
 
 # sitemap
 sitemap:

@@ -12,7 +12,7 @@
     "hexo": "^3.9.0",
     "hexo-autoprefixer": "^2.0.0",
     "hexo-cake-canvas-ribbon": "^1.0.2",
-    "hexo-cake-local-search": "^2.4.0-4",
+    "hexo-cake-local-search": "^2.4.0-5",
     "hexo-cake-moon-menu": "^1.1.0",
     "hexo-generator-archive": "^0.1.5",
     "hexo-generator-baidu-sitemap": "^0.1.6",
