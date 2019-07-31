@@ -1,7 +1,3 @@
-<!-- Google Adsense -->
-<amp-auto-ads type="adsense"
-              data-ad-client="ca-pub-8243423215749776">
-</amp-auto-ads>
 
 <div class="pin-top-msg">
 <a class='jump-to-dnocm'>您访问的是非正式的站点，不是最新内容哦，请点击这里前往Dnocm ヾ(=ﾟ･ﾟ=)ﾉ喵♪</a>
