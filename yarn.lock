@@ -1722,6 +1722,12 @@ hexo-netlify-cms@^0.1.2-5:
   dependencies:
     js-yaml "^3.12.1"
 
+hexo-next-utteranc@theme-next/hexo-next-utteranc#1.0.0:
+  version "1.0.0"
+  resolved "https://codeload.github.com/theme-next/hexo-next-utteranc/tar.gz/e9eeea38f25735ca09c075d1782d29d1aa4ed45c"
+  dependencies:
+    js-yaml "^3.13.1"
+
 hexo-pagination@0.0.2:
   version "0.0.2"
   resolved "https://registry.yarnpkg.com/hexo-pagination/-/hexo-pagination-0.0.2.tgz#8cf470c7db0de5b18a3926a76deb194015df7f2b"

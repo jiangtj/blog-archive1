@@ -61,6 +61,11 @@ menu:
   more: /more/ || info-circle
 
 # comments
+comments:
+  active: disqus
+utteranc:
+  enable: true
+  repo: jiangtj-lab/comments-test
 disqus:
   enable: true
   shortname: jiangtj
