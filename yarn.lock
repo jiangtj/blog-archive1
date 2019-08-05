@@ -1724,7 +1724,8 @@ hexo-netlify-cms@^0.1.2-5:
 
 hexo-next-utteranc@theme-next/hexo-next-utteranc:
   version "1.0.0"
-  resolved "https://codeload.github.com/theme-next/hexo-next-utteranc/tar.gz/78a2dc9c0cbe9acaa4523ddd732f134c902474b4"
+  uid "4786bb52eb8f1a0d0859e832fe85abed7a4c0298"
+  resolved "https://codeload.github.com/theme-next/hexo-next-utteranc/tar.gz/4786bb52eb8f1a0d0859e832fe85abed7a4c0298"
   dependencies:
     js-yaml "^3.13.1"
 
