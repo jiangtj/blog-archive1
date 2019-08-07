@@ -113,3 +113,7 @@ reward:
     icon: paypal
     image: /images/paypal.png
     url: https://www.paypal.me/jiangtj
+  kofi:
+    icon: coffee
+    image: /images/kofi.png
+    url: https://ko-fi.com/jiangtj
