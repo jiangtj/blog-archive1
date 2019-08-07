@@ -1,6 +1,7 @@
 [submodule "themes/next-sub"]
 	path = themes/next-sub
 	url = https://github.com/jiangtj/hexo-theme-next
+	branch = master
 [submodule "themes/cake"]
 	path = themes/cake
 	url = https://github.com/JiangTJ/hexo-theme-cake

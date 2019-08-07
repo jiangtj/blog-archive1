@@ -15,6 +15,11 @@
   resolved "https://registry.yarnpkg.com/@jiangtj/hexo-next-article-anchor/-/hexo-next-article-anchor-1.0.1.tgz#d4c94f9df6690f6733ebc857efa3138b38b91e87"
   integrity sha512-Xkelr1PNKsZL6KNe/P9Ctm51l1YEmdmzCX2hb8zsTnfus1c2pC3lfNPK4H2iuOPGgsWLGBMhuUUypnCqQb+HYA==
 
+"@jiangtj/hexo-theme-plus@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@jiangtj/hexo-theme-plus/-/hexo-theme-plus-0.2.0.tgz#c2e7e4b2ee30113f75b7d11b7b14851c692eead8"
+  integrity sha512-N/iShkHzVmKUVASdEHyVMpbwSez12eknvZSmQ8MaeuH0MkNLb6pplNESf2Jhp9rv368cwrU3RwR6vX/Xar4X4w==
+
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.npmjs.org/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
@@ -1724,7 +1729,6 @@ hexo-netlify-cms@^0.1.2-5:
 
 hexo-next-utteranc@theme-next/hexo-next-utteranc:
   version "1.0.0"
-  uid "4786bb52eb8f1a0d0859e832fe85abed7a4c0298"
   resolved "https://codeload.github.com/theme-next/hexo-next-utteranc/tar.gz/4786bb52eb8f1a0d0859e832fe85abed7a4c0298"
   dependencies:
     js-yaml "^3.13.1"

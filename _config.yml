@@ -183,3 +183,9 @@ utteranc:
 
 jiang:
   post_base_dir: beechnut
+
+theme_plus:
+  debug: true
+  views:
+    - path: '_macro/sidebar.swig'
+      file: 'custom/sidebar.swig'
