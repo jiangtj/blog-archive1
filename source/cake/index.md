@@ -6,7 +6,6 @@ menu:
   基础配置: /cake/options/ || cog 
   插件: /cake/plugins/ || plug 
   自定义: /cake/custom/ || wrench 
-  集成: /cake/cubes/ || cubes 
 ---
 
 # 一些事
@@ -22,6 +21,8 @@ Hexo Theme Cake是个lovely主题，基于7.1.0版本的NexT。原本计划重�
 2. 更大的控制权，我可以做任何事，重构/去除一些有异议的功能，比如下面的例子
   - Exturl 加密对于前端来说没有意义，所以会去除
   - Note Tag 重构，调整其header的方式，去除了样式配置（保留一种好看的，原因是可以通过stylus自定义）
+
+> 所以如果你喜欢我的样式，可以尝试使用，如果更喜欢更多内置功能，[NexT](https://github.com/theme-next/hexo-theme-next)可能更适合你
 
 # 快速开始
 

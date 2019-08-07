@@ -6,7 +6,6 @@ menu:
   Home: /cake/ || eercast 
   插件: /cake/plugins/ || plug 
   自定义: /cake/custom/ || wrench 
-  集成: /cake/cubes/ || cubes 
 ---
 
 > 大部分与NexT一样，您可以参考[NexT文档](https://theme-next.org/)，下面是不同部分。
@@ -81,4 +80,4 @@ reward:
 
 - 如果你在Cake配置中未找到NexT中存在选项，那么这个功能可能已经被废弃。
 
-- 将废弃`vendors`，默认情况下所有的js都走cdn。如果你可能希望js保存在本地，那么通过cdn下载下来，并保存在blog的资源目录，然后在cdn设置选项中修改为本地地址即可。
+- 将废弃`vendors`，默认情况下所有的js都走cdn。如果你希望js保存在本地，那么通过cdn下载下来，并保存在blog的资源目录，然后在cdn设置选项中修改为本地地址即可。
