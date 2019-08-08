@@ -15,10 +15,10 @@
   resolved "https://registry.npmjs.org/@jiangtj/hexo-next-article-anchor/-/hexo-next-article-anchor-1.0.1.tgz#d4c94f9df6690f6733ebc857efa3138b38b91e87"
   integrity sha512-Xkelr1PNKsZL6KNe/P9Ctm51l1YEmdmzCX2hb8zsTnfus1c2pC3lfNPK4H2iuOPGgsWLGBMhuUUypnCqQb+HYA==
 
-"@jiangtj/hexo-theme-plus@^0.2.1":
-  version "0.2.1"
-  resolved "https://registry.npmjs.org/@jiangtj/hexo-theme-plus/-/hexo-theme-plus-0.2.1.tgz#6d839c67e93d186cbc36cdc316e715bc62b3b929"
-  integrity sha512-Agq6HyzKhWRIJBTqS9uGp0uBSzUnCM7m1H9NoEkA4duS1Sga+cN/vHapFFSB66GJeZFQlEl7wj3QqajYVgk1bw==
+"@jiangtj/hexo-theme-plus@^0.2.2":
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/@jiangtj/hexo-theme-plus/-/hexo-theme-plus-0.2.2.tgz#9807165d846dc8c4d4958ec60d6c402b938999c7"
+  integrity sha512-qFhZjiLSYp3oQ1m09PiantSm7wNrtmbkpZjgKk/VLiengw1S30tEH2ezMHcMIbYnXUcT9Hq4jH0mWxZ75YbiuA==
 
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
