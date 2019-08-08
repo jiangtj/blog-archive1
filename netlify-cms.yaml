@@ -4,23 +4,40 @@ backend:
 
 publish_mode: editorial_workflow
 
-# pages auto generate
-pages: 
-  enabled: true
-  # over page collection config
-  # if fields not set, would use posts fields config
-  config:
-    label: "Page"
-    delete: false
-    editor:
-      preview: false
-    # fields: 
-# through hexo config over fields
-over_format: true
-
 media_folder: source/images/uploads
 public_folder: /images/uploads
 
+# auto generator
+auto_generator:
+  post: 
+    all_posts:
+      enabled: false
+    beechnut_posts:
+      label: "Beechnut"
+      folder: "source/_posts/beechnut" # The path to the folder where the documents are stored
+      create: true # Allow users to create new documents in this collection
+      editor:
+        preview: false
+    almond_posts:
+      label: "Almond"
+      folder: "source/_posts/almond" # The path to the folder where the documents are stored
+      create: false # Allow users to create new documents in this collection
+      editor:
+        preview: false
+  page: 
+    config:
+      editor:
+        preview: false
+
+global_fields:
+  default:
+    - {label: "Banner", name: "banner", widget: "image", required: false}
+    - {label: "Title", name: "title", widget: "string"}
+    - {label: "Publish Date", name: "date", widget: "date", required: false}
+    - {label: "Tags", name: "tags", widget: "list", required: false}
+    - {label: "Categories", name: "categories", widget: "list", required: false}
+    - {label: "Body", name: "body", widget: "markdown", required: false}
+    - {label: "Comments", name: "comments", widget: "boolean", default: true, required: false}
 # A list of collections the CMS should be able to edit
 collections:
   # Used in routes, ie.: /admin/collections/:slug/edit
