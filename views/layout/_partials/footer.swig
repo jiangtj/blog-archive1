@@ -1,4 +1,4 @@
-<div class="copyright">出你的伤口举报v本科生{#
+<div class="copyright">{#
 #}{% set current = date(Date.now(), "YYYY") %}{#
 #}{% if theme.footer.beian.enable %}{#
 #}  {{ next_url('http://www.miitbeian.gov.cn', theme.footer.beian.icp + ' ') }}{#
@@ -8,7 +8,7 @@
   <span class="with-love" id="animate">
     <i class="fa fa-{{ theme.footer.icon.name }}"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">{{ theme.footer.copyright || author }}</span>
+  <span class="author" itemprop="copyrightHolder">{{ theme.footer.copyright || author }} Ծ‸ Ծ</span>
 
   {% if config.symbols_count_time.total_symbols %}
     <span class="post-meta-divider">|</span>
