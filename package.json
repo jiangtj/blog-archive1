@@ -24,7 +24,7 @@
     "hexo-generator-index": "^0.2.1",
     "hexo-generator-sitemap": "^1.2.0",
     "hexo-generator-tag": "^0.2.0",
-    "hexo-netlify-cms": "^1.0.0-beta4",
+    "hexo-netlify-cms": "^1.0.0-beta5",
     "hexo-next-utteranc": "theme-next/hexo-next-utteranc#1.0.1",
     "hexo-pagination": "^0.1.0",
     "hexo-pwa": "^0.1.3",
