@@ -185,7 +185,7 @@ jiang:
   post_base_dir: beechnut
 
 theme_plus:
-  # debug: true
+  debug: true
   custom_path: views/layout
   # views:
   #   - path: '_macro/sidebar.swig'
