@@ -21,6 +21,10 @@ Cake通过插件集成附加的功能，而本身不包含附加功能的任何�
 - [hexo-next-article-anchor](https://github.com/jiangtj-lab/hexo-next-article-anchor): 页面标题锚点
 - [hexo-cake-local-search](https://github.com/jiangtj-lab/hexo-cake-local-search): 本地搜索功能
 
+另外的一些插件，可能对你使用hexo有帮助
+- [hexo-netlify-cms](https://github.com/jiangtj/hexo-netlify-cms)：简化Netlify CMS（一个在线的内容编辑器）的使用
+- [hexo-theme-plus](https://github.com/jiangtj/hexo-theme-plus)：旨在外部替换主题内部的布局文件
+
 # Use
 
 ```bash
