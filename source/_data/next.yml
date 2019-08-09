@@ -66,7 +66,7 @@ comments:
 disqus:
   enable: true
   shortname: jiangtj
-  count: true
+  count: false
   lazyload: false
 valine:
   enable: false
