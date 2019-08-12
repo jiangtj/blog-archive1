@@ -3,6 +3,7 @@ title: Hexo Theme Cake
 comments: true
 reward: true
 menu:
+  English: /en/cake/ || eercast
   基础配置: /cake/options/ || cog 
   插件: /cake/plugins/ || plug 
   自定义: /cake/custom/ || wrench 
@@ -12,11 +13,13 @@ menu:
 
 ![](/cake/images/t1.png)
 
-Hexo Theme Cake是个lovely主题，基于7.1.0版本的NexT。原本计划重新设计内部逻辑，是它更简单更棒。就像蛋糕Cake，非常非常好吃，而且做起来也简单。
+Hexo Theme Cake是个lovely主题，基于7.1.0版本的NexT。就像蛋糕Cake，非常非常好吃，而且做起来也简单。
 
-但。。。我似乎没考虑到大量的工作量，几乎是我无法完成的。所以，大部分工作循序渐进把。由于大量的重写，许多NexT上的功能被破坏了，其中大部分能以插件形式，快速集成到该主题。如果你发现NexT有的功能，而Cake没有，你可以在[GitHub](https://github.com/JiangTJ/hexo-theme-cake)上提交issue，我会尽快支持这些功能。
+Cake取消了大量NexT上已有的功能，其中大部分能以插件形式，快速集成到该主题。如果你发现NexT有，而Cake没有的，你可以在[GitHub](https://github.com/JiangTJ/hexo-theme-cake)上提交issue，我会尽快支持这些功能。
 
-也许有人会问为什么要单独独立出一个主题？这主要包含以下几点原因
+# 缘由
+
+为什么要单独独立出一个主题？这主要包含以下几点原因
 1. 实践一些新特性，大部分我都会添加至NexT中，但由于NexT的用户量，需要考虑兼容性，支持会慢些
 2. 更大的控制权，我可以做任何事，重构/去除一些有异议的功能，比如下面的例子
   - Exturl 加密对于前端来说没有意义，所以会去除

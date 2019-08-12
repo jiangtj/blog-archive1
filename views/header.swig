@@ -5,7 +5,7 @@
 </div>
 
 <script>
-if (window.location.hostname != 'www.dnocm.com') {
+if (window.location.hostname != 'www.dnocm.com' && window.location.hostname != 'localhost') {
 
   document.querySelector(".pin-top-msg").style.display = 'block';
   document.querySelector(".jump-to-dnocm").href = "https://www.dnocm.com" + window.location.pathname;

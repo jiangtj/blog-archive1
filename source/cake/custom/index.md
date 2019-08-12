@@ -3,7 +3,8 @@ title: 自定义
 comments: true
 reward: true
 menu:
-  Home: /cake/ || eercast 
+  English: /en/cake/custom/ || wrench
+  主页: /cake/ || eercast
   基础配置: /cake/options/ || cog 
   插件: /cake/plugins/ || plug 
 ---
