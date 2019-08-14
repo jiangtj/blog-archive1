@@ -6,16 +6,25 @@ if (hexo.config.theme !== 'next') return;
 
 // 做一点兼容，方便测试NexT主题
 hexo.extend.filter.register('theme_inject', function(injects) {
-
   injects.menu = new ViewInject();
   hexo.theme.config.reward = null;
-
 }, -99);
+
+hexo.extend.filter.register('theme_inject', function(injects) {
+  if (injects.menu.raws.length > 0) {
+    hexo.theme.config.local_search.enable = true;
+    injects.bodyEnd.raw('local-search', '');
+  }
+}, 99);
 
 class ViewInject {
   constructor() {
     this.raws = [];
   }
-  raw(name, raw, ...args) {}
-  file(name, file, ...args) {}
+  raw(name, raw, ...args) {
+    this.raws.push(name);
+  }
+  file(name, file, ...args) {
+    this.raws.push(name);
+  }
 }
