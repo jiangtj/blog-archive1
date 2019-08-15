@@ -1,8 +1,6 @@
-/* global hexo */
-
 'use strict';
 
-function doNetlifyLM ($) { 
+function doNetlifyLM($) {
 
   // $('head').each(function () {
   //   let $head = $(this);
@@ -13,7 +11,7 @@ function doNetlifyLM ($) {
     maxWidth: null
   };
 
-  $('img').each(function () {
+  $('img').each(function() {
 
     let $image = $(this);
     let imageLink = $image.attr('src');
@@ -23,17 +21,17 @@ function doNetlifyLM ($) {
     let width = $image.attr('width');
     let height = $image.attr('height');
     let whList = [];
-    if(width){
+    if (width) {
       whList.push('w=' + width);
     }
-    if(height){
+    if (height) {
       whList.push('h=' + height);
     }
     if (whList.length > 0) {
       if (imageLink.indexOf('?') < 0) {
         imageLink += '?';
       }
-      $image.attr('src', imageLink + "nf_resize=fit&" + whList.join("&"));
+      $image.attr('src', imageLink + 'nf_resize=fit&' + whList.join('&'));
       return;
     }
 
@@ -41,7 +39,7 @@ function doNetlifyLM ($) {
       if (imageLink.indexOf('?') < 0) {
         imageLink += '?';
       }
-      $image.attr('src', imageLink + "nf_resize=fit&w=" + config.maxWidth);
+      $image.attr('src', imageLink + 'nf_resize=fit&w=' + config.maxWidth);
     }
   });
 

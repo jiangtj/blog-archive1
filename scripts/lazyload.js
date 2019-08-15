@@ -1,8 +1,6 @@
-/* global hexo */
-
 'use strict';
 
-function doLazyload ($) { 
+function doLazyload($) {
 
   /**
    * mist
@@ -11,20 +9,20 @@ function doLazyload ($) {
    * 1200 640
    * 1600 820
    * 9999 1120
-   * 
+   *
    *      ~ 1000 640
    * 1001 ~ 1600 820
    * 1601 ~      1120
    */
   let responsiveWidth = [
-    [1000,640],
-    [1600,820],
-    [1601,1120]
-  ]
+    [1000, 640],
+    [1600, 820],
+    [1601, 1120]
+  ];
 
-  $('img').each(function () {
+  $('img').each(function() {
     let $image = $(this);
-    $image.attr('class',  $image.attr('class')||'lozad');
+    $image.attr('class',  $image.attr('class') || 'lozad');
     if (!$image.is('.lozad')) {
       return;
     }
@@ -37,17 +35,17 @@ function doLazyload ($) {
 
     let width = $image.attr('width');
     if (width) {
-      $image.css("width",width + "px"); 
+      $image.css('width', width + 'px');
     }
 
     let srcsetList = [];
     responsiveWidth.forEach(item => {
-      if (width && width<item[1]) {
-        srcsetList.push(`${imageLink}?nf_resize=fit&w=${width} ${item[0]}w`)
+      if (width && width < item[1]) {
+        srcsetList.push(`${imageLink}?nf_resize=fit&w=${width} ${item[0]}w`);
         return;
       }
-      srcsetList.push(`${imageLink}?nf_resize=fit&w=${item[1]} ${item[0]}w`)
-    })
+      srcsetList.push(`${imageLink}?nf_resize=fit&w=${item[1]} ${item[0]}w`);
+    });
     $image.attr('data-srcset', srcsetList.join(','));
   });
 }

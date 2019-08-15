@@ -1,4 +1,8 @@
-hexo.extend.filter.register('after_post_render', function (data) {
+/* global hexo */
+
+'use strict';
+
+hexo.extend.filter.register('after_post_render', function(data) {
 
   var cheerio;
 
