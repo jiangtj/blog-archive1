@@ -11,7 +11,6 @@
   "dependencies": {
     "@jiangtj/hexo-cli": "^0.0.4",
     "@jiangtj/hexo-next-article-anchor": "^1.0.1",
-    "@jiangtj/hexo-theme-plus": "^0.2.3",
     "hexo": "^3.9.0",
     "hexo-autoprefixer": "^2.0.0",
     "hexo-cake-canvas-ribbon": "^1.0.2",
