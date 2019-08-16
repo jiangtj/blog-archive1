@@ -45,10 +45,12 @@ hexo.extend.tag.register('shields', (args) => {
   if (!filePath) {
     hexo.log.warn('FilePath can NOT be empty');
   }
-  if (!filePath.indexOf('/') === 0) {
+  if (!(filePath.indexOf('/') === 0)) {
     filePath = 'source/_data/' + filePath;
   }
-  filePath = filePath + '.yml';
+  if (filePath.indexOf('.') < 0) {
+    filePath = filePath + '.yml';
+  }
   let data = fs.readFileSync(filePath);
   return renderShields(data);
 }, { ends: false });
