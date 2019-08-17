@@ -3,10 +3,13 @@ title: Hexo Theme Cake
 comments: true
 reward: true
 menu:
-  English: /en/cake/ || eercast
-  基础配置: /cake/options/ || cog 
-  插件: /cake/plugins/ || plug 
-  自定义: /cake/custom/ || wrench 
+  主页: /cake/ || eercast
+  基础配置: /cake/options/ || cog
+  插件: /cake/plugins/ || plug
+  自定义: /cake/custom/ || wrench
+i18n:
+  中文: /cake/
+  English: /en/cake/
 ---
 
 # 一些事

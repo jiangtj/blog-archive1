@@ -3,10 +3,13 @@ title: Plugins
 comments: true
 reward: true
 menu:
-  中文: /cake/plugins/ || plug
-  home: /en/cake/ || eercast 
-  options: /en/cake/options/ || cog 
-  custom: /en/cake/custom/ || wrench 
+  home: /en/cake/ || eercast
+  options: /en/cake/options/ || cog
+  plugins: /en/cake/plugins/ || plug
+  custom: /en/cake/custom/ || wrench
+i18n:
+  中文: /cake/plugins/
+  English: /en/cake/plugins/
 ---
 
 Cake integrates additional features through plugins, and does not itself contain any files with additional features. So lightweight and powerful. Consistent with NexT's plugin solution (keep in sync with it), so you can go to [Awesome NexT](https://github.com/theme-next/awesome-next) to see more plugins

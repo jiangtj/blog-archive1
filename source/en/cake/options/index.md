@@ -3,10 +3,13 @@ title: Options
 comments: true
 reward: true
 menu:
-  中文: /cake/options/ || cog
-  home: /en/cake/ || eercast 
-  plugins: /en/cake/plugins/ || plug 
-  custom: /en/cake/custom/ || wrench 
+  home: /en/cake/ || eercast
+  options: /en/cake/options/ || cog
+  plugins: /en/cake/plugins/ || plug
+  custom: /en/cake/custom/ || wrench
+i18n:
+  中文: /cake/options/
+  English: /en/cake/options/
 ---
 
 > Most of them are the same as NexT, you can refer to [NexT Documentation](https://theme-next.org/), the following are the different sections.

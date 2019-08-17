@@ -3,10 +3,13 @@ title: Custom
 comments: true
 reward: true
 menu:
-  中文: /cake/custom/ || wrench
   home: /en/cake/ || eercast
-  options: /en/cake/options/ || cog 
-  plugins: /en/cake/plugins/ || plug 
+  options: /en/cake/options/ || cog
+  plugins: /en/cake/plugins/ || plug
+  custom: /en/cake/custom/ || wrench
+i18n:
+  中文: /cake/custom/
+  English: /en/cake/custom/
 ---
 
 Cake provides powerful customization features to ensure that you can inject new components without modifying theme files, or replace theme files with external files.

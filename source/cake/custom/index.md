@@ -3,10 +3,13 @@ title: 自定义
 comments: true
 reward: true
 menu:
-  English: /en/cake/custom/ || wrench
   主页: /cake/ || eercast
-  基础配置: /cake/options/ || cog 
-  插件: /cake/plugins/ || plug 
+  基础配置: /cake/options/ || cog
+  插件: /cake/plugins/ || plug
+  自定义: /cake/custom/ || wrench
+i18n:
+  中文: /cake/custom/
+  English: /en/cake/custom/
 ---
 
 Cake提供强大的自定义功能，确保你能在不修改主题文件的情况下，注入新的组件，或者使用外部文件替换主题文件

@@ -3,10 +3,13 @@ title: 插件
 comments: true
 reward: true
 menu:
-  English: /en/cake/plugins/ || plug
   主页: /cake/ || eercast
   基础配置: /cake/options/ || cog
+  插件: /cake/plugins/ || plug
   自定义: /cake/custom/ || wrench
+i18n:
+  中文: /cake/plugins/
+  English: /en/cake/plugins/
 ---
 
 Cake通过插件集成附加的功能，而本身不包含附加功能的任何文件。所以轻量且强大。与NexT的插件方案一致（保持与它的同步），所以你可以前往[Awesome NexT](https://github.com/theme-next/awesome-next)查看更多的插件

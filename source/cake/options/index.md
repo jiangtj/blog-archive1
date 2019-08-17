@@ -3,10 +3,13 @@ title: 配置
 comments: true
 reward: true
 menu:
-  English: /en/cake/options/ || cog
-  主页: /cake/ || eercast 
-  插件: /cake/plugins/ || plug 
-  自定义: /cake/custom/ || wrench 
+  主页: /cake/ || eercast
+  基础配置: /cake/options/ || cog
+  插件: /cake/plugins/ || plug
+  自定义: /cake/custom/ || wrench
+i18n:
+  中文: /cake/options/
+  English: /en/cake/options/
 ---
 
 > 大部分与NexT一样，您可以参考[NexT文档](https://theme-next.org/)，下面是不同部分。
@@ -44,10 +47,10 @@ menu_settings:
 
 ```yml
 menu:
-  Home: /cake/ || eercast 
-  插件: /cake/plugins/ || plug 
-  自定义: /cake/custom/ || wrench 
-  集成: /cake/cubes/ || cubes 
+  Home: /cake/ || eercast
+  插件: /cake/plugins/ || plug
+  自定义: /cake/custom/ || wrench
+  集成: /cake/cubes/ || cubes
 ```
 
 # 赞赏
