@@ -196,7 +196,7 @@ hexo.extend.filter.register('theme_inject', function(injects) {
     })
     .filter(item => item.enable)
     .sort((a, b) => a.order - b.order);
-  
+
   // 添加布局
   injects.bodyEnd.file('moon-menu', path.join(__dirname, 'moon-menu.swig'), {menus: moonMenuArr}, {cache: true, only: true});
   // 添加样式
@@ -221,9 +221,26 @@ hexo s
 
 如果你希望更多看到与使用你的插件，欢迎提交PR至 [Awesome-NexT](https://github.com/theme-next/awesome-next)
 
+## 其它
+
+我们在插件中也可以载入其他hexo的插件，在添加hexo插件（`yarn add plugin-name`）之后。通过以下代码加载脚本
+
+```js
+const tagcloud = hexo.resolvePlugin('plugin-name')
+hexo.loadPlugin(tagcloud).then(() => {
+  hexo.log.debug('Plugin loaded: plugin-name');
+}).catch(err => {
+  hexo.log.error({err}, 'Plugin load failed: plugin-name');
+});
+hexo.extend.filter.register('theme_inject', injects => {
+  //...
+});
+```
+
+> 注意：`hexo.loadPlugin`需要放在过滤器等的外边，确保其在第一时间执行，上面的代码来自一个例子：[hexo-next-wapper-tag-cloud](https://github.com/jiangtj-lab/hexo-next-wapper-tag-cloud)
+
 # 后世果
 
 虽然这个theme_inject已经合并了，但还有许多需要改进
-- Inject的内容可以通过注入的优先级（过滤器优先级）来调整位置，所以有必要的将部分已有的调整实现方式，以便用户调整其出现的位置
 - 有必要使NexT更结构化，以提供更多的注入点
-- 评论系统的重构PR关闭了，多方面原因，我计划基于theme_inject重新重构它（有时间的话，咕咕咕）
+- 评论系统的重构PR关闭了，多方面原因，我计划基于theme_inject重新重构它（Done）
