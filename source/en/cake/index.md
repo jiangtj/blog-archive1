@@ -25,7 +25,7 @@ Cake has eliminated a lot of features already on NexT, most of which can be quic
 Why do I want to separate a topic separately? This mainly includes the following reasons
 1. Practice some new features, most of which I will add to NexT, but due to the number of NexT users, need to consider compatibility, support will be slower
 2. With greater control, I can do anything to refactor/remove some dissident features, such as the following example
-  - Exturl encryption is meaningless for the front end, so it will be removed
+  - Exturl ~~encryption is meaningless for the front end, so it will be removed~~ , it's said to be effective for SEO, but I still removed it.
   - Note Tag refactoring, adjusting its headers, removing style configuration (retaining a nice style, due to stylus customization)
 
 > So if you like my style, try it out. If you prefer more built-in features, [NexT](https://github.com/theme-next/hexo-theme-next) might be better for you.
