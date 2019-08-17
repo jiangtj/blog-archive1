@@ -1,0 +1,7 @@
+comments: true
+reward: true
+menu:
+  home: /en/cake/ || eercast
+  options: /en/cake/options/ || cog
+  plugins: /en/cake/plugins/ || plug
+  custom: /en/cake/custom/ || wrench

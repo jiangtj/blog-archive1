@@ -1,12 +1,6 @@
 ---
 title: Hexo Theme Cake
-comments: true
-reward: true
-menu:
-  home: /en/cake/ || eercast
-  options: /en/cake/options/ || cog
-  plugins: /en/cake/plugins/ || plug
-  custom: /en/cake/custom/ || wrench
+include: fm-cake-en
 i18n:
   中文: /cake/
   English: /en/cake/
