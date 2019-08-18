@@ -4,6 +4,8 @@ categories: [前端]
 tags: [Theme]
 banner: /articles/beechnut/theme-show-case/g1.png
 date: 2019-05-17 15:13:09
+menu:
+  Cake 主题文档: /cake/ || eercast
 ---
 
 展示些样式，逐步修改中~
@@ -72,7 +74,7 @@ hexo.extend.filter.register('theme_inject', function(injects) {
 |苹果|$1|6    |苹果|$1|6    |苹果|$1|6    |苹果|$1|6    |苹果|$1|6    |苹果|$1|6    |
 |草莓|$1|7    |草莓|$1|7    |草莓|$1|7    |草莓|$1|7    |草莓|$1|7    |草莓|$1|7    |
 
-# blockquote 
+# blockquote
 {% blockquote %}
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit lacus ut purus iaculis feugiat. Sed nec tempor elit, quis aliquam neque. Curabitur sed diam eget dolor fermentum semper at eu lorem.
 {% endblockquote %}
