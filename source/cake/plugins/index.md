@@ -14,7 +14,6 @@ Cake通过插件集成附加的功能，而本身不包含附加功能的任何�
 
 - [hexo-cake-canvas-ribbon](https://github.com/jiangtj-lab/hexo-cake-canvas-ribbon): Ribbon背景
 - [hexo-cake-math](https://github.com/jiangtj-lab/hexo-cake-math): Math支持
-- [hexo-cake-live2d](https://github.com/jiangtj-lab/hexo-cake-live2d): Live2d支持(与上游区别：仅Cake生成的Html文件非全部)
 - [hexo-cake-moon-menu](https://github.com/jiangtj-lab/hexo-cake-moon-menu): 新的右下角按钮(阅读进度与返回顶部按钮)
 - [hexo-cake-local-search](https://github.com/jiangtj-lab/hexo-cake-local-search): 本地搜索功能
 
@@ -23,6 +22,7 @@ Cake通过插件集成附加的功能，而本身不包含附加功能的任何�
 - [hexo-theme-plus](https://github.com/jiangtj/hexo-theme-plus)：旨在外部替换主题内部的布局文件
 
 还有些例子，如果你希望自己编写插件，可以参考
+- [hexo-cake-live2d](https://github.com/jiangtj-lab/hexo-cake-live2d): Live2d支持(与上游区别：仅Cake生成的Html文件非全部)，如果上游没问题的话请使用上游的插件，我修改的原因是，它会在`hexo-netlify-cms`生成的文件内添加js，导致其页面显示异常
 - [hexo-next-article-anchor](https://github.com/jiangtj-lab/hexo-next-article-anchor): 页面标题锚点
 - [hexo-next-wapper-tag-cloud](https://github.com/jiangtj-lab/hexo-next-wapper-tag-cloud)：封装hexo-tag-cloud插件
 
@@ -35,7 +35,11 @@ npm i <plugin-name>(example:hexo-cake-canvas-ribbon) --save
 yarn add <plugin-name>(example:hexo-cake-canvas-ribbon)
 ```
 
-Cake插件非常容易安装，就像普通的hexo的插件一样，唯一的区别在于仅在NexT或者Cake主题（[相同的插件方案](/cake/cubes)）下有效。具体配置见插件项目。
+Cake插件非常容易安装，就像普通的hexo的插件一样，唯一的区别在于在NexT或者Cake主题（[相同的插件方案](/cake/cubes)）下有效
+
+其它的主题，如果用户希望使用，安装后找到index.js（或其它执行脚本中）的`theme_inject`部分，将对应的Code复制到对应位置
+
+> 具体的插件配置见插件项目
 
 # Create
 

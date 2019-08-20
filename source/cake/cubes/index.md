@@ -3,23 +3,17 @@ title: 集成
 include: fm-cake-zh
 ---
 
-其他的主题，如果你希望使用这里的插件，可以通过以下方式，集成`theme_inject`至你的主题。
+这里介绍NexT插件方案的实现思路与集成方式，NexT插件方案的目的是为了使NexT更加精简，保留核心功能
 
-1. 需要添加[injects.js](https://github.com/JiangTJ/hexo-theme-cake/blob/master/scripts/injects.js)与[injects-point.js](https://github.com/JiangTJ/hexo-theme-cake/blob/master/scripts/injects-point.js)至你的主题脚本目录`scripts`
-2. 在`generateBefore`的监听调用
-  ```js
-  hexo.on('generateBefore', function () {
-    require('./injects')(hexo);
-  });
-  ```
-3. 在对应的位置添加注入点，你需要测试注入点是否可用，下面是Cake与NexT的注入点例子
-  - Views
-    - https://github.com/JiangTJ/hexo-theme-cake/blob/3166ade3be26c09eedcb254c92cc3af6004dba48/layout/_partials/head/head.swig#L112-L114
-    - https://github.com/JiangTJ/hexo-theme-cake/blob/3166ade3be26c09eedcb254c92cc3af6004dba48/layout/_partials/header/index.swig#L4-L6
-    - https://github.com/JiangTJ/hexo-theme-cake/blob/3166ade3be26c09eedcb254c92cc3af6004dba48/layout/_layout.swig#L113-L115
-    - https://github.com/JiangTJ/hexo-theme-cake/blob/3166ade3be26c09eedcb254c92cc3af6004dba48/layout/_macro/sidebar.swig#L128-L130
-    - https://github.com/JiangTJ/hexo-theme-cake/blob/3166ade3be26c09eedcb254c92cc3af6004dba48/layout/_partials/post/reward.swig#L4-L8
-  - Stylus
-    - https://github.com/jiangtj/hexo-theme-cake/blob/3166ade3be26c09eedcb254c92cc3af6004dba48/source/css/main.styl#L9-L10
-    - https://github.com/jiangtj/hexo-theme-cake/blob/3166ade3be26c09eedcb254c92cc3af6004dba48/source/css/main.styl#L17-L18
-    - https://github.com/jiangtj/hexo-theme-cake/blob/3166ade3be26c09eedcb254c92cc3af6004dba48/source/css/main.styl#L41-L42
+NexT插件方案原理很简单，在适当的位置包含提供的代码
+
+在Layout中，使用官方的`partial`进行包含，在CSS中使用stylus的import导入配置文件，主要涉及到以下几个文件
+- [injects.js](https://github.com/theme-next/hexo-theme-next/blob/master/scripts/events/lib/injects.js)：解析theme_inject中注入的内容
+- [injects-point.js](https://github.com/theme-next/hexo-theme-next/blob/master/scripts/events/lib/injects-point.js)：定义注入点
+- [core.js](https://github.com/theme-next/hexo-theme-next/blob/master/scripts/events/core.js)：执行injects的脚本
+- [next-inject.js](https://github.com/theme-next/hexo-theme-next/blob/master/scripts/helpers/next-inject.js)：简化注入点的代码
+- Layout中的注入点可以搜索`next_inject`，查看NexT定义在何处。CSS中的看[main.styl](https://github.com/theme-next/hexo-theme-next/blob/master/source/css/main.styl#L14-L15)
+
+NexT插件方案从一开始就考虑过如何在其它主题中实现，但不容易
+- 主题的样式与布局的不同，能提供的注入点也不同（可能的解决方案：在Hexo中制定标准，各个主题中进行实现）
+- CSS样式无法通用，除了stylus还在使用其它CSS预处理器的主题（不是很好的方案：插件使用内联CSS）
