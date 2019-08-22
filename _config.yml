@@ -82,11 +82,6 @@ baidusitemap:
 github:
   assets: https://jiangtj.github.io/assets
 
-# config hexo-generator-i18n
-i18n:
-  type: [page, post]
-  generator: [index, archive, category, tag]
-
 # ... 标准M与GFM不同
 marked:
   breaks: false
