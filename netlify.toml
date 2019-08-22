@@ -7,3 +7,8 @@
   from = "https://master--jiangtj.netlify.com/*"
   to = "https://www.dnocm.com/:splat"
   force = true
+
+[[redirects]]
+  from = "https://jiangtj.com/*"
+  to = "https://www.dnocm.com/:splat"
+  force = true
