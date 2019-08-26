@@ -1978,20 +1978,6 @@ hexo-cake-local-search@^2.4.2:
   dependencies:
     js-yaml "^3.13.1"
 
-hexo-cake-moon-menu@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.npmjs.org/hexo-cake-moon-menu/-/hexo-cake-moon-menu-1.1.0.tgz#e6b6474ff2ac7b6eb646a24c46bb2c50f3883431"
-  integrity sha512-fTXVC7PYxO+h9dLi0zw98YAsE7TdNqMn9s0f1VwTzfIuAkELEoWinty/sKAoUq9MzxRs6ybLLO6/uZl8a9xqvA==
-  dependencies:
-    hexo-cake-utils "^1.0.0"
-
-hexo-cake-utils@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/hexo-cake-utils/-/hexo-cake-utils-1.0.0.tgz#c7203a63b8559b28854e52dc11f4dcc488c02f35"
-  integrity sha512-0snw0wQtOUs67PxfyWhPD3gvzmtx/AYzUFLBotwQRuacLUCP813oUlPQ8OvTcRiKoaSHVNkwDZ1OeCo9PEHB0g==
-  dependencies:
-    js-yaml "^3.13.1"
-
 hexo-cli@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npmjs.org/hexo-cli/-/hexo-cli-2.0.0.tgz#485b876829951886cbfc0bd20f92b745d65bc00b"
