@@ -63,25 +63,17 @@ menu:
 # comments
 comments:
   active: disqus
+  nav:
+    disqus: {order: 1}
+    utteranc: {order: 2}
 disqus:
   enable: true
   shortname: jiangtj
   count: false
   lazyload: false
-valine:
-  enable: false
-  appid: WRTWwPOYgUyFaAdGnPVvzUF3-gzGzoHsz
-  appkey: wsqThQDlS4IxgAaFm6LK2MGe
-  notify: false # Mail notifier. See: https://github.com/xCss/Valine/wiki
-  verify: false # Verification code
-  placeholder: Just go go # Comment box placeholder
-  avatar: mm # Gravatar style
-  guest_info: nick,mail,link # Custom comment header
-  pageSize: 10 # Pagination size
-  language: # Language, available values: en, zh-cn
-  visitor: false # leancloud-counter-security is not supported for now. When visitor is set to be true, appid and appkey are recommended to be the same as leancloud_visitors' for counter compatibility. Article reading statistic https://valine.js.org/visitor.html
-  comment_count: true # If false, comment count will only be displayed in post page, not in home page
-
+utteranc:
+  enable: true
+  repo: jiangtj-lab/comments-test
 
 #chatra:
 #  enable: true

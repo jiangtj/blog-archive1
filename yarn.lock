@@ -2117,6 +2117,12 @@ hexo-netlify-cms@^1.0.0:
     js-yaml "^3.12.1"
     lodash "^4.17.15"
 
+hexo-next-utteranc@theme-next/hexo-next-utteranc:
+  version "1.0.0"
+  resolved "https://codeload.github.com/theme-next/hexo-next-utteranc/tar.gz/4786bb52eb8f1a0d0859e832fe85abed7a4c0298"
+  dependencies:
+    js-yaml "^3.13.1"
+
 hexo-pagination@0.0.2:
   version "0.0.2"
   resolved "https://registry.npmjs.org/hexo-pagination/-/hexo-pagination-0.0.2.tgz#8cf470c7db0de5b18a3926a76deb194015df7f2b"

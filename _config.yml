@@ -167,11 +167,6 @@ moon_menu:
     icon: fa fa-comments
     func: openGitter
 
-utteranc:
-  enable: true
-  repo: jiangtj-lab/comments-test
-  priority: 20
-
 jiang:
   post_base_dir: beechnut
 
