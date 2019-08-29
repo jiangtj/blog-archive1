@@ -67,10 +67,9 @@ search:
   field: all
   format: raw
   limit: 1000
-  #script:
-    #type: cdn
-    #path: //cdn.jsdelivr.net/npm/hexo-cake-local-search@2/dist/local-search.min.js
-    #path: //cdn.jsdelivr.net/gh/theme-next/hexo-theme-next@7/source/js/local-search.min.js
+  script:
+    type: cdn
+    path: //cdn.jsdelivr.net/npm/hexo-cake-local-search@3/dist/local-search.min.js
 
 # sitemap
 sitemap:
