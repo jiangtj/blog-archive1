@@ -34,7 +34,7 @@
     "hexo-server": "^0.3.3"
   },
   "devDependencies": {
-    "eslint": "^6.2.2",
+    "eslint": "^6.3.0",
     "eslint-config-theme-next": "^1.1.2"
   }
 }
