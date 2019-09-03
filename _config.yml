@@ -94,7 +94,8 @@ pwa:
       lang: zh-CN
       start_url: .
       display: standalone
-      background_color: "#fff"
+      background_color: "#ecedee"
+      theme_color: "#414852"
       icons:
         - src: /images/favicon/xin-32.png
           sizes: 32x32
