@@ -35,6 +35,6 @@
   },
   "devDependencies": {
     "eslint": "^6.3.0",
-    "eslint-config-theme-next": "^1.1.2"
+    "eslint-config-theme-next": "^1.1.3"
   }
 }
