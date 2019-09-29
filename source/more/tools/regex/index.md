@@ -1,20 +1,16 @@
 ---
 title: 正则
 comments: true
-breadcrumb:
-  more: /more/
-  tools: /more/tools/
-  正则:
 ---
 
-请输入匹配值：  
+请输入匹配值：
 <textarea id='input-value' rows='5' style='width:100%'></textarea>
 
 正则表达式：<input id='regex' type='text' style='width:70%' />
 
 <input type='button' onclick='doRegex()' value='匹配' />
 
-匹配值：   
+匹配值：
 <div id='output-value'></div>
 
 <script type="text/javascript">

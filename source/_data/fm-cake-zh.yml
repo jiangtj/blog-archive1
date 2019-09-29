@@ -1,8 +1,8 @@
 comments: true
 reward: true
 menu:
-  主页: /cake/ || eercast
-  基础配置: /cake/options/ || cog
-  插件: /cake/plugins/ || plug
-  自定义: /cake/custom/ || wrench
-  集成: /cake/cubes/ || cubes
+  主页: /cake/ || fas fa-cheese
+  基础配置: /cake/options/ || fas fa-cog
+  插件: /cake/plugins/ || fas fa-plug
+  自定义: /cake/custom/ || fas fa-wrench
+  集成: /cake/cubes/ || fas fa-cubes

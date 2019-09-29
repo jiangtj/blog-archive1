@@ -97,12 +97,12 @@ Inline pic ok? {% asset_img gua.png 100 %}
 # Button
 
 ```md
-{% btn #, Text & Icon (buggy), home %}
-{% btn #, Text & Icon (fixed width), home fa-fw %}
+{% btn #, Text & Icon (buggy), fas fa-home %}
+{% btn #, Text & Icon (fixed width), fas fa-home fa-fw  %}
 ```
 
-{% btn #, Text & Icon (buggy), home %}
-{% btn #, Text & Icon (fixed width), home fa-fw %}
+{% btn #, Text & Icon (buggy), fas fa-home %}
+{% btn #, Text & Icon (fixed width), fas fa-home fa-fw %}
 
 # Note
 

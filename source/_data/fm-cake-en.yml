@@ -1,7 +1,7 @@
 comments: true
 reward: true
 menu:
-  home: /en/cake/ || eercast
-  options: /en/cake/options/ || cog
-  plugins: /en/cake/plugins/ || plug
-  custom: /en/cake/custom/ || wrench
+  home: /en/cake/ || fas fa-cheese
+  options: /en/cake/options/ || fas fa-cog
+  plugins: /en/cake/plugins/ || fas fa-plug
+  custom: /en/cake/custom/ || fas fa-wrench

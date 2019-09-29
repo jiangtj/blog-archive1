@@ -35,10 +35,10 @@ google_analytics:
   #leiqjl: http://www.cnblogs.com/leiqjl
 
 social:
-  Mail: mailto:i@dnocm.com || envelope
-  Telegram-Group: https://t.me/dnocm || telegram
-  rss: /rss2.xml || rss
-  GitHub: https://github.com/JiangTJ || github
+  Mail: mailto:i@dnocm.com || fas fa-envelope
+  Telegram-Group: https://t.me/dnocm || fab fa-telegram
+  rss: /rss2.xml || fas fa-rss
+  GitHub: https://github.com/JiangTJ || fab fa-github
   # Gitter: https://gitter.im/jiangtj/Lobby || github-alt
   # Telegram: https://t.me/jiangtj || phone-square
   # Slack: https://join.slack.com/t/dnocm/shared_invite/enQtNTg0MDMzMzM1ODkzLTQ4YjhkYTg5YTdhMjY3MzdhOGM0ZjI0YzgzYjZjMzZlNmMzNjE4YTkwMTUyN2UzZjFiYzcxN2ZmMWY2ZjFjMzU || slack
@@ -51,14 +51,14 @@ social_icons:
   transition: true
 
 menu:
-  home: / || home
-  tags: /tags/ || tags
-  categories: /categories/ || th
-  archives: /archives/ || archive
-  #sitemap: /sitemap.xml || sitemap
-  #commonweal: /404/ || heartbeat
-  #影视动漫,推荐!: https://neet.dnocm.com/ || television
-  more: /more/ || info-circle
+  home: / || fas fa-home
+  tags: /tags/ || fas fa-tags
+  categories: /categories/ || fas fa-th
+  archives: /archives/ || fas fa-archive
+  #sitemap: /sitemap.xml || fas fa-sitemap
+  #commonweal: /404/ || fas fa-heartbeat
+  #影视动漫,推荐!: https://neet.dnocm.com/ || fas fa-television
+  more: /more/ || fas fa-info-circle
 
 # comments
 comments:
@@ -94,18 +94,18 @@ reward_settings:
 
 reward:
   wechat:
-    icon: weixin
+    icon: fab fa-weixin
     image: /images/wechatpay.png
   alipay:
-    name: 支
+    icon: fab fa-alipay
     image: /images/alipay.png
     url_name: 点击跳转
     url: HTTPS://QR.ALIPAY.COM/FKX06416WJNHOWKMRQQFFE
   paypal:
-    icon: paypal
+    icon: fab fa-paypal
     image: /images/paypal.png
     url: https://www.paypal.me/jiangtj
   kofi:
-    icon: coffee
+    icon: fas fa-coffee
     image: /images/kofi.png
     url: https://ko-fi.com/jiangtj
