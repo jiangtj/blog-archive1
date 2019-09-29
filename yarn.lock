@@ -1952,10 +1952,10 @@ hexo-cake-canvas-ribbon@^1.0.2:
   dependencies:
     js-yaml "^3.13.1"
 
-hexo-cake-local-search@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.npmjs.org/hexo-cake-local-search/-/hexo-cake-local-search-3.0.0.tgz#36d830363bb48316b155e2cb01490f7e824b4047"
-  integrity sha512-LithcAIbqAMIbxI1DZbh6CMQVHeeJFoGIjDiemMEUExHtNMi/EEHaZwjYbReTC8UPw6R17+VlrkW1n+MMjXoDw==
+hexo-cake-local-search@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.npmjs.org/hexo-cake-local-search/-/hexo-cake-local-search-3.1.0.tgz#201d1d850719f778bd1e90b29335745ba1c589f6"
+  integrity sha512-lgCF8/rdGfUAWI4jenlm4dYg02+weGWTcCBpO3Cp4XNiDv94AatlgLnFIQqRSEQLCix+n1hV7QRVFoULyNys3Q==
   dependencies:
     js-yaml "^3.13.1"
 
