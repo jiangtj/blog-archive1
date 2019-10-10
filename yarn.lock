@@ -1959,11 +1959,13 @@ hexo-cake-google-analytics@^1.0.1:
   dependencies:
     hexo-cake-utils "^1.0.0"
 
-hexo-cake-local-search@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.npmjs.org/hexo-cake-local-search/-/hexo-cake-local-search-3.1.0.tgz#201d1d850719f778bd1e90b29335745ba1c589f6"
-  integrity sha512-lgCF8/rdGfUAWI4jenlm4dYg02+weGWTcCBpO3Cp4XNiDv94AatlgLnFIQqRSEQLCix+n1hV7QRVFoULyNys3Q==
+hexo-cake-local-search@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.npmjs.org/hexo-cake-local-search/-/hexo-cake-local-search-3.2.0.tgz#a6e0f794fcea37d31e85890eb804e1576e79abce"
+  integrity sha512-UlDjz7E/7/d4vtboUVazaB0AglcSvFXoUqYa8zaNjHBMNbfOGk1tuCKcIy52TETSCiOFU792JQE4C6GICvis3Q==
   dependencies:
+    hexo-cake-utils "^1.1.0"
+    hexo-generator-searchdb "^1.1.0"
     js-yaml "^3.13.1"
 
 hexo-cake-moon-menu@^1.1.2:
@@ -1977,6 +1979,13 @@ hexo-cake-utils@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/hexo-cake-utils/-/hexo-cake-utils-1.0.0.tgz#c7203a63b8559b28854e52dc11f4dcc488c02f35"
   integrity sha512-0snw0wQtOUs67PxfyWhPD3gvzmtx/AYzUFLBotwQRuacLUCP813oUlPQ8OvTcRiKoaSHVNkwDZ1OeCo9PEHB0g==
+  dependencies:
+    js-yaml "^3.13.1"
+
+hexo-cake-utils@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.npmjs.org/hexo-cake-utils/-/hexo-cake-utils-1.1.0.tgz#d44c06dabac35f87be7b7b58551c67b1c470ebd9"
+  integrity sha512-CDMSSzex7cr1fMyQ4mTGIP2akmZGzn/CPCZyUdTGLtI4VgPIDtFIX1Ux8JeuxQaeG8A1UZZxuf1GWAU0C2QXFw==
   dependencies:
     js-yaml "^3.13.1"
 
@@ -2050,6 +2059,13 @@ hexo-generator-index@^1.0.0:
   integrity sha512-L25MdZ7e5ar/F8lIW+zBNNlA4f5A8CBUOYi1IQZCgL3wPVW+AWn66RSM5UVBAbiw5yxDeTHdk0sJYXbhSBaOFQ==
   dependencies:
     hexo-pagination "1.0.0"
+
+hexo-generator-searchdb@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.npmjs.org/hexo-generator-searchdb/-/hexo-generator-searchdb-1.1.0.tgz#6598c6b24356d695da5e73a65be0fb059c59a92a"
+  integrity sha512-6Bdwq40zJYuW/DpS4O294ES2O8yS81DscroJ43QHBS2NVbs0jpeiSyiFTN931Ogz7KFdlRejQK9ZT7cc3VQp5g==
+  dependencies:
+    nunjucks "^3.2.0"
 
 hexo-generator-sitemap@^1.2.0:
   version "1.2.0"
@@ -3323,7 +3339,7 @@ nunjucks@^2.3.0:
     chokidar "^1.6.0"
     yargs "^3.32.0"
 
-nunjucks@^3.0.0, nunjucks@^3.1.3:
+nunjucks@^3.0.0, nunjucks@^3.1.3, nunjucks@^3.2.0:
   version "3.2.0"
   resolved "https://registry.npmjs.org/nunjucks/-/nunjucks-3.2.0.tgz#53e95f43c9555e822e8950008a201b1002d49933"
   integrity sha512-YS/qEQ6N7qCnUdm6EoYRBfJUdWNT0PpKbbRnogV2XyXbBm2STIP1O6yrdZHgwMVK7fIYUx7i8+yatEixnXSB1w==

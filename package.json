@@ -15,7 +15,7 @@
     "hexo-autoprefixer": "^2.0.0",
     "hexo-cake-canvas-ribbon": "^1.0.2",
     "hexo-cake-google-analytics": "^1.0.1",
-    "hexo-cake-local-search": "^3.1.0",
+    "hexo-cake-local-search": "^3.2.0",
     "hexo-cake-moon-menu": "^1.1.2",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-baidu-sitemap": "^0.1.6",
