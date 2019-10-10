@@ -16,7 +16,7 @@ The following are the plugins I have written, most of which are the original int
 - [hexo-cake-math](https://github.com/jiangtj-lab/hexo-cake-math): Math Support
 - [hexo-cake-moon-menu](https://github.com/jiangtj-lab/hexo-cake-moon-menu): New lower right button (read progress and return to top button)
 - [hexo-cake-local-search](https://github.com/jiangtj-lab/hexo-cake-local-search): Local search function
-- [hexo-cake-google-analytics](https://github.com/jiangtj-lab/hexo-cake-local-search): Google Analytics for cake theme
+- [hexo-cake-google-analytics](https://github.com/jiangtj-lab/hexo-cake-google-analytics): Google Analytics for cake theme
 
 Some other plugins may be helpful for you to use hexo
 - [hexo-netlify-cms](https://github.com/jiangtj/hexo-netlify-cms): Simplify the use of Netlify CMS (an online content editor)
