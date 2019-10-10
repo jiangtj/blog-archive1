@@ -16,6 +16,7 @@ Cake通过插件集成附加的功能，而本身不包含附加功能的任何�
 - [hexo-cake-math](https://github.com/jiangtj-lab/hexo-cake-math): Math支持
 - [hexo-cake-moon-menu](https://github.com/jiangtj-lab/hexo-cake-moon-menu): 新的右下角按钮(阅读进度与返回顶部按钮)
 - [hexo-cake-local-search](https://github.com/jiangtj-lab/hexo-cake-local-search): 本地搜索功能
+- [hexo-cake-google-analytics](https://github.com/jiangtj-lab/hexo-cake-local-search): Google 分析
 
 另外的一些插件，可能对你使用hexo有帮助
 - [hexo-netlify-cms](https://github.com/jiangtj/hexo-netlify-cms)：简化Netlify CMS（一个在线的内容编辑器）的使用

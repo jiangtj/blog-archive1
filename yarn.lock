@@ -1952,6 +1952,13 @@ hexo-cake-canvas-ribbon@^1.0.2:
   dependencies:
     js-yaml "^3.13.1"
 
+hexo-cake-google-analytics@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.npmjs.org/hexo-cake-google-analytics/-/hexo-cake-google-analytics-1.0.1.tgz#cadc6160e8f3dc1941fe33acabe5c0a6c4abb0fd"
+  integrity sha512-bZZQn9EEnwzZdqGeL4iIFbtEeDI7Esp/tGy1IiCyeD11Y+/Go0fWX8XAsU4yTEuIdVGiG6FUM+5YJ+5ri+eTjg==
+  dependencies:
+    hexo-cake-utils "^1.0.0"
+
 hexo-cake-local-search@^3.1.0:
   version "3.1.0"
   resolved "https://registry.npmjs.org/hexo-cake-local-search/-/hexo-cake-local-search-3.1.0.tgz#201d1d850719f778bd1e90b29335745ba1c589f6"
