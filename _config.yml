@@ -69,7 +69,7 @@ search:
   limit: 1000
   script:
     type: cdn
-    path: //cdn.jsdelivr.net/npm/hexo-cake-local-search@3/dist/local-search.min.js
+    path: //cdn.jsdelivr.net/npm/hexo-cake-local-search@3.2.1/dist/local-search.min.js
 
 # sitemap
 sitemap:

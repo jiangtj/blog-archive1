@@ -1959,10 +1959,10 @@ hexo-cake-google-analytics@^1.0.1:
   dependencies:
     hexo-cake-utils "^1.0.0"
 
-hexo-cake-local-search@^3.2.0:
-  version "3.2.0"
-  resolved "https://registry.npmjs.org/hexo-cake-local-search/-/hexo-cake-local-search-3.2.0.tgz#a6e0f794fcea37d31e85890eb804e1576e79abce"
-  integrity sha512-UlDjz7E/7/d4vtboUVazaB0AglcSvFXoUqYa8zaNjHBMNbfOGk1tuCKcIy52TETSCiOFU792JQE4C6GICvis3Q==
+hexo-cake-local-search@^3.2.1:
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/hexo-cake-local-search/-/hexo-cake-local-search-3.2.1.tgz#8dd7efbc97f40fa9d414544c0355bc02746b8135"
+  integrity sha512-cr16w14zhycDTjkZyJeEmW+E8qimmPdFrd9l135InLGMuIyKULMbKCJUW/tRAR82lXZ/PElkKRugFU+fio7dCw==
   dependencies:
     hexo-cake-utils "^1.1.0"
     hexo-generator-searchdb "^1.1.0"
