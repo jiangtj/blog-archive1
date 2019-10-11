@@ -1968,21 +1968,14 @@ hexo-cake-local-search@^3.2.1:
     hexo-generator-searchdb "^1.1.0"
     js-yaml "^3.13.1"
 
-hexo-cake-moon-menu@^1.1.2:
-  version "1.1.2"
-  resolved "https://registry.npmjs.org/hexo-cake-moon-menu/-/hexo-cake-moon-menu-1.1.2.tgz#ff17d30a9489ce8eea739631fbf580d3bce6f61f"
-  integrity sha512-xYHT6nPU7eCIP7KzN5NOiXKkfnKOnZ0YiqpO/E6alcKddRs8NQNPp/8bHjjoaVBjHvQq5kHRr1cP+BaGcDngNg==
+hexo-cake-moon-menu@^1.1.3:
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/hexo-cake-moon-menu/-/hexo-cake-moon-menu-1.1.3.tgz#df1a5684bfcf1e6f63b004a50a012599afda75d8"
+  integrity sha512-xi4ypQ3A/okI/aLy+T2PwukwZIyv6K1vVQk6kok7Dn11hnw4Kq/zDtfbbOHRm2x/8Yxk96vEtYXNoe0lFp+zng==
   dependencies:
     hexo-cake-utils "^1.0.0"
 
-hexo-cake-utils@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/hexo-cake-utils/-/hexo-cake-utils-1.0.0.tgz#c7203a63b8559b28854e52dc11f4dcc488c02f35"
-  integrity sha512-0snw0wQtOUs67PxfyWhPD3gvzmtx/AYzUFLBotwQRuacLUCP813oUlPQ8OvTcRiKoaSHVNkwDZ1OeCo9PEHB0g==
-  dependencies:
-    js-yaml "^3.13.1"
-
-hexo-cake-utils@^1.1.0:
+hexo-cake-utils@^1.0.0, hexo-cake-utils@^1.1.0:
   version "1.1.0"
   resolved "https://registry.npmjs.org/hexo-cake-utils/-/hexo-cake-utils-1.1.0.tgz#d44c06dabac35f87be7b7b58551c67b1c470ebd9"
   integrity sha512-CDMSSzex7cr1fMyQ4mTGIP2akmZGzn/CPCZyUdTGLtI4VgPIDtFIX1Ux8JeuxQaeG8A1UZZxuf1GWAU0C2QXFw==
