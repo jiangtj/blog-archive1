@@ -26,6 +26,11 @@
     imagemin "^6.1.0"
     imagemin-webp "^5.0.0"
 
+"@jiangtj/hexo-front-matter-include@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@jiangtj/hexo-front-matter-include/-/hexo-front-matter-include-1.0.0.tgz#2e5958f663752e3c5e2594d6a86340884e2a22b6"
+  integrity sha512-0E87RzS51d5E0dI6RZ+lIXtiNjIYpBRMJIji2Z2MA9TBMN3VPYMAasgXoUMvpuCmK93xfetM0eXXsnIqUTS7kg==
+
 "@jiangtj/hexo-next-article-anchor@^1.0.1":
   version "1.0.1"
   resolved "https://registry.npmjs.org/@jiangtj/hexo-next-article-anchor/-/hexo-next-article-anchor-1.0.1.tgz#d4c94f9df6690f6733ebc857efa3138b38b91e87"
