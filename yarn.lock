@@ -2039,10 +2039,10 @@ hexo-cake-google-analytics@^1.0.1:
   dependencies:
     hexo-cake-utils "^1.0.0"
 
-hexo-cake-local-search@^3.2.1:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/hexo-cake-local-search/-/hexo-cake-local-search-3.2.1.tgz#8dd7efbc97f40fa9d414544c0355bc02746b8135"
-  integrity sha512-cr16w14zhycDTjkZyJeEmW+E8qimmPdFrd9l135InLGMuIyKULMbKCJUW/tRAR82lXZ/PElkKRugFU+fio7dCw==
+hexo-cake-local-search@^3.2.3:
+  version "3.2.3"
+  resolved "https://registry.npmjs.org/hexo-cake-local-search/-/hexo-cake-local-search-3.2.3.tgz#6cfbe86f7705b62b9dc6388482e4eb81b6ffe56d"
+  integrity sha512-79rfvaOPWW2yGleXVEtadxcnaM2qat6IHkDtb3NUe1rSDvBaw3083INopDc7ArcyKWpALYFQBqkXwas0DiG29Q==
   dependencies:
     hexo-cake-utils "^1.1.0"
     hexo-generator-searchdb "^1.1.0"
