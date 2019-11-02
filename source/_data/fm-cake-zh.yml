@@ -1,5 +1,6 @@
 comments: true
-reward: true
+reward_settings:
+  enable: true
 menu:
   主页: /cake/ || fas fa-cheese
   基础配置: /cake/options/ || fas fa-cog
