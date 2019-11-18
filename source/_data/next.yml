@@ -68,7 +68,7 @@ comments:
 disqus:
   enable: true
   shortname: jiangtj
-  count: true
+  count: false
 utteranc:
   enable: true
   repo: jiangtj-lab/comments-test
