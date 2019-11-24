@@ -5,7 +5,7 @@ tags: [Theme]
 banner: /articles/beechnut/theme-show-case/g1.png
 date: 2019-05-17 15:13:09
 menu:
-  Cake 主题文档: /cake/ || eercast
+  Cake 主题文档: /cake/ || fas fa-cheese
 ---
 
 展示些样式，逐步修改中~
@@ -109,6 +109,12 @@ Inline pic ok? {% asset_img gua.png 100 %}
 {% asset_img center gua.png 呱呱呱 %}
 
 {% asset_img box gua.png 呱呱呱 %}
+
+# Link
+
+Autolink: https://www.dnocm.com/
+
+[dnocm 站点](https://www.dnocm.com/)
 
 # Button
 
