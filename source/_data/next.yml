@@ -13,13 +13,21 @@ avatar:
   # If true, the avatar would be rotated with the cursor.
   rotated: false
 
-favicon:
-  small: /images/favicon/xin-64.png
-  medium: /images/favicon/xin-128.png
-  apple_touch_icon: /images/favicon/xin-128.png
-  safari_pinned_tab: /images/favicon/xin.svg
-  #android_manifest: /images/manifest.json
-  #ms_browserconfig: /images/browserconfig.xml
+favicons:
+ - rel: icon
+   type: image/png
+   sizes: 64x64
+   href: /images/favicon/xin-64.png
+ - rel: icon
+   type: image/png
+   sizes: 128x128
+   href: /images/favicon/xin-128.png
+ - rel: apple-touch-icon
+   sizes: 128x128
+   href: /images/favicon/xin-128.png
+ - rel: mask-icon
+   color: white
+   href: /images/favicon/xin.svg
 
 baidu_site_verification: xtf2YgRPUK
 baidu_analytics: 52b8556a6b4d24a9509575c96cce2c4a
