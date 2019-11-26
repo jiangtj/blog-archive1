@@ -13,29 +13,13 @@
     var _hmt = _hmt || [];
     (function() {
       var hm = document.createElement("script");
-      hm.src = "https://hm.baidu.com/hm.js?{{ theme.baidu_analytics }}";
+      hm.src = "https://hm.baidu.com/hm.js?52b8556a6b4d24a9509575c96cce2c4a";
       var s = document.getElementsByTagName("script")[0];
       s.parentNode.insertBefore(hm, s);
     })();
   </script>
 {%- endif %}
 
-<!-- others -->
-<link rel="alternate" href="{{ url_for('rss2.xml') }}" title="{{ title }}" type="application/atom+xml"/>
 
-
-{%- if theme.google_site_verification %}
-  <meta name="google-site-verification" content="{{ theme.google_site_verification }}"/>
-{%- endif %}
-
-{%- if theme.bing_site_verification %}
-  <meta name="msvalidate.01" content="{{ theme.bing_site_verification }}"/>
-{%- endif %}
-
-{%- if theme.yandex_site_verification %}
-  <meta name="yandex-verification" content="{{ theme.yandex_site_verification }}"/>
-{%- endif %}
-
-{%- if theme.baidu_site_verification %}
-  <meta name="baidu-site-verification" content="{{ theme.baidu_site_verification }}"/>
-{%- endif %}
+<meta name="google-site-verification" content="TWf4Ma3V7xRcvKFWw_1iOCJKgNJmUUB1CmLucKjvV2A"/>
+<meta name="baidu-site-verification" content="xtf2YgRPUK"/>
