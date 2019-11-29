@@ -2153,9 +2153,10 @@ hexo-netlify-cms@^1.0.0:
 
 hexo-next-utteranc@theme-next/hexo-next-utteranc:
   version "1.0.0"
-  resolved "https://codeload.github.com/theme-next/hexo-next-utteranc/tar.gz/07787f1aba7cc9675e67971695e1e36f482152fd"
+  uid "0678538cb16c4b96ed3ac949ff552174640cd838"
+  resolved "https://codeload.github.com/theme-next/hexo-next-utteranc/tar.gz/0678538cb16c4b96ed3ac949ff552174640cd838"
   dependencies:
-    js-yaml "^3.13.1"
+    next-util "github:theme-next/next-util"
 
 hexo-pagination@1.0.0, hexo-pagination@^1.0.0:
   version "1.0.0"
@@ -3245,6 +3246,14 @@ negotiator@0.6.2:
   version "0.6.2"
   resolved "https://registry.npmjs.org/negotiator/-/negotiator-0.6.2.tgz#feacf7ccf525a77ae9634436a64883ffeca346fb"
   integrity sha512-hZXc7K2e+PgeI1eDBe/10Ard4ekbfrrqG8Ep+8Jmf4JID2bNg7NvCPOZN+kfF574pFQI7mum2AUqDidoKqcTOw==
+
+"next-util@github:theme-next/next-util":
+  version "0.1.0"
+  uid f4cd0cf14bee15108fe013cc8c67bb8a995319a0
+  resolved "https://codeload.github.com/theme-next/next-util/tar.gz/f4cd0cf14bee15108fe013cc8c67bb8a995319a0"
+  dependencies:
+    js-yaml "^3.13.1"
+    lodash "^4.17.15"
 
 nib@^1.1.2:
   version "1.1.2"
