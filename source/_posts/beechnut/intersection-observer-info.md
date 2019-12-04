@@ -138,5 +138,6 @@ observer.observe(document.querySelector("#e2-lazy"));
 后续，我们调整，扩大根窗口的区域（与文章一样长）的方式，那么我们只需要判断是不是已经交叉即可，即便滑动太快也无需担心
 
 相关的代码可以见：
-- https://github.com/jiangtj/hexo-theme-cake/blob/master/source/js/next-boot.js#L61-L134
+- https://github.com/jiangtj/hexo-theme-cake/blob/9532ba695834a80bde883386efd2af8ffe6fe351/source/js/next-boot.js#L61-L134
+- https://github.com/theme-next/hexo-theme-next/blob/ba019030a1293c80536fcb16777cc05a94305118/source/js/utils.js#L222-L300
 - https://github.com/theme-next/hexo-theme-next/pull/1125
