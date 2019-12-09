@@ -107,7 +107,7 @@ IntersectionObserver 通过以下方法添加或者取消监听元素
 
 ## 懒加载
 
-IntersectionObserver 可以很简单的实现图片懒加载，开头就提到的，看下面很少的代码，我们就实现了懒加载的功能（目前已经好像图片懒加载框架使用它了，比如lozad.js）
+IntersectionObserver 可以很简单的实现图片懒加载，开头就提到的，看下面很少的代码，我们就实现了懒加载的功能（目前已经好些图片懒加载框架使用它了，比如我的博客所使用的lozad.js）
 
 {% preview %}
 
@@ -129,7 +129,6 @@ observer.observe(document.querySelector("#e2-lazy"));
 
 {% endpreview %}
 
-
 ## TOC 自动定位
 
 见我博客（Cake与NexT主题）的侧边栏，它使用的就是IntersectionObserver。不过在使用时，也遇到了些问题。比如，IntersectionObserver 在浏览器中的优先级不高（高效，必然也有缺陷），如果你很快的移动，可能无法触发
@@ -142,3 +141,10 @@ observer.observe(document.querySelector("#e2-lazy"));
 - https://github.com/jiangtj/hexo-theme-cake/blob/9532ba695834a80bde883386efd2af8ffe6fe351/source/js/next-boot.js#L61-L134
 - https://github.com/theme-next/hexo-theme-next/blob/ba019030a1293c80536fcb16777cc05a94305118/source/js/utils.js#L222-L300
 - https://github.com/theme-next/hexo-theme-next/pull/1125
+
+## 评论系统懒加载
+
+由于国内网络不稳定（众所周知的原因），当我们要加载一些国外服务时，往往希望在需要时加载，以改善网站的加载速度。在博客中比较常见的是disqus，NexT团队将其扩展到所有的评论系统。实现当用户浏览到评论系统位置（或者多评论系统启用某一评论系统）时，加载相关评论系统服务
+
+相关的代码见：
+- https://github.com/jiangtj/hexo-theme-cake/pull/33
