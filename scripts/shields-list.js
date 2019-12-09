@@ -31,7 +31,7 @@ function renderShields(data) {
     //<img style="margin:0;float:left;" src="https://img.shields.io/badge/Mail-@dnocm-blue.svg" alt="Mail">
     return htmlTag('a', aArgs,
       htmlTag('img', imgArgs)
-    );
+      , false);
   });
   return items.join('');
 }

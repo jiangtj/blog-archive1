@@ -66,6 +66,7 @@ menu:
 # comments
 comments:
   active: disqus
+  lazyload: true
   nav:
     disqus: {order: 1}
     utteranc: {order: 2}

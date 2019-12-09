@@ -121,6 +121,7 @@ var observer = new IntersectionObserver((entries,observer) => {
   if (entry.isIntersecting) {
     let el = entry.target;
     el.src = el.getAttribute('load-url');
+    observer.disconnect();
   }
 });
 observer.observe(document.querySelector("#e2-lazy"));

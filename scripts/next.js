@@ -30,3 +30,5 @@ hexo.extend.filter.register('theme_inject', function(injects) {
     injects.bodyEnd.raw('local-search', '');
   }
 }, 99);
+
+hexo.extend.tag.register('preview', (args, content) => content, {ends: true});
