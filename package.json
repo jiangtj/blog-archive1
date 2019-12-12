@@ -6,13 +6,13 @@
     "update-theme": "git submodule update --remote"
   },
   "hexo": {
-    "version": "4.0.0"
+    "version": "4.1.1"
   },
   "dependencies": {
     "@jiangtj/hexo-cli": "^0.0.4",
     "@jiangtj/hexo-front-matter-include": "^1.0.0",
     "@jiangtj/hexo-next-article-anchor": "^1.0.1",
-    "hexo": "^4.0.0",
+    "hexo": "^4.1.1",
     "hexo-autoprefixer": "^2.0.0",
     "hexo-cake-canvas-ribbon": "^1.0.2",
     "hexo-cake-google-analytics": "^1.0.1",
@@ -21,7 +21,7 @@
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-baidu-sitemap": "^0.1.6",
     "hexo-generator-category": "^1.0.0",
-    "hexo-generator-feed": "^2.1.1",
+    "hexo-generator-feed": "^2.2.0",
     "hexo-generator-index": "^1.0.0",
     "hexo-generator-sitemap": "^2.0.0",
     "hexo-generator-tag": "^1.0.0",
@@ -35,7 +35,7 @@
     "hexo-server": "^1.0.0"
   },
   "devDependencies": {
-    "eslint": "^6.7.1",
+    "eslint": "^6.7.2",
     "eslint-config-theme-next": "^1.1.2"
   }
 }
