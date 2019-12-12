@@ -85,6 +85,14 @@ github:
 marked:
   breaks: false
 
+# generator setting
+archive_generator:
+  per_page: 20
+category_generator:
+  per_page: 20
+tag_generator:
+  per_page: 20
+
 pwa:
   manifest:
     path: /manifest.json
