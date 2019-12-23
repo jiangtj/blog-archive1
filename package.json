@@ -12,7 +12,7 @@
     "@jiangtj/hexo-cli": "^0.0.4",
     "@jiangtj/hexo-front-matter-include": "^1.0.0",
     "@jiangtj/hexo-next-article-anchor": "^1.0.1",
-    "hexo": "^4.1.1",
+    "hexo": "^4.2.0",
     "hexo-autoprefixer": "^2.0.0",
     "hexo-cake-canvas-ribbon": "^1.0.2",
     "hexo-cake-google-analytics": "^1.0.1",
