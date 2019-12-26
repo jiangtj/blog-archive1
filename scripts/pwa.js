@@ -32,7 +32,9 @@ generator.register('pwa_manifest', () => {
   }
   return {
     path: manifest.path,
-    data: JSON.stringify(manifest.body)
+    data: JSON.stringify(Object.assign({
+      start_url: config.url
+    }, manifest.body))
   };
 });
 
@@ -44,6 +46,13 @@ const buildSW = () => {
     importScripts : ['https://cdn.jsdelivr.net/npm/workbox-sw@4.3.1/build/workbox-sw.min.js'],
     // Define runtime caching rules.
     runtimeCaching: [
+      {
+        urlPattern: /\//,
+        handler   : 'NetworkFirst',
+        options   : {
+          cacheName: 'index'
+        }
+      },
       {
         urlPattern: /\.(?:js|css)$/,
         handler   : 'StaleWhileRevalidate',

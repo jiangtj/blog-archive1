@@ -100,7 +100,6 @@ pwa:
       name: Dnocm Blog
       short_name: dnocm
       lang: zh-CN
-      start_url: .
       display: standalone
       background_color: "#ecedee"
       theme_color: "#414852"
