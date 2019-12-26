@@ -116,20 +116,9 @@ pwa:
           type: image/png
   serviceWorker:
     path: /sw.js
-    preload:
-      urls:
-        - /
-      posts: 5
-    opts:
-      networkTimeoutSeconds: 5
-    routes:
-      # - pattern: !!js/regexp /hm.baidu.com/
-      #   strategy: networkOnly
-      - pattern: !!js/regexp /.*\.(js|css|jpg|jpeg|png|gif)$/
-        strategy: cacheFirst
-      - pattern: !!js/regexp /\//
-        strategy: networkFirst
-  priority: 5
+    options:
+      offlineGoogleAnalytics: true
+
 
 # 暂时先移除，似乎有问题
 # yarn add hexo-cake-live2d live2d-widget-model-miku live2d-widget-model-epsilon2_1
