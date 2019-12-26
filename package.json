@@ -19,7 +19,6 @@
     "hexo-cake-local-search": "^3.2.3",
     "hexo-cake-moon-menu": "^1.1.3",
     "hexo-generator-archive": "^1.0.0",
-    "hexo-generator-baidu-sitemap": "^0.1.6",
     "hexo-generator-category": "^1.0.0",
     "hexo-generator-feed": "^2.2.0",
     "hexo-generator-index": "^1.0.0",
