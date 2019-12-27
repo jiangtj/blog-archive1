@@ -118,7 +118,6 @@ pwa:
     options:
       offlineGoogleAnalytics: true
 
-
 # 暂时先移除，似乎有问题
 # yarn add hexo-cake-live2d live2d-widget-model-miku live2d-widget-model-epsilon2_1
 live2d:

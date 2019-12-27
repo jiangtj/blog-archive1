@@ -70,16 +70,21 @@
   resolved "https://registry.npmjs.org/@jiangtj/hexo-front-matter-include/-/hexo-front-matter-include-1.0.0.tgz#2e5958f663752e3c5e2594d6a86340884e2a22b6"
   integrity sha512-0E87RzS51d5E0dI6RZ+lIXtiNjIYpBRMJIji2Z2MA9TBMN3VPYMAasgXoUMvpuCmK93xfetM0eXXsnIqUTS7kg==
 
-"@jiangtj/hexo-next-article-anchor@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.npmjs.org/@jiangtj/hexo-next-article-anchor/-/hexo-next-article-anchor-1.0.1.tgz#d4c94f9df6690f6733ebc857efa3138b38b91e87"
-  integrity sha512-Xkelr1PNKsZL6KNe/P9Ctm51l1YEmdmzCX2hb8zsTnfus1c2pC3lfNPK4H2iuOPGgsWLGBMhuUUypnCqQb+HYA==
-
 "@jiangtj/hexo-next-article-anchor@jiangtj-lab/hexo-next-article-anchor":
   version "1.0.1"
   resolved "https://codeload.github.com/jiangtj-lab/hexo-next-article-anchor/tar.gz/44ac1b2ff798a94a150ab2d703ee3f97e9115666"
   dependencies:
     cheerio "^1.0.0-rc.3"
+
+"@jiangtj/hexo-next-pwa@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.npmjs.org/@jiangtj/hexo-next-pwa/-/hexo-next-pwa-0.1.0.tgz#65dba61a90cd82a030e0a70b3b4190e70053cdb7"
+  integrity sha512-7fwjL4v7EKBnRfzPhOFwjd534xLyxZO4n5Zirf46Rpft9B2RbXfsmDjqDAb4T1fbVfW2PEIZGt2F/ZdAN43J2w==
+  dependencies:
+    js-yaml "^3.13.1"
+    lodash "^4.17.15"
+    next-util theme-next/next-util
+    workbox-build "^4.3.1"
 
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
@@ -3110,6 +3115,13 @@ neo-async@^2.6.0:
   version "2.6.1"
   resolved "https://registry.npmjs.org/neo-async/-/neo-async-2.6.1.tgz#ac27ada66167fa8849a6addd837f6b189ad2081c"
   integrity sha512-iyam8fBuCUpWeKPGpaNMetEocMt364qkCsfL9JuhjXX6dRnguRVOfk2GZaDpPjcOKiiXCPINZC1GczQ7iTq3Zw==
+
+next-util@theme-next/next-util:
+  version "0.1.0"
+  resolved "https://codeload.github.com/theme-next/next-util/tar.gz/0d48127c7e1969b3e83a267cba775050b9899aa7"
+  dependencies:
+    js-yaml "^3.13.1"
+    lodash "^4.17.15"
 
 nib@^1.1.2:
   version "1.1.2"
