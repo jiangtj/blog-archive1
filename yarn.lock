@@ -2168,10 +2168,10 @@ hexo-log@^1.0.0:
     chalk "^2.4.1"
     hexo-bunyan "^2.0.0"
 
-hexo-netlify-cms@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.npmjs.org/hexo-netlify-cms/-/hexo-netlify-cms-1.1.0.tgz#2e49904f9aaf37fa3d37d2b49d50cdd92034ac90"
-  integrity sha512-Y09GUlVGAhSktGLG2ML36NJ+FWV2uEJKxxxO2piT82sKtgScF/mbp9DPuCQmWa3r9hvDcMRUSqpaDf1Tqh3huw==
+hexo-netlify-cms@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.npmjs.org/hexo-netlify-cms/-/hexo-netlify-cms-1.1.1.tgz#4ff79b1b1d1b60bc802ea26ac25913fdd40e446d"
+  integrity sha512-AAHdEEjwfsVCBQrkz3ijUwRr7aaNvergvCo3pLZG4siOc60veDCzEM4PVukSfTo+34w9mknJze5009X/SNvlQQ==
   dependencies:
     ejs "^3.0.1"
     js-yaml "^3.12.1"
