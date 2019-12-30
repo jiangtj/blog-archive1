@@ -155,6 +155,7 @@ feed:
   order_by: -date
 
 netlify_cms:
+  load_identity_widget: cake
   config_file: netlify-cms.yaml
 
 moon_menu:
