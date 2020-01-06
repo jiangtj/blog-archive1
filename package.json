@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@jiangtj/hexo-cli": "^0.0.4",
+    "@jiangtj/hexo-config-plus": "^1.0.1",
     "@jiangtj/hexo-front-matter-include": "^1.0.0",
     "@jiangtj/hexo-next-article-anchor": "jiangtj-lab/hexo-next-article-anchor",
     "@jiangtj/hexo-next-pwa": "^0.1.0",

@@ -65,6 +65,13 @@
     imagemin "^6.1.0"
     imagemin-webp "^5.0.0"
 
+"@jiangtj/hexo-config-plus@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.npmjs.org/@jiangtj/hexo-config-plus/-/hexo-config-plus-1.0.1.tgz#7aedf3dc52396531fcccd0509ad080ff1e464b08"
+  integrity sha512-TzQjPLDXkBzyNbhX8F2HipXh3xTshU133qmLzrb85WyWthTECQZWcEBg/XnbAft/RXvGYMlPGql0FfUnqwF6YA==
+  dependencies:
+    lodash "^4.17.15"
+
 "@jiangtj/hexo-front-matter-include@^1.0.0":
   version "1.0.0"
   resolved "https://registry.npmjs.org/@jiangtj/hexo-front-matter-include/-/hexo-front-matter-include-1.0.0.tgz#2e5958f663752e3c5e2594d6a86340884e2a22b6"
