@@ -2,18 +2,23 @@
 
 'use strict';
 
-hexo.extend.filter.register('theme_inject', function(injects) {
+const fs = require('fs');
+const path = require('path');
 
-  injects.head.file('custom', 'views/head.swig', {}, {cache: true});
-  injects.header.file('custom', 'views/header.swig', {}, {cache: true});
-  injects.sidebar.file('custom', 'views/sidebar.swig', {}, {cache: true});
-  injects.bodyEnd.file('baidu-push', 'views/baidu-push.swig', {}, {cache: true});
+hexo.extend.filter.register('theme_inject', function(injector) {
 
-  injects.variable.push('source/_data/variables.styl');
-  injects.style.push('source/_data/styles.styl');
+
+  injector.register('head_end', fs.readFileSync(path.resolve(hexo.base_dir, 'views/head.html'), 'utf8'));
+  injector.register('bodyBegin', fs.readFileSync(path.resolve(hexo.base_dir, 'views/header.html'), 'utf8'));
+  injector.register('body-end', fs.readFileSync(path.resolve(hexo.base_dir, 'views/baidu-push.html'), 'utf8'));
+  //injector.sidebar.file('custom', 'views/sidebar.swig', {}, {cache: true});
+  //injector.bodyEnd.file('baidu-push', 'views/baidu-push.swig', {}, {cache: true});
+
+  injector.variable.push('source/_data/variables.styl');
+  injector.style.push('source/_data/styles.styl');
 
   //gitter
-  injects.head.file('gitter', 'views/gitter.swig', {}, {cache: true});
+  injector.register('head_end', fs.readFileSync(path.resolve(hexo.base_dir, 'views/gitter.html'), 'utf8'));
   //injects.style.push('views/gitter.styl');
 
 });
