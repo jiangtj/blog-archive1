@@ -2,21 +2,22 @@
 
 'use strict';
 
-hexo.extend.filter.register('theme_inject', function(injects) {
+hexo.extend.filter.register('theme_inject', function(injector) {
 
-  injects.postMeta.raw('post-meta-i18n', `
-  {%- if post.i18n %}
+  injector.register('postMeta', ({ __, post, i18n_post_meta }) => {
+    let metaContent = Object.keys(post.i18n).map(name => {
+      let link = post.i18n[name];
+      return i18n_post_meta(name, link, post.path);
+    });
+    return `
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
         <i class="fa fa-globe"></i>
       </span>
-      <span class="post-meta-item-text">{{ __('post.i18n') }}</span>
-      {%- for name,link in post.i18n %}
-        {{ i18n_post_meta(name, link, post.path) }}
-      {%- endfor %}
-    </span>
-  {%- endif %}
-  `);
+      <span class="post-meta-item-text">${__('post.i18n')}</span>
+      ${metaContent}
+    </span>`;
+  }, ctx => ctx.post.i18n);
 
 });
 
