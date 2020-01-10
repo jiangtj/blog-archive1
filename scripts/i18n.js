@@ -2,7 +2,7 @@
 
 'use strict';
 
-hexo.extend.filter.register('theme_inject', function(injector) {
+hexo.extend.filter.register('injector', function(injector) {
 
   injector.register('postMeta', ({ __, post, i18n_post_meta }) => {
     let metaContent = Object.keys(post.i18n).map(name => {

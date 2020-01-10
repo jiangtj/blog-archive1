@@ -5,7 +5,7 @@
 const fs = require('fs');
 const path = require('path');
 
-hexo.extend.filter.register('theme_inject', function(injector) {
+hexo.extend.filter.register('injector', function(injector) {
 
 
   injector.register('head_end', fs.readFileSync(path.resolve(hexo.base_dir, 'views/head.html'), 'utf8'));
@@ -14,8 +14,8 @@ hexo.extend.filter.register('theme_inject', function(injector) {
   //injector.sidebar.file('custom', 'views/sidebar.swig', {}, {cache: true});
   //injector.bodyEnd.file('baidu-push', 'views/baidu-push.swig', {}, {cache: true});
 
-  injector.variable.push('source/_data/variables.styl');
-  injector.style.push('source/_data/styles.styl');
+  injector.register('variable', 'source/_data/variables.styl');
+  injector.register('style', 'source/_data/styles.styl');
 
   //gitter
   injector.register('head_end', fs.readFileSync(path.resolve(hexo.base_dir, 'views/gitter.html'), 'utf8'));
