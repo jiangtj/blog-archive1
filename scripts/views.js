@@ -5,8 +5,8 @@
 const fs = require('fs');
 const path = require('path');
 
-hexo.extend.filter.register('injector', function(injector) {
-
+hexo.extend.filter.register('after_init', () => {
+  const injector = hexo.extend.injector2;
 
   injector.register('head_end', fs.readFileSync(path.resolve(hexo.base_dir, 'views/head.html'), 'utf8'));
   injector.register('bodyBegin', fs.readFileSync(path.resolve(hexo.base_dir, 'views/header.html'), 'utf8'));

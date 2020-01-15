@@ -2,7 +2,8 @@
 
 'use strict';
 
-hexo.extend.filter.register('injector', function(injector) {
+hexo.extend.filter.register('after_init', () => {
+  const injector = hexo.extend.injector2;
 
   injector.register('postMeta', ({ __, post, i18n_post_meta }) => {
     let metaContent = Object.keys(post.i18n).map(name => {
