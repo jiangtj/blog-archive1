@@ -57,24 +57,24 @@
   dependencies:
     "@hapi/hoek" "^8.3.0"
 
-"@jiangtj/hexo-cli@^0.0.4":
+"@jiangtj/hexo-cli@0.0.4":
   version "0.0.4"
-  resolved "https://registry.npmjs.org/@jiangtj/hexo-cli/-/hexo-cli-0.0.4.tgz#05919fa91c25fa341c79eba6db39c7a710a2e75c"
+  resolved "https://registry.yarnpkg.com/@jiangtj/hexo-cli/-/hexo-cli-0.0.4.tgz#05919fa91c25fa341c79eba6db39c7a710a2e75c"
   integrity sha512-lex8K8C6FJDYKWGQQAiXa8nn3mqt3K+DMbfcFQpqHn5ZwTrbSjeT9lBj/gHZP8Rr6EsuSnBQExVLDoVdk9gwgA==
   dependencies:
     imagemin "^6.1.0"
     imagemin-webp "^5.0.0"
 
-"@jiangtj/hexo-config-plus@^1.0.1":
+"@jiangtj/hexo-config-plus@1.0.1":
   version "1.0.1"
-  resolved "https://registry.npmjs.org/@jiangtj/hexo-config-plus/-/hexo-config-plus-1.0.1.tgz#7aedf3dc52396531fcccd0509ad080ff1e464b08"
+  resolved "https://registry.yarnpkg.com/@jiangtj/hexo-config-plus/-/hexo-config-plus-1.0.1.tgz#7aedf3dc52396531fcccd0509ad080ff1e464b08"
   integrity sha512-TzQjPLDXkBzyNbhX8F2HipXh3xTshU133qmLzrb85WyWthTECQZWcEBg/XnbAft/RXvGYMlPGql0FfUnqwF6YA==
   dependencies:
     lodash "^4.17.15"
 
-"@jiangtj/hexo-front-matter-include@^1.0.0":
+"@jiangtj/hexo-front-matter-include@1.0.0":
   version "1.0.0"
-  resolved "https://registry.npmjs.org/@jiangtj/hexo-front-matter-include/-/hexo-front-matter-include-1.0.0.tgz#2e5958f663752e3c5e2594d6a86340884e2a22b6"
+  resolved "https://registry.yarnpkg.com/@jiangtj/hexo-front-matter-include/-/hexo-front-matter-include-1.0.0.tgz#2e5958f663752e3c5e2594d6a86340884e2a22b6"
   integrity sha512-0E87RzS51d5E0dI6RZ+lIXtiNjIYpBRMJIji2Z2MA9TBMN3VPYMAasgXoUMvpuCmK93xfetM0eXXsnIqUTS7kg==
 
 "@jiangtj/hexo-next-article-anchor@jiangtj-lab/hexo-next-article-anchor":
@@ -83,9 +83,9 @@
   dependencies:
     cheerio "^1.0.0-rc.3"
 
-"@jiangtj/hexo-next-pwa@^0.1.0":
+"@jiangtj/hexo-next-pwa@0.1.0":
   version "0.1.0"
-  resolved "https://registry.npmjs.org/@jiangtj/hexo-next-pwa/-/hexo-next-pwa-0.1.0.tgz#65dba61a90cd82a030e0a70b3b4190e70053cdb7"
+  resolved "https://registry.yarnpkg.com/@jiangtj/hexo-next-pwa/-/hexo-next-pwa-0.1.0.tgz#65dba61a90cd82a030e0a70b3b4190e70053cdb7"
   integrity sha512-7fwjL4v7EKBnRfzPhOFwjd534xLyxZO4n5Zirf46Rpft9B2RbXfsmDjqDAb4T1fbVfW2PEIZGt2F/ZdAN43J2w==
   dependencies:
     js-yaml "^3.13.1"
@@ -1331,9 +1331,9 @@ escape-string-regexp@^2.0.0:
   resolved "https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-2.0.0.tgz#a30304e99daa32e23b2fd20f51babd07cffca344"
   integrity sha512-UpzcLCXolUWcNu5HtVMHYdXJjArjsF9C0aNnquZYY4uW/Vu0miy5YoWvbV345HauVvcAUnpRuhMMcqTcGOY2+w==
 
-eslint-config-theme-next@^1.1.2:
+eslint-config-theme-next@1.1.3:
   version "1.1.3"
-  resolved "https://registry.npmjs.org/eslint-config-theme-next/-/eslint-config-theme-next-1.1.3.tgz#878885465ce32fc29023073bf4d08d919dff39af"
+  resolved "https://registry.yarnpkg.com/eslint-config-theme-next/-/eslint-config-theme-next-1.1.3.tgz#878885465ce32fc29023073bf4d08d919dff39af"
   integrity sha512-PsDfAdQ0+obMJB2Fcgzykol0oRfnourV6fJS9xeDoopW5Ez/ZloYU4gersxbRl6IQXjvXuc6FH2iYk/iJ2kHPw==
 
 eslint-scope@^5.0.0:
@@ -1356,9 +1356,9 @@ eslint-visitor-keys@^1.1.0:
   resolved "https://registry.npmjs.org/eslint-visitor-keys/-/eslint-visitor-keys-1.1.0.tgz#e2a82cea84ff246ad6fb57f9bde5b46621459ec2"
   integrity sha512-8y9YjtM1JBJU/A9Kc+SbaOV4y29sSWckBwMHa+FGtVj5gN/sbnKDf6xJUl+8g7FAij9LVaP8C24DUiH/f/2Z9A==
 
-eslint@^6.8.0:
+eslint@6.8.0:
   version "6.8.0"
-  resolved "https://registry.npmjs.org/eslint/-/eslint-6.8.0.tgz#62262d6729739f9275723824302fb227c8c93ffb"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-6.8.0.tgz#62262d6729739f9275723824302fb227c8c93ffb"
   integrity sha512-K+Iayyo2LtyYhDSYwz5D5QdWw0hCacNzyq1Y821Xna2xSJj7cijoLLYmLxTQgcgZ9mC61nryMy9S7GRbYpI5Ig==
   dependencies:
     "@babel/code-frame" "^7.0.0"
@@ -2019,9 +2019,9 @@ has-values@^1.0.0:
     is-number "^3.0.0"
     kind-of "^4.0.0"
 
-hexo-autoprefixer@^2.0.0:
+hexo-autoprefixer@2.0.0:
   version "2.0.0"
-  resolved "https://registry.npmjs.org/hexo-autoprefixer/-/hexo-autoprefixer-2.0.0.tgz#fc6e438f34ba07ef48bee8829a1e29dc382bbbdf"
+  resolved "https://registry.yarnpkg.com/hexo-autoprefixer/-/hexo-autoprefixer-2.0.0.tgz#fc6e438f34ba07ef48bee8829a1e29dc382bbbdf"
   integrity sha512-qiAcD3K8D5PeyPh357CG6Cn+9GmCBNDRbD2ghnTZzfOo+HFLlLWXyPZfqaUZKKdP2iksmj+vYjE5oFsQizkWYw==
   dependencies:
     autoprefixer "^9.4.3"
@@ -2037,32 +2037,32 @@ hexo-bunyan@^2.0.0:
     mv "~2"
     safe-json-stringify "~1"
 
-hexo-cake-canvas-ribbon@^1.0.2:
+hexo-cake-canvas-ribbon@1.0.2:
   version "1.0.2"
-  resolved "https://registry.npmjs.org/hexo-cake-canvas-ribbon/-/hexo-cake-canvas-ribbon-1.0.2.tgz#c2cac2a6bb55175f3d1b99580b7d779ce129329a"
+  resolved "https://registry.yarnpkg.com/hexo-cake-canvas-ribbon/-/hexo-cake-canvas-ribbon-1.0.2.tgz#c2cac2a6bb55175f3d1b99580b7d779ce129329a"
   integrity sha512-NEz2YEju2lMPdEpuqD0YNIBopstwvz3B7kqqP1fNQVT6Q2axdxZbrKrl5BU/e3SqTBQbabiRJcZcGu8q68Gb8A==
   dependencies:
     js-yaml "^3.13.1"
 
-hexo-cake-google-analytics@^1.0.1:
+hexo-cake-google-analytics@1.0.1:
   version "1.0.1"
-  resolved "https://registry.npmjs.org/hexo-cake-google-analytics/-/hexo-cake-google-analytics-1.0.1.tgz#cadc6160e8f3dc1941fe33acabe5c0a6c4abb0fd"
+  resolved "https://registry.yarnpkg.com/hexo-cake-google-analytics/-/hexo-cake-google-analytics-1.0.1.tgz#cadc6160e8f3dc1941fe33acabe5c0a6c4abb0fd"
   integrity sha512-bZZQn9EEnwzZdqGeL4iIFbtEeDI7Esp/tGy1IiCyeD11Y+/Go0fWX8XAsU4yTEuIdVGiG6FUM+5YJ+5ri+eTjg==
   dependencies:
     hexo-cake-utils "^1.0.0"
 
-hexo-cake-local-search@^3.2.3:
+hexo-cake-local-search@3.2.3:
   version "3.2.3"
-  resolved "https://registry.npmjs.org/hexo-cake-local-search/-/hexo-cake-local-search-3.2.3.tgz#6cfbe86f7705b62b9dc6388482e4eb81b6ffe56d"
+  resolved "https://registry.yarnpkg.com/hexo-cake-local-search/-/hexo-cake-local-search-3.2.3.tgz#6cfbe86f7705b62b9dc6388482e4eb81b6ffe56d"
   integrity sha512-79rfvaOPWW2yGleXVEtadxcnaM2qat6IHkDtb3NUe1rSDvBaw3083INopDc7ArcyKWpALYFQBqkXwas0DiG29Q==
   dependencies:
     hexo-cake-utils "^1.1.0"
     hexo-generator-searchdb "^1.1.0"
     js-yaml "^3.13.1"
 
-hexo-cake-moon-menu@^1.1.3:
+hexo-cake-moon-menu@1.1.3:
   version "1.1.3"
-  resolved "https://registry.npmjs.org/hexo-cake-moon-menu/-/hexo-cake-moon-menu-1.1.3.tgz#df1a5684bfcf1e6f63b004a50a012599afda75d8"
+  resolved "https://registry.yarnpkg.com/hexo-cake-moon-menu/-/hexo-cake-moon-menu-1.1.3.tgz#df1a5684bfcf1e6f63b004a50a012599afda75d8"
   integrity sha512-xi4ypQ3A/okI/aLy+T2PwukwZIyv6K1vVQk6kok7Dn11hnw4Kq/zDtfbbOHRm2x/8Yxk96vEtYXNoe0lFp+zng==
   dependencies:
     hexo-cake-utils "^1.0.0"
@@ -2108,31 +2108,31 @@ hexo-fs@^2.0.0:
     escape-string-regexp "^2.0.0"
     graceful-fs "^4.1.11"
 
-hexo-generator-archive@^1.0.0:
+hexo-generator-archive@1.0.0:
   version "1.0.0"
-  resolved "https://registry.npmjs.org/hexo-generator-archive/-/hexo-generator-archive-1.0.0.tgz#ad2afb12232a65e2f8608fc1ca3f19162fb63786"
+  resolved "https://registry.yarnpkg.com/hexo-generator-archive/-/hexo-generator-archive-1.0.0.tgz#ad2afb12232a65e2f8608fc1ca3f19162fb63786"
   integrity sha512-24TeanDGpMBUIq37DHpSESQbeN6ssZ06edsGSI76tN4Yit50TgsgzP5g5DSu0yJk0jUtHJntysWE8NYAlFXibA==
   dependencies:
     hexo-pagination "1.0.0"
 
-hexo-generator-category@^1.0.0:
+hexo-generator-category@1.0.0:
   version "1.0.0"
-  resolved "https://registry.npmjs.org/hexo-generator-category/-/hexo-generator-category-1.0.0.tgz#cd2a2b03eb326da3ef821d6e29408488cc132eb5"
+  resolved "https://registry.yarnpkg.com/hexo-generator-category/-/hexo-generator-category-1.0.0.tgz#cd2a2b03eb326da3ef821d6e29408488cc132eb5"
   integrity sha512-kmtwT1SHYL2ismbGnYQXNtqLFSeTdtHNbJIqno3LKROpCK8ybST5QVXF1bZI9LkFcXV/H8ilt8gfg4/dNNcQQQ==
   dependencies:
     hexo-pagination "1.0.0"
 
-hexo-generator-feed@^2.2.0:
+hexo-generator-feed@2.2.0:
   version "2.2.0"
-  resolved "https://registry.npmjs.org/hexo-generator-feed/-/hexo-generator-feed-2.2.0.tgz#4b8b752a27d00525363e3449f18d063a92c13f0d"
+  resolved "https://registry.yarnpkg.com/hexo-generator-feed/-/hexo-generator-feed-2.2.0.tgz#4b8b752a27d00525363e3449f18d063a92c13f0d"
   integrity sha512-/jFMSyofFmp75P67sN9QesEW/wAFstmNfM+zXOOh+D5ZJe0RqXokczEetloqjCU1CX1EzKI3tRr/EoBZ6igQzg==
   dependencies:
     hexo-util "^1.3.0"
     nunjucks "^3.0.0"
 
-hexo-generator-index@^1.0.0:
+hexo-generator-index@1.0.0:
   version "1.0.0"
-  resolved "https://registry.npmjs.org/hexo-generator-index/-/hexo-generator-index-1.0.0.tgz#8c9f157dcfa0af4f8417f77a4eb5b3831f69a719"
+  resolved "https://registry.yarnpkg.com/hexo-generator-index/-/hexo-generator-index-1.0.0.tgz#8c9f157dcfa0af4f8417f77a4eb5b3831f69a719"
   integrity sha512-L25MdZ7e5ar/F8lIW+zBNNlA4f5A8CBUOYi1IQZCgL3wPVW+AWn66RSM5UVBAbiw5yxDeTHdk0sJYXbhSBaOFQ==
   dependencies:
     hexo-pagination "1.0.0"
@@ -2144,18 +2144,18 @@ hexo-generator-searchdb@^1.1.0:
   dependencies:
     nunjucks "^3.2.0"
 
-hexo-generator-sitemap@^2.0.0:
+hexo-generator-sitemap@2.0.0:
   version "2.0.0"
-  resolved "https://registry.npmjs.org/hexo-generator-sitemap/-/hexo-generator-sitemap-2.0.0.tgz#0d4cc5c44785c1ae15c5898e0c5bff5a9e163957"
+  resolved "https://registry.yarnpkg.com/hexo-generator-sitemap/-/hexo-generator-sitemap-2.0.0.tgz#0d4cc5c44785c1ae15c5898e0c5bff5a9e163957"
   integrity sha512-JeoyRIJs7g6sS4WssFCot7joT7o1R/Mt96ldrq93A7z1j/lcaOSoq3Bvx7xF5DhvmT33PUEMsnVQKjUPdaPUdw==
   dependencies:
     hexo-util "^1.4.0"
     micromatch "^4.0.2"
     nunjucks "^3.1.6"
 
-hexo-generator-tag@^1.0.0:
+hexo-generator-tag@1.0.0:
   version "1.0.0"
-  resolved "https://registry.npmjs.org/hexo-generator-tag/-/hexo-generator-tag-1.0.0.tgz#54ec23de9409c75584ea81e36057a59031b022f1"
+  resolved "https://registry.yarnpkg.com/hexo-generator-tag/-/hexo-generator-tag-1.0.0.tgz#54ec23de9409c75584ea81e36057a59031b022f1"
   integrity sha512-JDoB2T1EncRlyGSjuAhkGxRfKkN8tq0i8tFlk9I4q2L6iYxPaUnFenhji0oxufTADC16/IchuPjmMk//dt8Msg==
   dependencies:
     hexo-pagination "1.0.0"
@@ -2175,9 +2175,9 @@ hexo-log@^1.0.0:
     chalk "^2.4.1"
     hexo-bunyan "^2.0.0"
 
-hexo-netlify-cms@^1.1.1:
+hexo-netlify-cms@1.1.1:
   version "1.1.1"
-  resolved "https://registry.npmjs.org/hexo-netlify-cms/-/hexo-netlify-cms-1.1.1.tgz#4ff79b1b1d1b60bc802ea26ac25913fdd40e446d"
+  resolved "https://registry.yarnpkg.com/hexo-netlify-cms/-/hexo-netlify-cms-1.1.1.tgz#4ff79b1b1d1b60bc802ea26ac25913fdd40e446d"
   integrity sha512-AAHdEEjwfsVCBQrkz3ijUwRr7aaNvergvCo3pLZG4siOc60veDCzEM4PVukSfTo+34w9mknJze5009X/SNvlQQ==
   dependencies:
     ejs "^3.0.1"
@@ -2190,14 +2190,14 @@ hexo-next-utteranc@theme-next/hexo-next-utteranc:
   dependencies:
     js-yaml "^3.13.1"
 
-hexo-pagination@1.0.0, hexo-pagination@^1.0.0:
+hexo-pagination@1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/hexo-pagination/-/hexo-pagination-1.0.0.tgz#c9c0ca3665267b9e9d0a89fc3edcaf3276907dc1"
   integrity sha512-miEVFgxchPr2qNWxw0JWpJ9R/Yaf7HjHBZVjvCCcqfbsLyYtCvIfJDxcEwz1sDOC/fLzYPqNnhUI73uNxBHRSA==
 
-hexo-renderer-ejs@^1.0.0:
+hexo-renderer-ejs@1.0.0:
   version "1.0.0"
-  resolved "https://registry.npmjs.org/hexo-renderer-ejs/-/hexo-renderer-ejs-1.0.0.tgz#43c4de49eeae224036a457df860eb1c14c68b4b4"
+  resolved "https://registry.yarnpkg.com/hexo-renderer-ejs/-/hexo-renderer-ejs-1.0.0.tgz#43c4de49eeae224036a457df860eb1c14c68b4b4"
   integrity sha512-O925i69FG4NYO62oWORcPhRZZX0sPx1SXGKUS5DaR/lzajyiXH5i2sqnkj0ya0rNLXIy/D7Xmt7WbFyuQx/kKQ==
   dependencies:
     ejs "^2.6.1"
@@ -2210,17 +2210,17 @@ hexo-renderer-marked@hexojs/hexo-renderer-marked:
     marked "^0.8.0"
     strip-indent "^3.0.0"
 
-hexo-renderer-stylus@^1.1.0:
+hexo-renderer-stylus@1.1.0:
   version "1.1.0"
-  resolved "https://registry.npmjs.org/hexo-renderer-stylus/-/hexo-renderer-stylus-1.1.0.tgz#7a0a107bcf4b74fdf88f28da2db47b8dc9e208e5"
+  resolved "https://registry.yarnpkg.com/hexo-renderer-stylus/-/hexo-renderer-stylus-1.1.0.tgz#7a0a107bcf4b74fdf88f28da2db47b8dc9e208e5"
   integrity sha512-aXfMuro2aQOvpM5pyPEModAPvqYi73VN4t37vGMQCbT0QTmw8YohEmUpO/G/1k6j88ong6344v+A0xrpUGQRnQ==
   dependencies:
     nib "^1.1.2"
     stylus "^0.54.5"
 
-hexo-server@^1.0.0:
+hexo-server@1.0.0:
   version "1.0.0"
-  resolved "https://registry.npmjs.org/hexo-server/-/hexo-server-1.0.0.tgz#af89fcc0a07740ad2a7f33d1d003889aab22927e"
+  resolved "https://registry.yarnpkg.com/hexo-server/-/hexo-server-1.0.0.tgz#af89fcc0a07740ad2a7f33d1d003889aab22927e"
   integrity sha512-eSY+a5oiGCG/3T6FrdrNRBkttMLJkM+oitY6ZMFowjcBiG2VNEhQmfWUDOykfvApZs4wPYBb//uXD/58tfe3mA==
   dependencies:
     bluebird "^3.5.5"
@@ -2246,9 +2246,9 @@ hexo-util@^1.3.0, hexo-util@^1.4.0, hexo-util@^1.6.1, hexo-util@^1.8.0:
     punycode.js "^2.1.0"
     striptags "^3.1.1"
 
-hexo@^4.2.0:
+hexo@4.2.0:
   version "4.2.0"
-  resolved "https://registry.npmjs.org/hexo/-/hexo-4.2.0.tgz#dd306abe801ca47623cae7c86818af4425b466ec"
+  resolved "https://registry.yarnpkg.com/hexo/-/hexo-4.2.0.tgz#dd306abe801ca47623cae7c86818af4425b466ec"
   integrity sha512-j2Kzgx/eWF0IgSfUEsAAhr0mDaaqR3E1MTus0/Vrs+JpQdMiSlqSbudPf2S9O4FHi5CAzDCuzToGlg2kgoQxcA==
   dependencies:
     abbrev "^1.1.1"
@@ -3128,14 +3128,6 @@ neo-async@^2.6.0:
   version "2.6.1"
   resolved "https://registry.npmjs.org/neo-async/-/neo-async-2.6.1.tgz#ac27ada66167fa8849a6addd837f6b189ad2081c"
   integrity sha512-iyam8fBuCUpWeKPGpaNMetEocMt364qkCsfL9JuhjXX6dRnguRVOfk2GZaDpPjcOKiiXCPINZC1GczQ7iTq3Zw==
-
-next-util@^1.0.0:
-  version "1.0.1"
-  resolved "https://registry.npmjs.org/next-util/-/next-util-1.0.1.tgz#bba5566da15f7e18252fb7ca439950c9e4c74c01"
-  integrity sha512-8vaUTbFJHeITHjqGq4R2IyEM/I1p9b/wXIbN+rqJXQm/h7HIXCAMZPitDaSJRh/tzWrP2JZU3FA4mY7Smj24Wg==
-  dependencies:
-    js-yaml "^3.13.1"
-    lodash "^4.17.15"
 
 next-util@theme-next/next-util:
   version "0.1.0"
