@@ -8,4 +8,5 @@ comments: true
 # :a-z
 :a-z表示文章以A-Z英文前缀的能吃的名开头
 - almond 杏仁果 2017-2018
-- beechnut 山毛榉坚果 2019-future
+- beechnut 山毛榉坚果 2019
+- cherry 樱桃 2020-future

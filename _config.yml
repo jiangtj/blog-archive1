@@ -164,7 +164,7 @@ moon_menu:
     func: openGitter
 
 jiang:
-  post_base_dir: beechnut
+  post_base_dir: cherry
 
 theme_plus:
   debug: true
