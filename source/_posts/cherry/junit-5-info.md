@@ -56,9 +56,12 @@ public class TimeUtils {
 
 2. 创建测试用例
 ```java
-public class TimeUtils {
-    public static String hello(Instant now) {
-        return "现在时间是：" + now.toString();
+class TimeUtilsTest {
+    @Test
+    void hello() {
+        Instant now = Instant.now();
+        String expect = "现在时间是：" + now.toString();
+        assertEquals(expect, TimeUtils.hello(now));
     }
 }
 ```
