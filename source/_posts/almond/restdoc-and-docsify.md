@@ -145,46 +145,46 @@ Docsify的一些入门，可以查看[官网](https://docsify.js.org/#/zh-cn/qui
 同样的需要为其添加主页`README.md`和侧边栏`_sidebar.md`  
 
 - README.md
-```md
-# Welcome Page
-
-## How to use
-mvn test
-docsify serve docs
-browse `localhost:3000`   
-click sidebar `User Api`
-```
+  ```md
+  # Welcome Page
+  
+  ## How to use
+  mvn test
+  docsify serve docs
+  browse `localhost:3000`   
+  click sidebar `User Api`
+  ```
 
 - _sidebar.md
-```md
-* [User Api](user.md)
-```
+  ```md
+  * [User Api](user.md)
+  ```
 
 编写一个用户服务，使用文档嵌入，将代码片段包括进去
 
 - user.md
-```md
-### curl-request
-[curl-request](snippets/user/curl-request.md ':include')
+  ```md
+  ### curl-request
+  [curl-request](snippets/user/curl-request.md ':include')
+  
+  ### http-request
+  [http-request](snippets/user/http-request.md ':include')
+  
+  ### http-response
+  [http-response](snippets/user/http-response.md ':include')
 
-### http-request
-[http-request](snippets/user/http-request.md ':include')
-
-### http-response
-[http-response](snippets/user/http-response.md ':include')
-
-### httpie-request
-[httpie-request](snippets/user/httpie-request.md ':include')
-
-### request-body
-[request-body](snippets/user/request-body.md ':include')
-
-### response-body
-[response-body](snippets/user/response-body.md ':include')
-
-### response-fields
-[response-fields](snippets/user/response-fields.md ':include')
-```
+  ### httpie-request
+  [httpie-request](snippets/user/httpie-request.md ':include')
+  
+  ### request-body
+  [request-body](snippets/user/request-body.md ':include')
+  
+  ### response-body
+  [response-body](snippets/user/response-body.md ':include')
+  
+  ### response-fields
+  [response-fields](snippets/user/response-fields.md ':include')
+  ```
 
 # 运行
 1. 运行maven测试`mvn test`生成代码片段   
