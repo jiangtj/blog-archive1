@@ -140,8 +140,10 @@ Docsify的一些入门，可以查看[官网](https://docsify.js.org/#/zh-cn/qui
 
 </html>
 ```
+
 你可以调整`window.$docsify`参数，这里将`loadSidebar`置为了`true`，为的是每个需求服务分在不同的文件里    
 同样的需要为其添加主页`README.md`和侧边栏`_sidebar.md`  
+
 - README.md
 ```md
 # Welcome Page
@@ -152,11 +154,14 @@ docsify serve docs
 browse `localhost:3000`   
 click sidebar `User Api`
 ```
+
 - _sidebar.md
 ```md
 * [User Api](user.md)
 ```
+
 编写一个用户服务，使用文档嵌入，将代码片段包括进去
+
 - user.md
 ```md
 ### curl-request
@@ -180,6 +185,7 @@ click sidebar `User Api`
 ### response-fields
 [response-fields](snippets/user/response-fields.md ':include')
 ```
+
 # 运行
 1. 运行maven测试`mvn test`生成代码片段   
 2. 执行命令行`docsify serve docs`，浏览器打开`localhost:3000`就可以预览刚才编写的文档了(事实上该命令只是将docs下的文件直接放置在web服务器中，如果使用CI可以很方便的部署该文档服务)
