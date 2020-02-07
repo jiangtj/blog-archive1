@@ -1,5 +1,5 @@
 # 暂时不用了
-image: node:10.13.0
+image: node:10.19.0
 
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
