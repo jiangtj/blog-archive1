@@ -3,6 +3,7 @@ title: Spring Cloud Contract DSL
 categories: [后端]
 tags: [微服务,Spring Cloud]
 date: 2019-04-28 21:29:12
+updated: 2019-04-28 21:29:12
 ---
 
 这是一篇介绍Spring Cloud Contract语言定义的文章，也就是该怎么写契约内容。如果您对Spring Cloud Contract不是很了解，不知如何更好的实践的话，可以先看下我之前的文章[《Spring Cloud Contract 契约测试》](/articles/beechnut/spring-cloud-contract)

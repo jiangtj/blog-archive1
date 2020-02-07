@@ -1,6 +1,7 @@
 ---
 title: Spring Data Jpa与Mybatis的选择
 date: 2017-9-11
+updated: 2017-9-11
 categories: [后端]
 tags: [Jpa,Mybatis]
 ---

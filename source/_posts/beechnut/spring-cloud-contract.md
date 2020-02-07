@@ -1,6 +1,7 @@
 ---
 title: Spring Cloud Contract 契约测试
 date: 2019-03-28 23:18:51
+updated: 2019-03-28 23:18:51
 tags:
   - 微服务
   - Spring Cloud

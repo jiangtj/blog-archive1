@@ -1,6 +1,7 @@
 ---
 title: Java设计模式之建筑者模式.
 date: 2016-7-19
+updated: 2016-7-19
 categories: [后端]
 tags: [设计模式]
 ---

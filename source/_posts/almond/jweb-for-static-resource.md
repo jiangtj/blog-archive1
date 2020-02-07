@@ -1,6 +1,7 @@
 ---
 title: JWeb 简单的方式部署静态资源
 date: 2018-05-31
+updated: 2018-05-31
 categories: [后端]
 tags: [Java,Web,Shell]
 ---

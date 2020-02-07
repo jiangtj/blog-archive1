@@ -3,6 +3,7 @@ title: 使用Git Submodule管理Hexo主题
 categories: [前端]
 tags: [Hexo, Git]
 date: 2019-08-07 23:23:25
+updated: 2019-08-07 23:23:25
 description: “小白”都能玩耍的的方式，将一切井井有条
 i18n:
   中文: /articles/beechnut/hexo-git-submodule/

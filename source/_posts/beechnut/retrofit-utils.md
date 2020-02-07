@@ -3,6 +3,7 @@ title: 一个简单的retrofit工具类
 categories: [后端]
 tags: [Java,Retrofit]
 date: 2019-09-06 11:51:17
+updated: 2019-09-06 11:51:17
 ---
 
 # 使用

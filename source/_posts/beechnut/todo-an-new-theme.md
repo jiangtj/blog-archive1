@@ -2,6 +2,7 @@
 title: 想写个自己的主题
 tags: [Todo]
 date: 2019-04-30 10:37:37
+updated: 2019-04-30 10:37:37
 banner: /articles/beechnut/todo-an-new-theme/g2.png
 ---
 

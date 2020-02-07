@@ -1,6 +1,7 @@
 ---
 title: Git LFS使用--Netlify Large Media
 date: 2019-3-3
+updated: 2019-3-3
 description: Netlify提供了大文件存储以及图像转换功能，是时候升级一波啦。
 categories: [工具]
 tags: [Git]

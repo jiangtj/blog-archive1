@@ -1,6 +1,7 @@
 ---
 title: TICK Stack 实践之监控服务器
 date: 2018-5-21
+updated: 2018-5-21
 categories: [运维]
 tags: [TICK Stack]
 ---

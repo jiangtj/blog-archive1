@@ -1,6 +1,7 @@
 ---
 title: 微服务设计 - 版本控制
 date: 2018-11-10
+updated: 2018-11-10
 categories: [架构]
 tags: [微服务,Version Control]
 ---

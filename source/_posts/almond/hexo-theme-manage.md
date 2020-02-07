@@ -1,6 +1,7 @@
 ---
 title: 简单、高效的管理hexo站点主题
 date: 2018-10-15
+updated: 2018-10-15
 categories: [前端]
 tags: [Hexo,CI]
 ---

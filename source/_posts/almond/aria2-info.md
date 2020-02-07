@@ -1,6 +1,7 @@
 ---
 title: Aria2 一个轻量级的命令行下载工具
 date: 2018-6-5
+updated: 2018-6-5
 categories: [工具]
 ---
 

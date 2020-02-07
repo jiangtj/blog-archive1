@@ -1,6 +1,7 @@
 ---
 title: Spring Boot 自动重启脚本
 date: 2018-4-20
+updated: 2018-4-20
 categories: [后端]
 tags: [Java,Shell,CI]
 ---

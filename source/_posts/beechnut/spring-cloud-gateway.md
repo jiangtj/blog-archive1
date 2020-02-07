@@ -3,6 +3,7 @@ title: Spring Cloud 之 Gateway （Greenwich版）
 categories: [后端]
 tags: [微服务,Spring Cloud]
 date: 2019-05-20 21:16:33
+updated: 2019-05-20 21:16:33
 ---
 
 众所周知，netflix OSS 2.0 难产了，上一代的zuul网关虽说不错，但其并不是异步的。所以，Spring团队推出了基于Spring Webflux的全新异步的网关--Spring Cloud Gateway。

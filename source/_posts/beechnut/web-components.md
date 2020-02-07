@@ -1,6 +1,7 @@
 ---
 title: Web Components实践
 date: 2019-03-16 14:47:53
+updated: 2019-03-16 14:47:53
 description: 上一时代的“牺牲品”是JQuery，如今Web Components被越来越多的浏览器所支持，Vue或许是下一个“祭品”。
 categories: [前端]
 tags: [组件化]

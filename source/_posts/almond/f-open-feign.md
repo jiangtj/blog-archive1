@@ -1,6 +1,7 @@
 ---
 title: Spring Cloud 之 Feign （Finchley版）
 date: 2018-8-1
+updated: 2018-8-1
 categories: [后端]
 tags: [Spring Cloud]
 ---

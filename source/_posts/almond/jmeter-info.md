@@ -1,6 +1,7 @@
 ---
 title: 利用Jmeter进行压力测试
 date: 2018-5-15
+updated: 2018-5-15
 categories: [工具]
 tags: [Jmeter,压力测试]
 ---
