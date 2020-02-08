@@ -2035,9 +2035,10 @@ hexo-cake-google-analytics@^1.0.1:
   dependencies:
     hexo-cake-utils "^1.0.0"
 
-hexo-cake-local-search@jiangtj-lab/hexo-cake-local-search:
-  version "3.2.3"
-  resolved "https://codeload.github.com/jiangtj-lab/hexo-cake-local-search/tar.gz/b32b522f746a0a7a8ee74e2e4ea9c5bf04527c63"
+hexo-cake-local-search@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.npmjs.org/hexo-cake-local-search/-/hexo-cake-local-search-4.0.0.tgz#e4f8a2767d25f07ee4ac7be4214b708bc823b40a"
+  integrity sha512-RZVL9iu0mTu5ifHvPUiNiNJVhA3vTXwIuDvrYcNNsGTtCnp9VLhBLAunG6Vx8R8KLd98cLcchwGHSv+P6fT3HA==
   dependencies:
     ejs "^3.0.1"
     hexo-cake-utils "^1.2.1"

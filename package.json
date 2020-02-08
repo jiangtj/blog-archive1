@@ -18,7 +18,7 @@
     "hexo-autoprefixer": "^2.0.0",
     "hexo-cake-canvas-ribbon": "^1.0.2",
     "hexo-cake-google-analytics": "^1.0.1",
-    "hexo-cake-local-search": "jiangtj-lab/hexo-cake-local-search",
+    "hexo-cake-local-search": "^4.0.0",
     "hexo-cake-moon-menu": "^1.1.3",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category": "^1.0.0",
