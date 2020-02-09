@@ -2021,11 +2021,12 @@ hexo-bunyan@^2.0.0:
     mv "~2"
     safe-json-stringify "~1"
 
-hexo-cake-canvas-ribbon@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.npmjs.org/hexo-cake-canvas-ribbon/-/hexo-cake-canvas-ribbon-1.0.2.tgz#c2cac2a6bb55175f3d1b99580b7d779ce129329a"
-  integrity sha512-NEz2YEju2lMPdEpuqD0YNIBopstwvz3B7kqqP1fNQVT6Q2axdxZbrKrl5BU/e3SqTBQbabiRJcZcGu8q68Gb8A==
+hexo-cake-canvas-ribbon@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/hexo-cake-canvas-ribbon/-/hexo-cake-canvas-ribbon-2.0.0.tgz#b4794b37e10ecccf057c354b69ffc4486f46fca2"
+  integrity sha512-dXF4COw8CTPcanCqqg9TLTO0TlnMriaLmgzk74bz+PJogtuZJ4NyZJMAOfSVHDh0/4I3N5GP/HiDAZQ+jnl0vg==
   dependencies:
+    hexo-extend-injector2 "^0.1.0"
     js-yaml "^3.13.1"
 
 hexo-cake-google-analytics@^1.0.1:
@@ -2089,6 +2090,13 @@ hexo-extend-injector2@^0.0.4:
   version "0.0.4"
   resolved "https://registry.npmjs.org/hexo-extend-injector2/-/hexo-extend-injector2-0.0.4.tgz#46cdd793ac8f410e6e8221a2a0689b4bf169c2bb"
   integrity sha512-798vbLPrqAywTvxQ0v5NF9L4yhhEB71NvJZ+fBL+B63qRTzsWRRVwKIoCWvqvwR4RGonM1+6GmTZTC6pAfOzTA==
+  dependencies:
+    hexo-util "^1.8.1"
+
+hexo-extend-injector2@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/hexo-extend-injector2/-/hexo-extend-injector2-0.1.0.tgz#bc764f5e03d1fc6fdfeadc5686455485118f89fe"
+  integrity sha512-bCUMLQ+nXhQSks3EkP72Ip7GYKd1FUz7dyZD6fZ4+1lVmiohCONdY13IsLNlsBKGaPCHQsvvP+20LNQF+RizgA==
   dependencies:
     hexo-util "^1.8.1"
 
