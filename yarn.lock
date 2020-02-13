@@ -2047,12 +2047,14 @@ hexo-cake-local-search@^4.0.0:
     hexo-util "^1.8.1"
     js-yaml "^3.13.1"
 
-hexo-cake-moon-menu@^1.1.3:
-  version "1.1.3"
-  resolved "https://registry.npmjs.org/hexo-cake-moon-menu/-/hexo-cake-moon-menu-1.1.3.tgz#df1a5684bfcf1e6f63b004a50a012599afda75d8"
-  integrity sha512-xi4ypQ3A/okI/aLy+T2PwukwZIyv6K1vVQk6kok7Dn11hnw4Kq/zDtfbbOHRm2x/8Yxk96vEtYXNoe0lFp+zng==
+hexo-cake-moon-menu@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/hexo-cake-moon-menu/-/hexo-cake-moon-menu-2.0.0.tgz#3afb929651483ba72f6db68006568ce8676aa4db"
+  integrity sha512-WH5tPz+OkBXq4z4H4Re0U3wmSP4g+rjJFnOgB3aglihseB+HsZU7ZE6/vYC368JH1ib5aNeDVYuqjRR6AP/SNA==
   dependencies:
-    hexo-cake-utils "^1.0.0"
+    ejs "^3.0.1"
+    hexo-extend-injector2 "^0.1.3"
+    hexo-util "^1.8.1"
 
 hexo-cake-utils@^1.0.0:
   version "1.1.1"
@@ -2089,6 +2091,13 @@ hexo-extend-injector2@^0.0.4:
   version "0.0.4"
   resolved "https://registry.npmjs.org/hexo-extend-injector2/-/hexo-extend-injector2-0.0.4.tgz#46cdd793ac8f410e6e8221a2a0689b4bf169c2bb"
   integrity sha512-798vbLPrqAywTvxQ0v5NF9L4yhhEB71NvJZ+fBL+B63qRTzsWRRVwKIoCWvqvwR4RGonM1+6GmTZTC6pAfOzTA==
+  dependencies:
+    hexo-util "^1.8.1"
+
+hexo-extend-injector2@^0.1.3:
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/hexo-extend-injector2/-/hexo-extend-injector2-0.1.3.tgz#89bb332377b3afaeec1504e55d1462dd5cabcf96"
+  integrity sha512-BkJvfy+oeyUf/uMgsrP7nFL8Hu5nkXUkdNdAdHnDNvBXE1RpFLf+oA/9ZED8CCsaFvUma5H/LNMfVfyf8XJWiw==
   dependencies:
     hexo-util "^1.8.1"
 
