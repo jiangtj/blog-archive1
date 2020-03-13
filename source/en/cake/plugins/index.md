@@ -6,7 +6,7 @@ i18n:
   English: /en/cake/plugins/
 ---
 
-Cake integrates additional features through plugins, and does not itself contain any files with additional features. So lightweight and powerful. Consistent with NexT's plugin solution (keep in sync with it), so you can go to [Awesome NexT](https://github.com/theme-next/awesome-next) to see more plugins
+Cake integrates additional features through plugins, and does not itself contain any files with additional features. So lightweight and powerful. And you can also use NexT's plugin, go to [Awesome NexT](https://github.com/theme-next/awesome-next) to see more plugins
 
 # List
 
@@ -36,14 +36,6 @@ npm i <plugin-name>(example:hexo-cake-canvas-ribbon) --save
 yarn add <plugin-name>(example:hexo-cake-canvas-ribbon)
 ```
 
-The Cake plugin is very easy to install, just like the normal hexo plugin, the only difference is that it works on NexT or Cake themes ([the same plugin scheme](/cake/cubes)).
+The Cake plugin is very easy to install, just like the normal hexo plugin, the only difference is that it works on NexT or Cake themes ([or other use injector2 plugin](https://github.com/jiangtj/hexo-extend-injector2)).
 
-Other themes, if the user wants to use, find the `theme_inject` part of index.js (or other execution script) after installation, copy the corresponding Code to the corresponding location.
-
-> See the plugin project for specific configuration.
-
-# Create
-
-View the article below
-- [inject docs](https://theme-next.org/docs/advanced-settings#Injects): Introduction to NexT about inject
-- [hexo next injects](https://www.dnocm.com/articles/beechnut/hexo-next-injects/): How to create an npm plugin
+Other themes, if the user wants to use, please goto [hexo-extend-injector2](https://github.com/jiangtj/hexo-extend-injector2).

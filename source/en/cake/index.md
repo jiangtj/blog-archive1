@@ -27,13 +27,9 @@ Why do I want to separate a topic separately? This mainly includes the following
 # Quick Start
 
 ```bash
-# Create a new hexo project
-hexo init <dir>
-cd <dir>
-# Add Cake theme as a submodule
-git init
-git add .
-git submodule add https://github.com/JiangTJ/hexo-theme-cake themes/cake
+# Install hexo-theme-cake by npm or yarn cmd
+npm install hexo-theme-cake
+yarn add hexo-theme-cake
 ```
 
 Modify `theme` in `_config.yml` to `cake`.

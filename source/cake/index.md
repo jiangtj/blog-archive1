@@ -27,16 +27,11 @@ Cake取消了大量NexT上已有的功能，其中大部分能以插件形式，
 # 快速开始
 
 ```bash
-# 创建一个新的hexo项目
-hexo init <dir>
-cd <dir>
-# 添加Cake主题作为子模块
-git init
-git add .
-git submodule add https://github.com/JiangTJ/hexo-theme-cake themes/cake
+# Install hexo-theme-cake by npm or yarn cmd
+npm install hexo-theme-cake
+yarn add hexo-theme-cake
 ```
 
-修改`_config.yml`中的`theme`为`cake`。
+然后修改`_config.yml`中的`theme`为`cake`。
 
-`hexo s`运行，你能本地预览啦
-
+`hexo s`运行，你就能本地预览啦

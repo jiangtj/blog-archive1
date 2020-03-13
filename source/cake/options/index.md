@@ -6,76 +6,40 @@ i18n:
   English: /en/cake/options/
 ---
 
-> 大部分与NexT一样，您可以参考[NexT文档](https://theme-next.org/)，下面是不同部分。
+# 修改主题配置
 
-# 菜单
+虽然主题通过npm管理，但仍可以很方便的修改配置，hexo支持通过`theme_config`配置来覆盖主题中的配置
 
-原子菜单去除，改为针对文章的快捷菜单
-
-## 侧边栏菜单
-
-```yaml
-# When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash from link value (/archives -> archives).
-# Usage: `Key: /link/ || icon`
-# Key is the name of menu item. If the translation for this item is available, the translated text will be loaded, otherwise the Key name will be used. Key is case-senstive.
-# Value before `||` delimeter is the target link.
-# Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, question icon will be loaded.
-# External url should start with http:// or https://
-menu:
-  home: / || home
-  #tags: /tags/ || tags
-  #categories: /categories/ || th
-  archives: /archives/ || archive
-  #sitemap: /sitemap.xml || sitemap
-  #commonweal: /404/ || heartbeat
-
-# Enable / Disable menu icons / item badges.
-menu_settings:
-  icons: true
-  badges: false
-```
-
-## 文章快捷菜单
-
-需要在文章的post_meta中定义，例如这篇文章的配置
+例如，添加网站icon：
 
 ```yml
-menu:
-  Home: /cake/ || eercast
-  插件: /cake/plugins/ || plug
-  自定义: /cake/custom/ || wrench
-  集成: /cake/cubes/ || cubes
+theme_config:
+  favicons:
+    - rel: icon
+      type: image/png
+      sizes: 64x64
+      href: /images/favicon/xin-64.png
 ```
 
-# 赞赏
+如果你的hexo版本大于4.2，你还以在`_config.<theme>.yml`中配置，这等效于`theme_config`
 
-需要配置icon或者name，建议保持统一样式，使用icon。image是必填想，url与url_name可依据需要添加。
+你也可以使用这个[hexo-config-plus](https://github.com/jiangtj-lab/hexo-config-plus)插件，修改配置
 
-```yml
-# Reward (Donate)
-reward_settings:
-  # If true, reward would be displayed in every article by default.
-  # You can show or hide reward in a specific article throuth `reward: true | false` in Front Matter.
-  enable: false
-  comment: Donate comment here
+完整的配置，[前往主题仓库查看](https://github.com/jiangtj/hexo-theme-cake/blob/master/_config.yml)
 
-reward:
-  wechat:
-    icon: weixin
-    image: /images/wechatpay.png
-  alipay:
-    name: 支
-    image: /images/alipay.png
-    url_name: 点击跳转
-    url: HTTPS://QR.ALIPAY.COM/FKX06416WJNHOWKMRQQFFE
-  paypal:
-    icon: paypal
-    image: /images/paypal.png
-    url: https://www.paypal.me/jiangtj
+# 注入布局
+
+[hexo-extend-injector2](https://github.com/jiangtj/hexo-extend-injector2)插件的功能，Cake主题提供这些注入点（headBegin,headEnd(head),bodyBegin,bodyEnd,header,footer,postBodyEnd,menu,postMeta,sidebar,variable,style）,如何使用见插件仓库
+
+# 替换布局文件
+
+这部分是hexo的功能，在大部分主题中都支持
+
+```js
+const fs = require('fs');
+hexo.extend.filter.register('before_generate', function (data) {
+  hexo.theme.setView('需要替换的文件路径（相对于主题路径）', fs.readFileSync('你的自定义文件').toString());
+});
 ```
 
-# 废弃
-
-- 如果你在Cake配置中未找到NexT中存在选项，那么这个功能可能已经被废弃。
-
-- 将废弃`vendors`，默认情况下所有的js都走cdn。如果你希望js保存在本地，那么通过cdn下载下来，并保存在blog的资源目录，然后在cdn设置选项中修改为本地地址即可。
+你也可以使用[hexo-theme-plus](https://github.com/JiangTJ/hexo-theme-plus)简化这部分工作

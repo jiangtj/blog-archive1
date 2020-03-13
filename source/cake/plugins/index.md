@@ -6,7 +6,7 @@ i18n:
   English: /en/cake/plugins/
 ---
 
-Cake通过插件集成附加的功能，而本身不包含附加功能的任何文件。所以轻量且强大。与NexT的插件方案一致（保持与它的同步），所以你可以前往[Awesome NexT](https://github.com/theme-next/awesome-next)查看更多的插件
+Cake通过插件集成附加的功能，而本身不包含附加功能的任何文件。所以轻量且强大。除此之外，你还可以前往[Awesome NexT](https://github.com/theme-next/awesome-next)，使用NexT主题中的插件
 
 # List
 
@@ -36,14 +36,6 @@ npm i <plugin-name>(example:hexo-cake-canvas-ribbon) --save
 yarn add <plugin-name>(example:hexo-cake-canvas-ribbon)
 ```
 
-Cake插件非常容易安装，就像普通的hexo的插件一样，唯一的区别在于在NexT或者Cake主题（[相同的插件方案](/cake/cubes)）下有效
+Cake插件非常容易安装，就像普通的hexo的插件一样，唯一的区别在于在NexT或者Cake主题（[或者其它集成injector2的主题](https://github.com/jiangtj/hexo-extend-injector2)）下有效
 
-其它的主题，如果用户希望使用，安装后找到index.js（或其它执行脚本中）的`theme_inject`部分，将对应的Code复制到对应位置
-
-> 具体的插件配置见插件项目
-
-# Create
-
-查看下面的文章
-- [inject docs](https://theme-next.org/docs/advanced-settings#Injects)：NexT关于inject的介绍
-- [hexo next injects](https://www.dnocm.com/articles/beechnut/hexo-next-injects/)：如何创建一个npm插件
+如果其它的主题的用户希望使用，请查看[hexo-extend-injector2](https://github.com/jiangtj/hexo-extend-injector2)
