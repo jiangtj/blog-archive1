@@ -32,26 +32,23 @@ favicons:
 google_analytics:
   tracking_id: UA-132230328-1
 
-#links:
-  #Mzeht: http://mzeht.com/
-  #你很棒: http://www.cnblogs.com/lovelinux199075/
-  #leiqjl: http://www.cnblogs.com/leiqjl
-
 social:
-  Mail: mailto:i@dnocm.com || fas fa-envelope
-  Telegram-Group: https://t.me/dnocm || fab fa-telegram
-  rss: /rss2.xml || fas fa-rss
-  GitHub: https://github.com/JiangTJ || fab fa-github
   # Gitter: https://gitter.im/jiangtj/Lobby || github-alt
   # Telegram: https://t.me/jiangtj || phone-square
   # Slack: https://join.slack.com/t/dnocm/shared_invite/enQtNTg0MDMzMzM1ODkzLTQ4YjhkYTg5YTdhMjY3MzdhOGM0ZjI0YzgzYjZjMzZlNmMzNjE4YTkwMTUyN2UzZjFiYzcxN2ZmMWY2ZjFjMzU || slack
   # Riot: https://riot.im/app/#/room/#dnocm:matrix.org || bolt
   # GitLab: https://gitlab.com/JiangTJ || gitlab
   # 简书: https://www.jianshu.com/u/42d8a7c1b531 || book
-social_icons:
   enable: true
-  icons_only: true
-  transition: true
+  items:
+    - icon: {name: envelope, options: {prefix: 'fas'}}
+      link: mailto:i@dnocm.com
+    - icon: {name: telegram, options: {prefix: 'fab'}}
+      link: https://t.me/dnocm
+    - icon: {name: rss, options: {prefix: 'fas'}}
+      link: /rss2.xml
+    - icon: {name: github, options: {prefix: 'fab'}}
+      link: https://github.com/JiangTJ
 
 menu:
   home: / || fas fa-home
@@ -97,18 +94,18 @@ reward_settings:
 
 reward:
   wechat:
-    icon: fab fa-weixin
+    icon: {name: weixin, options: {prefix: 'fab'}}
     image: /images/wechatpay.png
   alipay:
-    icon: fab fa-alipay
+    icon: {name: alipay, options: {prefix: 'fab'}}
     image: /images/alipay.png
     url_name: 点击跳转
     url: HTTPS://QR.ALIPAY.COM/FKX06416WJNHOWKMRQQFFE
   paypal:
-    icon: fab fa-paypal
+    icon: {name: paypal, options: {prefix: 'fab'}}
     image: /images/paypal.png
     url: https://www.paypal.me/jiangtj
   kofi:
-    icon: fas fa-coffee
+    icon: {name: coffee, options: {prefix: 'fas'}}
     image: /images/kofi.png
     url: https://ko-fi.com/jiangtj
