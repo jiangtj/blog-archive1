@@ -60,19 +60,12 @@ menu:
   #影视动漫,推荐!: https://neet.dnocm.com/ || fas fa-television
   more: /more/ || fas fa-info-circle
 
-# comments
-comments:
-  active: disqus
-  lazyload: true
-  nav:
-    disqus: {order: 1}
-    utteranc: {order: 2}
 disqus:
   enable: true
   shortname: jiangtj
   count: false
 utteranc:
-  enable: true
+  enable: false
   repo: jiangtj-lab/comments-test
 
 #chatra:

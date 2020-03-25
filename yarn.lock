@@ -2331,7 +2331,7 @@ hexo-server@^1.0.0:
 
 hexo-theme-cake@jiangtj/hexo-theme-cake:
   version "2.0.2"
-  resolved "https://codeload.github.com/jiangtj/hexo-theme-cake/tar.gz/9477f94d0f0a5edc959ed122f7b8838e9a0d1a07"
+  resolved "https://codeload.github.com/jiangtj/hexo-theme-cake/tar.gz/291800d87a0d94809140e2f9a4166df4197a4818"
   dependencies:
     hexo-extend-injector2 "^0.1.6"
     hexo-fontawesome "^2.1.0"
