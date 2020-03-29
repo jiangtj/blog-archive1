@@ -174,3 +174,9 @@ theme_plus:
   #     file: 'custom/sidebar.swig'
 
 theme: cake
+
+marked_highlight:
+  engine: highlight
+  #options:
+    #load: node
+    #languages: ['markup', 'css', 'clike', 'javascript', 'java']
