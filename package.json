@@ -9,7 +9,7 @@
     "version": "4.2.0"
   },
   "dependencies": {
-    "@jiangtj/hexo-cli": "^0.0.4",
+    "@jiangtj/hexo-cli": "^0.0.7",
     "@jiangtj/hexo-config-plus": "^1.0.1",
     "@jiangtj/hexo-front-matter-include": "^1.0.0",
     "@jiangtj/hexo-next-article-anchor": "^1.1.0",
