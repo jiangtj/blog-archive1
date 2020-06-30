@@ -13,7 +13,7 @@
     "@jiangtj/hexo-config-plus": "^1.0.1",
     "@jiangtj/hexo-front-matter-include": "^1.0.0",
     "@jiangtj/hexo-next-article-anchor": "^1.1.0",
-    "@jiangtj/hexo-next-pwa": "^0.1.1",
+    "@jiangtj/hexo-next-pwa": "^1.0.0",
     "hexo": "^4.2.0",
     "hexo-autoprefixer": "^2.0.0",
     "hexo-cake-canvas-ribbon": "^2.0.0",
